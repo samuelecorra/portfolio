@@ -138,6 +138,12 @@ Three locales: English (source and fallback), Italian, German.
 
 Two kinds of text, treated differently:
 
+**Drafting order is Italian first.** Copy is written in `it` and translated
+into `en` and `de` from there, never the reverse — the underlying material and
+the owner's voice are both Italian, and drafting in English loses nuance.
+English remains the _technical_ fallback locale and `en.ts` still defines the
+`Dictionary` type; that is an implementation detail, not a drafting order.
+
 **Editorial copy** — hero, project summaries, principles, UI chrome — is
 translated. In data it uses `LocalizedText` / `LocalizedList`
 (`Record<Locale, string>`), and UI strings live in `src/i18n/{en,it,de}.ts`.
@@ -195,6 +201,28 @@ read as "no work here" when it really means "filed differently".
 Images are excluded from the per-subject trees: 2,725 screenshots and diagrams
 are supporting assets, not material anyone browses by name, and including them
 would triple the lazy chunk for no informational gain.
+
+### Subject prose
+
+Two layers, deliberately split by where they are needed:
+
+- **`subjectSummaries.ts`** — one paragraph per subject, shown on the
+  `/knowledge` cards. Bundled, because the index needs all 24 at once.
+- **`essays/anno{1,2,3}.ts`** — three to five paragraphs per subject, shown on
+  the detail page between the metrics and the action buttons. Aggregated by
+  `subjectEssays.ts` and imported dynamically, so the ~44 kB gzip of prose only
+  loads on `/knowledge/:slug`.
+
+The cards deliberately show **no counts**. Numbers without context read as
+filler on an index; they belong on the detail page where the tree gives them
+meaning.
+
+Both layers are written from the archive's actual structure — module, unit and
+lesson titles read directly from the repository — not from general knowledge
+about the subject. If a topic is named, a lesson covering it exists. Tests
+enforce that every subject has both layers in all three locales, that paragraph
+counts match across locales (a mismatch means a paragraph was lost in
+translation), and that no entry points at a subject that no longer exists.
 
 ### Deep links
 

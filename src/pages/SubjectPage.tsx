@@ -7,6 +7,7 @@ import { ActionLink } from '@/components/ui/ActionLink';
 import { Icon } from '@/components/ui/Icon';
 import { getSubjectBySlug, subjectName } from '@/data/curriculum';
 import { loadSubjectTree, type SubjectTree as SubjectTreeData } from '@/data/subjectTree';
+import { localizeList, type LocalizedList } from '@/i18n';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { useI18n } from '@/i18n';
 
@@ -17,6 +18,7 @@ export function SubjectPage(): JSX.Element {
   const { t, locale } = useI18n();
   const subject = slug ? getSubjectBySlug(slug) : undefined;
   const [loaded, setLoaded] = useState<SubjectTreeData | null>(null);
+  const [essay, setEssay] = useState<{ slug: string; text: LocalizedList } | null>(null);
 
   const name = subject ? subjectName(subject, locale) : '';
   useDocumentTitle(subject ? name : t.notFound.title);
@@ -36,6 +38,24 @@ export function SubjectPage(): JSX.Element {
     };
   }, [slug_]);
 
+  /*
+   * Il testo esteso vive in un chunk separato: serve solo qui, ed è troppo
+   * voluminoso per stare nel bundle principale.
+   */
+  useEffect(() => {
+    if (!slug_) return undefined;
+
+    let cancelled = false;
+    void import('@/data/subjectEssays').then((module) => {
+      const text = module.getSubjectEssay(slug_);
+      if (!cancelled && text) setEssay({ slug: slug_, text });
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [slug_]);
+
   if (!subject) return <NotFoundPage />;
 
   /*
@@ -45,6 +65,7 @@ export function SubjectPage(): JSX.Element {
    * as loaded yet.
    */
   const tree = loaded?.slug === subject.slug ? loaded : null;
+  const paragraphs = essay?.slug === subject.slug ? localizeList(essay.text, locale) : [];
 
   const { counts } = subject;
   const metrics = [
@@ -83,7 +104,21 @@ export function SubjectPage(): JSX.Element {
           ))}
         </dl>
 
-        <div className="mt-8 flex flex-wrap gap-3">
+        {/*
+         * Fra i numeri e i pulsanti: chi arriva qui vuole prima sapere di cosa
+         * tratta la materia, e solo dopo decidere se aprire l'archivio.
+         */}
+        {paragraphs.length > 0 ? (
+          <div className="mt-10 flex max-w-3xl flex-col gap-4 border-l-2 border-line pl-5">
+            {paragraphs.map((paragraph) => (
+              <p key={paragraph} className="leading-relaxed text-ink-muted">
+                {paragraph}
+              </p>
+            ))}
+          </div>
+        ) : null}
+
+        <div className="mt-10 flex flex-wrap gap-3">
           <ActionLink href={subject.viewerUrl} emphasis="primary">
             <Icon name="book" className="h-4 w-4" />
             {t.knowledge.viewInArchive}
