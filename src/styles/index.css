@@ -1,0 +1,138 @@
+@import 'tailwindcss';
+
+/*
+ * Design tokens.
+ * These are the single source of truth for the visual language. Every token
+ * declared inside @theme is emitted as a CSS custom property AND generates the
+ * matching Tailwind utilities (bg-surface, text-muted, ease-out-expo, ...).
+ * Documented in docs/DESIGN_SYSTEM.md — keep the two in sync.
+ */
+@theme {
+  /* --- Surfaces: near-black -> graphite ------------------------------- */
+  --color-base: #07080b;
+  --color-surface: #0d0f14;
+  --color-surface-raised: #14171e;
+  --color-surface-overlay: #1a1e27;
+
+  /* --- Borders -------------------------------------------------------- */
+  --color-line: #1e232c;
+  --color-line-strong: #2a313d;
+
+  /* --- Text ----------------------------------------------------------- */
+  --color-ink: #e9edf4;
+  --color-ink-muted: #9aa4b4;
+  --color-ink-faint: #7b8494;
+
+  /* --- Accent: electric blue ------------------------------------------ */
+  --color-accent: #3abeff;
+  --color-accent-strong: #12a6f0;
+  --color-accent-dim: #1d6c95;
+
+  /* --- Status --------------------------------------------------------- */
+  --color-status-active: #4ade80;
+  --color-status-paused: #fbbf24;
+
+  /* --- Typography ------------------------------------------------------
+   * System-font-first: zero network cost, zero layout shift, no FOUT.
+   * A display face may be introduced later behind these same tokens. */
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+
+  /* --- Radii ----------------------------------------------------------- */
+  --radius-card: 0.875rem;
+}
+
+/*
+ * Motion tokens are `static`: Tailwind tree-shakes theme variables that no
+ * utility references, which would drop curves used only from inline styles or
+ * from Motion in JS. `static` guarantees they are always emitted.
+ * Few, intentional curves. Anything longer than 400ms is decoration.
+ */
+@theme static {
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-soft: cubic-bezier(0.33, 1, 0.68, 1);
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-base);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /*
+   * Visible focus is a hard requirement. We only suppress the ring for
+   * pointer interaction (:focus, not :focus-visible), never for keyboard.
+   */
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-base);
+  }
+
+  /* Headings inherit balance where supported — cheap typographic win. */
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+/*
+ * Global reduced-motion contract.
+ * Component-level animation must ALSO check the prefers-reduced-motion hook;
+ * this block is the safety net, not the strategy. See docs/DESIGN_SYSTEM.md.
+ */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Skip-link: visually hidden until focused. */
+@utility skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -100%;
+  z-index: 100;
+  border-radius: 0.5rem;
+  background-color: var(--color-surface-raised);
+  padding: 0.625rem 1rem;
+  color: var(--color-ink);
+  transition: top var(--duration-fast) var(--ease-out-soft);
+
+  &:focus {
+    top: 0.5rem;
+  }
+}
