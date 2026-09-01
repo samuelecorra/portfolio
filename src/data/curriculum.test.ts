@@ -5,6 +5,7 @@ import { LOCALES } from '@/i18n';
 import {
   archiveTotals,
   getAllSubjects,
+  getDegreeTotals,
   getCurriculumYears,
   getDegreeYears,
   getSubjectBySlug,
@@ -51,6 +52,17 @@ describe('curriculum data', () => {
   it('resolves a known slug and rejects an unknown one', () => {
     expect(getSubjectBySlug('anno2-crittografia')?.title).toBe('Crittografia');
     expect(getSubjectBySlug('nope')).toBeUndefined();
+  });
+
+  it('counts degree subjects separately from the extra bucket', () => {
+    const degree = getDegreeTotals();
+    const extras = getAllSubjects().length - degree.subjects;
+
+    // The headline must not inflate a 22-subject degree to 24 by folding in
+    // self-directed extras.
+    expect(degree.subjects).toBeLessThan(getAllSubjects().length);
+    expect(extras).toBeGreaterThan(0);
+    expect(degree.lessons).toBeLessThanOrEqual(archiveTotals.lessons);
   });
 
   it('reports totals consistent with the per-subject counts', () => {

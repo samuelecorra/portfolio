@@ -177,6 +177,42 @@ export function getTopSubjects(limit: number): CurriculumSubject[] {
     .slice(0, limit);
 }
 
+/**
+ * Totals across the DEGREE years only.
+ *
+ * `data.totals` also counts the `extra` bucket (self-directed material), which
+ * would let the headline read "24 subjects" for a degree that has 22. The
+ * distinction is small in file terms but the subject count is on screen, and
+ * this site does not get to round its own numbers up.
+ */
+export function getDegreeTotals(): ArchiveTotals {
+  const subjects = getDegreeYears().flatMap((year) => year.subjects);
+
+  return subjects.reduce<ArchiveTotals>(
+    (acc, subject) => {
+      for (const key of Object.keys(subject.counts) as (keyof SubjectCounts)[]) {
+        acc[key] += subject.counts[key];
+      }
+      acc.subjects += 1;
+      return acc;
+    },
+    {
+      subjects: 0,
+      files: 0,
+      notes: 0,
+      pdfs: 0,
+      code: 0,
+      images: 0,
+      other: 0,
+      lessons: 0,
+      directories: 0,
+      modules: 0,
+      units: 0,
+    },
+  );
+}
+
+/** Totals across everything in the archive, including the `extra` bucket. */
 export const archiveTotals: ArchiveTotals = data.totals;
 export const archiveSource = data.source;
 export const archiveGeneratedAt = data.generatedAt;

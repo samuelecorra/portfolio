@@ -1,6 +1,6 @@
 import type { JSX } from 'react';
 
-import { archiveTotals, getDegreeYears } from '@/data/curriculum';
+import { getDegreeTotals, getDegreeYears } from '@/data/curriculum';
 import { useI18n } from '@/i18n';
 
 /**
@@ -12,13 +12,15 @@ import { useI18n } from '@/i18n';
  */
 export function StatBand(): JSX.Element {
   const { t } = useI18n();
+  // Degree-only: the `extra` bucket is self-directed material, not coursework.
+  const totals = getDegreeTotals();
   const stats = [
     { value: getDegreeYears().length, label: t.metrics.years },
-    { value: archiveTotals.subjects, label: t.metrics.subjects },
-    { value: archiveTotals.modules, label: t.metrics.modules },
-    { value: archiveTotals.units, label: t.metrics.units },
-    { value: archiveTotals.lessons, label: t.metrics.lessons },
-    { value: archiveTotals.notes, label: t.metrics.notes },
+    { value: totals.subjects, label: t.metrics.subjects },
+    { value: totals.modules, label: t.metrics.modules },
+    { value: totals.units, label: t.metrics.units },
+    { value: totals.lessons, label: t.metrics.lessons },
+    { value: totals.notes, label: t.metrics.notes },
   ];
 
   return (
