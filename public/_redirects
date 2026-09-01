@@ -1,0 +1,6 @@
+# SPA fallback: client-side routes such as /projects/ironmath must return
+# index.html rather than a 404 on static hosts.
+#
+# This file is read by Cloudflare Pages and Netlify. Other hosts need their own
+# equivalent (see README § Deployment) — the app itself stays host-agnostic.
+/*  /index.html  200

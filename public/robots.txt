@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO(domain): add the absolute sitemap URL once the production domain exists.
+# Sitemap: https://<domain>/sitemap.xml
