@@ -17,8 +17,11 @@
     // /knowledge/anno2-crittografia return index.html with a 200 instead of a
     // 404, so client-side routes resolve on a hard refresh or a shared link.
     //
-    // public/_redirects stays in the repo as well: it does the same job on
-    // Netlify and other static hosts, keeping the output host-agnostic.
+    // Do NOT also ship a public/_redirects with `/* /index.html 200`. Workers
+    // static assets validates that file and normalises /index.html to /, so
+    // the rule resolves to itself and the deploy is rejected as an infinite
+    // loop. This setting is the correct mechanism here; _redirects is only
+    // needed on hosts that have no equivalent (see README § Deployment).
     "not_found_handling": "single-page-application",
   },
 

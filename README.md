@@ -133,11 +133,16 @@ feat/*  → preview      (<branch>.portfolio.pages.dev)
 ```
 
 **SPA fallback** is required so `/projects/ironmath` resolves instead of 404ing.
-Two mechanisms cover it, deliberately: `not_found_handling:
-"single-page-application"` in `wrangler.jsonc` for Cloudflare, and
-`public/_redirects` for Netlify and other static hosts. On Vercel, add a
-`vercel.json` rewrite of `/(.*)` → `/index.html`. The build output itself stays
-host-agnostic.
+On Cloudflare this is `not_found_handling: "single-page-application"` in
+`wrangler.jsonc` — nothing else is needed.
+
+Do **not** add a `public/_redirects` containing `/* /index.html 200` alongside
+it: Workers static assets validates that file, normalises `/index.html` to `/`,
+and rejects the rule as an infinite loop, failing the deploy.
+
+Moving to another host means adding its own fallback instead — `_redirects` on
+Netlify, a `vercel.json` rewrite of `/(.*)` → `/index.html` on Vercel. The build
+output itself is plain static files and stays host-agnostic.
 
 ## Licence
 
