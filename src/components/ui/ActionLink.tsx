@@ -19,7 +19,7 @@ const BASE =
   'inline-flex items-center gap-2 rounded-lg px-4 py-2.5 text-sm font-medium transition-colors duration-(--duration-fast)';
 
 const EMPHASIS: Record<Emphasis, string> = {
-  primary: 'bg-accent text-base hover:bg-accent-strong',
+  primary: 'bg-accent text-canvas hover:bg-accent-strong',
   secondary: 'border border-line-strong text-ink hover:border-accent hover:text-accent',
   ghost: 'text-ink-muted hover:text-ink',
 };

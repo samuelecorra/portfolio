@@ -25,7 +25,7 @@ export function Header(): JSX.Element {
   };
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-base/80 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-line bg-canvas/80 backdrop-blur-md">
       <Container>
         <nav aria-label="Primary" className="flex h-16 items-center justify-between">
           <Link

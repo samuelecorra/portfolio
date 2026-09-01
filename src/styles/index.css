@@ -8,8 +8,12 @@
  * Documented in docs/DESIGN_SYSTEM.md — keep the two in sync.
  */
 @theme {
-  /* --- Surfaces: near-black -> graphite ------------------------------- */
-  --color-base: #07080b;
+  /* --- Surfaces: near-black -> graphite -------------------------------
+   * NB: colour tokens generate `text-<name>` utilities, so a token must never
+   * be named after a built-in Tailwind scale value. `--color-base` was renamed
+   * to `--color-canvas` because it shadowed the `text-base` FONT SIZE utility
+   * and silently painted text near-black. Same trap applies to sm/lg/xl. */
+  --color-canvas: #07080b;
   --color-surface: #0d0f14;
   --color-surface-raised: #14171e;
   --color-surface-overlay: #1a1e27;
@@ -66,7 +70,7 @@
   }
 
   body {
-    background-color: var(--color-base);
+    background-color: var(--color-canvas);
     color: var(--color-ink);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
@@ -85,7 +89,7 @@
 
   ::selection {
     background-color: var(--color-accent);
-    color: var(--color-base);
+    color: var(--color-canvas);
   }
 
   /* Headings inherit balance where supported — cheap typographic win. */

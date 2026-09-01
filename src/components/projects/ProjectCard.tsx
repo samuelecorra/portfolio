@@ -159,7 +159,7 @@ function CompactCard({ project, index }: ProjectCardProps): JSX.Element {
           {String(index).padStart(2, '0')}
         </span>
         <div className="min-w-0">
-          <h3 id={headingId} className="font-semibold text-base">
+          <h3 id={headingId} className="text-base font-semibold">
             <Link to={`/projects/${project.slug}`} className="hover:text-accent">
               {project.title}
             </Link>

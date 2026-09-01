@@ -18,6 +18,11 @@ matching utility, so `--color-surface` gives you `bg-surface`, `text-surface`,
 
 **Change colours here and nowhere else.** No hex values in components.
 
+> **Naming trap:** every `--color-<name>` token also generates a `text-<name>`
+> utility. Never name a colour after a built-in Tailwind scale value — a token
+> called `base` shadows the `text-base` _font size_ and silently paints text in
+> that colour. This bit us once; `--color-canvas` is the renamed survivor.
+
 ## Colour
 
 Near-black ground, graphite surfaces, one electric-blue accent. Colour carries
@@ -27,7 +32,7 @@ meaning; it is not decoration.
 
 | Token                     | Value     | Use                                |
 | ------------------------- | --------- | ---------------------------------- |
-| `--color-base`            | `#07080b` | Page ground                        |
+| `--color-canvas`          | `#07080b` | Page ground                        |
 | `--color-surface`         | `#0d0f14` | Cards, panels                      |
 | `--color-surface-raised`  | `#14171e` | Chips, icon wells, nested surfaces |
 | `--color-surface-overlay` | `#1a1e27` | Menus, popovers                    |
@@ -48,7 +53,7 @@ meaning; it is not decoration.
 | `--color-ink-faint` | `#7b8494` | 5.31:1           | Metadata, labels       |
 
 All three clear WCAG AA (4.5:1) for normal text. Ratios above are against
-`--color-base`; the worst real case in the UI is `--color-ink-faint` on
+`--color-canvas`; the worst real case in the UI is `--color-ink-faint` on
 `--color-surface-raised` at **4.76:1**, which still passes.
 
 `--color-ink-faint` sits at `#7b8494` rather than something dimmer specifically
@@ -63,7 +68,7 @@ every surface it appears on.
 | `--color-accent-strong` | `#12a6f0` | —                | Hover on filled buttons     |
 | `--color-accent-dim`    | `#1d6c95` | —                | Subdued accent, glows       |
 
-Filled accent buttons put `--color-base` text on `--color-accent` (9.53:1), and
+Filled accent buttons put `--color-canvas` text on `--color-accent` (9.53:1), and
 on `--color-accent-strong` when hovered (7.38:1).
 
 Status colours (`--color-status-active`, `--color-status-paused`) exist for
