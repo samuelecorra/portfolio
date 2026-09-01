@@ -7,6 +7,16 @@ export type ProjectStatus = 'active' | 'in-progress' | 'maintained' | 'archived'
 export type RepositoryVisibility = 'public' | 'private' | 'unpublished';
 
 /**
+ * Editorial weight, not a CSS class.
+ *
+ * Projects do not deserve equal visual space: the knowledge archive is the
+ * site's central proof and gets the full-width treatment, while the portfolio's
+ * own card is a footnote. Components map this to a layout; data only states
+ * importance. See docs/CONTENT_MODEL.md.
+ */
+export type ProjectEmphasis = 'primary' | 'standard' | 'minor';
+
+/**
  * Repository descriptor.
  *
  * `url` is non-null ONLY for `visibility: 'public'`. Private and unpublished
@@ -62,6 +72,7 @@ export interface Project {
    */
   description: string[];
   category: ProjectCategory;
+  emphasis: ProjectEmphasis;
   status: ProjectStatus;
   /** e.g. '2024' or '2023 — present'. */
   period: Unconfirmed<string>;

@@ -3,6 +3,7 @@ export type {
   GitHubMetrics,
   Project,
   ProjectCategory,
+  ProjectEmphasis,
   ProjectLink,
   ProjectMedia,
   ProjectRepository,

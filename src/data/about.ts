@@ -15,30 +15,26 @@ export interface Principle {
   detail: string;
 }
 
-/** How the work gets done. These also govern this repository. */
+/** How the work gets done. Owner's own words. These also govern this repository. */
 export const principles: Principle[] = [
   {
-    title: 'Evidence before claims',
-    detail: 'Anything asserted here links to work you can inspect.',
+    title: 'Build before claiming.',
+    detail: 'Competence shows up as work that exists, not as adjectives.',
   },
   {
-    title: 'Simple before clever',
+    title: 'Understand systems below the abstraction.',
+    detail: 'Frameworks change; what the machine and the network are doing does not.',
+  },
+  {
+    title: 'Document what I learn.',
+    detail: 'Notes written for a future reader are how knowledge survives the exam.',
+  },
+  {
+    title: 'Keep public work inspectable.',
+    detail: 'If it is published, it should be readable — source, reasoning and all.',
+  },
+  {
+    title: 'Prefer simple architectures until complexity earns its place.',
     detail: 'The obvious solution wins until it demonstrably cannot.',
-  },
-  {
-    title: 'Data-driven before hardcoded',
-    detail: 'Content lives in data; components only render it.',
-  },
-  {
-    title: 'Accessibility before gimmicks',
-    detail: 'Keyboard, contrast and reduced motion are requirements, not polish.',
-  },
-  {
-    title: 'Performance before decoration',
-    detail: 'Animation earns its bytes or it does not ship.',
-  },
-  {
-    title: 'Built in public',
-    detail: 'The source of this site is part of the portfolio it presents.',
   },
 ];

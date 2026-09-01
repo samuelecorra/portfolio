@@ -15,7 +15,7 @@ export function KnowledgePreview(): JSX.Element {
       id="knowledge"
       eyebrow="Knowledge"
       title="What I actually know"
-      description="Areas of competence described by their real topics, each linked to material you can read."
+      description="Competence as concrete topics rather than percentages. Every claim links to evidence."
     >
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {areas.map((area) => (

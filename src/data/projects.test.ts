@@ -39,6 +39,14 @@ describe('project data invariants', () => {
     expect(orders).toEqual([...orders].sort((a, b) => a - b));
   });
 
+  it('designates exactly one primary project', () => {
+    // The visual hierarchy depends on this: two "featured" cards would read as
+    // no hierarchy at all, and zero would flatten the grid.
+    const primary = projects.filter((project) => project.emphasis === 'primary');
+
+    expect(primary.map((project) => project.id)).toEqual(['cybersec-archive']);
+  });
+
   it('resolves a known slug and rejects an unknown one', () => {
     expect(getProjectBySlug('ironmath')?.title).toBe('IronMath');
     expect(getProjectBySlug('does-not-exist')).toBeUndefined();

@@ -13,7 +13,7 @@ export function ProofOfWork(): JSX.Element {
       id="work"
       eyebrow="Proof of work"
       title="Selected work"
-      description="Things I have built or maintain, each with a way to inspect the actual work."
+      description="Things I build or maintain. Each one links to the work itself, not a description of it."
     >
       <div className="grid gap-6 md:grid-cols-2">
         {featured.map((project, index) => (

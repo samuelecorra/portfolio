@@ -6,16 +6,19 @@ import { ActionLink } from '@/components/ui/ActionLink';
 import { Icon } from '@/components/ui/Icon';
 import { site } from '@/data/site';
 
-export function ContactSection(): JSX.Element {
+/**
+ * Closing section. Replaces the earlier separate "Elsewhere" and "Contact"
+ * sections, which rendered the same link list twice while no email was set.
+ */
+export function FindMe(): JSX.Element {
   return (
     <Section
-      id="contact"
-      eyebrow="Contact"
-      title="Get in touch"
-      description="Open to conversations about engineering, security and building products."
+      id="find-me"
+      eyebrow="Find me"
+      title="Elsewhere"
+      description="Professional history lives on LinkedIn. The technical side lives here and on GitHub."
     >
       <div className="flex flex-wrap items-center gap-4">
-        {/* Rendered only once a real address is confirmed in src/data/site.ts. */}
         {site.email ? (
           <ActionLink href={`mailto:${site.email}`} emphasis="primary">
             <Icon name="mail" className="h-4 w-4" />

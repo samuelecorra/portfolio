@@ -93,6 +93,25 @@ A public case study can still be written for a private product — problem,
 architecture, role, decisions, outcomes — without exposing source. That belongs
 in `description`, subject to the owner's disclosure boundary.
 
+### Emphasis
+
+Projects do not deserve equal visual space, so the data says how much each one
+matters and the component decides what that looks like:
+
+| `emphasis`   | Footprint            | Used for                                      |
+| ------------ | -------------------- | --------------------------------------------- |
+| `'primary'`  | Full width, enlarged | The knowledge archive — the site's core proof |
+| `'standard'` | Half width           | IronMath, CyberCuisine                        |
+| `'minor'`    | Full width, compact  | This site's own card — a footnote             |
+
+`emphasis` is _editorial weight_, not a CSS class: the data states importance,
+`ProjectCard` maps it to a layout, and the grid stays a dumb two-column
+container. The featured card additionally renders its subject tags, because
+breadth is the thing worth showing for an archive.
+
+A test asserts that **exactly one** project is `'primary'` — two would read as no
+hierarchy at all.
+
 ### Links
 
 `ProjectLink.href` beginning with `/` is an internal route; anything else is

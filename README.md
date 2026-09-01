@@ -13,6 +13,8 @@ what gets studied, and where the material behind both can be read.
 This repository is itself part of the portfolio — the architecture, design
 system and content model are meant to be read.
 
+**Source:** <https://github.com/samuelecorra/portfolio>
+
 ## Stack
 
 React 19 · TypeScript 6 · Vite 8 · Tailwind CSS 4 · React Router 8 · Vitest 4
@@ -93,14 +95,33 @@ Items still awaiting real values are listed in
 The build output is a portable static site in `dist/`. Nothing in the app is
 coupled to a specific host.
 
-Intended path: GitHub → CI → Cloudflare Pages.
+Path: GitHub → Cloudflare Pages.
 
-- **Build command:** `npm run build`
-- **Output directory:** `dist`
-- **SPA fallback:** required, so `/projects/ironmath` resolves instead of 404ing.
-  `public/_redirects` covers Cloudflare Pages and Netlify. On Vercel, add a
-  `vercel.json` rewrite of `/(.*)` → `/index.html`; other static hosts need
-  their own equivalent.
+Connect the repository at **Cloudflare dashboard → Workers & Pages → Create →
+Pages → Connect to Git**, with:
+
+| Setting           | Value                                            |
+| ----------------- | ------------------------------------------------ |
+| Framework preset  | None (or Vite)                                   |
+| Build command     | `npm run build`                                  |
+| Output directory  | `dist`                                           |
+| Production branch | `main`                                           |
+| Node version      | `24` (`NODE_VERSION` env var, matching `.nvmrc`) |
+
+The Git integration must be set up through the dashboard rather than Wrangler:
+only a Git-connected project gets automatic **preview deployments per branch and
+pull request**, which is the point — every `feat/*` branch gets its own public
+URL to review a redesign on real devices instead of localhost.
+
+```
+main    → production   (portfolio.pages.dev)
+feat/*  → preview      (<branch>.portfolio.pages.dev)
+```
+
+**SPA fallback** is required so `/projects/ironmath` resolves instead of 404ing.
+`public/_redirects` already covers Cloudflare Pages and Netlify. On Vercel, add
+a `vercel.json` rewrite of `/(.*)` → `/index.html`; other static hosts need
+their own equivalent.
 
 ## Licence
 

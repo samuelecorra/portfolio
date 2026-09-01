@@ -1,5 +1,7 @@
 import type { Project } from '@/types';
 
+import { PORTFOLIO_REPOSITORY_URL } from './site';
+
 /**
  * The project collection.
  *
@@ -31,6 +33,7 @@ export const projects: Project[] = [
       'It is published deliberately. Anyone assessing technical background should be able to read the actual work rather than take a bullet point on trust.',
     ],
     category: 'knowledge-archive',
+    emphasis: 'primary',
     status: 'active',
     // TODO(owner): confirm the period this archive covers.
     period: null,
@@ -80,11 +83,13 @@ export const projects: Project[] = [
       // proprietary source. See docs/CONTENT_MODEL.md § Private projects.
     ],
     category: 'product',
+    emphasis: 'standard',
     status: 'active',
     // TODO(owner): confirm start year.
     period: null,
-    // TODO(owner): confirm which parts of the stack can be disclosed publicly.
-    technologies: [],
+    // Owner-confirmed as publicly disclosable. Product metrics and feature
+    // claims stay out until the case study defines the disclosure boundary.
+    technologies: ['React', 'Fastify', 'PostgreSQL', 'Python'],
     tags: ['edtech', 'ai', 'product', 'stem'],
     repository: {
       // Private: `url` stays null so no component can link to the source.
@@ -114,6 +119,7 @@ export const projects: Project[] = [
     summary: 'A university web development project, built and published in the open.',
     description: [],
     category: 'university',
+    emphasis: 'standard',
     status: 'archived',
     // TODO(owner): confirm the academic year.
     period: null,
@@ -149,18 +155,25 @@ export const projects: Project[] = [
       'This site is part of the portfolio it presents. The repository is intended to be public, so the architecture, design system and content model can be read directly.',
     ],
     category: 'website',
+    emphasis: 'minor',
     status: 'in-progress',
     period: '2026 — present',
     // Verified: this is the stack the site is actually built on.
     technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
     tags: ['open source', 'design system', 'accessibility'],
     repository: {
-      // Not published yet. TODO(owner): set to 'public' + URL once it exists.
-      visibility: 'unpublished',
-      url: null,
+      visibility: 'public',
+      url: PORTFOLIO_REPOSITORY_URL,
     },
     website: null,
-    links: [],
+    links: [
+      {
+        label: 'View source',
+        href: PORTFOLIO_REPOSITORY_URL,
+        emphasis: 'secondary',
+        icon: 'github',
+      },
+    ],
     featured: true,
     order: 4,
     media: null,

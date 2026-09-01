@@ -22,12 +22,16 @@ is that every claim of competence links to material someone can inspect.
 | 5     | Project routes: listing + detail                            | Done (v1)   |
 | 6     | Quality pass: lint, typecheck, tests, build                 | Done        |
 | 7     | Documentation                                               | Done        |
-| —     | **Visual design pass**                                      | **Next**    |
+| —     | V0.1: public repo, identity, project hierarchy, OG image    | Done        |
+| —     | **Cloudflare Pages deployment** (needs dashboard access)    | **Blocked** |
+| —     | Knowledge as a navigable map of the archive                 | Next        |
 
-Phase 4 deliberately stops at correct structure, semantics and data flow. The
-visual identity — cursor-reactive cards, border illumination, depth, route
-transitions — is the next piece of work, done against a foundation that already
-type-checks, tests and builds.
+Phase 4 stopped at correct structure. V0.1 then added the identity layer:
+final hero, project hierarchy, real OG image and public source link.
+
+Motion is still deliberately unused. Reveal animations, hover treatments and
+route transitions belong to the polish pass, under one rule: **motion must
+explain hierarchy or interaction, not demonstrate that we can animate.**
 
 ## Stack
 
@@ -101,16 +105,17 @@ one-line edit; none blocks the design phase.
 
 1. **Social URLs** — LinkedIn, YouTube, X, Instagram (`src/data/socials.ts`).
    Platforms without a URL are omitted from the UI rather than shown dead.
-2. **Production domain** — needed for canonical URL, absolute OG image and
-   `sitemap.xml` (`src/data/site.ts`, `index.html`, `public/robots.txt`).
-3. **Portfolio repository URL** — for the footer source link and its own project
-   card (`src/data/site.ts`, `src/data/projects.ts`).
-4. **Public contact address** (`src/data/site.ts`).
-5. **IronMath disclosure boundary** — which parts of the stack and architecture
-   may appear in a public case study.
-6. **CyberCuisine metadata** — technologies and period, to be read off the repo
+2. **Production domain** — needed for canonical URL, absolute `og:image` and
+   `sitemap.xml` (`src/data/site.ts`, `index.html`, `public/robots.txt`). The
+   `.pages.dev` URL can fill this role immediately; a custom domain is not a
+   blocker.
+3. **Public contact address** (`src/data/site.ts`).
+4. **IronMath disclosure boundary** — the stack (React, Fastify, PostgreSQL,
+   Python) is confirmed public. Still undecided: which architecture details,
+   product metrics and screenshots may appear in the case study.
+5. **CyberCuisine metadata** — technologies and period, to be read off the repo
    rather than guessed.
-7. **Repository licence** — a public repo mixing code and written content may
+6. **Repository licence** — a public repo mixing code and written content may
    want split terms (e.g. MIT for code, CC BY for prose). Not chosen unilaterally.
-8. **Analytics** — none installed. If wanted, a privacy-friendly, cookieless
+7. **Analytics** — none installed. If wanted, a privacy-friendly, cookieless
    option would be documented before being added.

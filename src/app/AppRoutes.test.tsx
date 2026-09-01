@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, within } from '@testing-library/react';
 import { MemoryRouter } from 'react-router';
 import { describe, expect, it } from 'vitest';
 
@@ -16,6 +16,27 @@ describe('routing', () => {
   it('renders the homepage with a single h1', () => {
     renderAt('/');
     expect(screen.getAllByRole('heading', { level: 1 })).toHaveLength(1);
+  });
+
+  it('shows every project on the homepage, with the archive featured', () => {
+    renderAt('/');
+
+    // Scoped to the work section: knowledge cards are <article> elements too.
+    const work = screen.getByRole('region', { name: /selected work/i });
+
+    expect(within(work).getAllByRole('article')).toHaveLength(4);
+    expect(within(work).getByText(/^featured$/i)).toBeInTheDocument();
+  });
+
+  it('links the footer to the public source repository', () => {
+    renderAt('/');
+
+    // Exact name: the archive card's "View source on GitHub" CTA also matches
+    // a loose substring query.
+    expect(screen.getByRole('link', { name: 'Source on GitHub' })).toHaveAttribute(
+      'href',
+      'https://github.com/samuelecorra/portfolio',
+    );
   });
 
   it('renders the projects index', () => {
@@ -41,6 +62,20 @@ describe('routing', () => {
   it('renders a not-found page for an unknown route', () => {
     renderAt('/nope');
     expect(screen.getByRole('heading', { level: 1, name: /page not found/i })).toBeInTheDocument();
+  });
+
+  it('never skips a heading level on the homepage', () => {
+    renderAt('/');
+
+    const levels = screen
+      .getAllByRole('heading')
+      .map((heading) => Number(heading.tagName.slice(1)));
+
+    expect(levels[0]).toBe(1);
+    for (let i = 1; i < levels.length; i += 1) {
+      // A jump from h2 straight to h4 breaks screen-reader navigation.
+      expect(levels[i]! - levels[i - 1]!).toBeLessThanOrEqual(1);
+    }
   });
 
   it('exposes the skip link and main landmark on every page', () => {
