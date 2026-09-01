@@ -23,7 +23,7 @@ is that every claim of competence links to material someone can inspect.
 | 6     | Quality pass: lint, typecheck, tests, build                 | Done        |
 | 7     | Documentation                                               | Done        |
 | —     | V0.1: public repo, identity, project hierarchy, OG image    | Done        |
-| —     | **Cloudflare Pages deployment** (needs dashboard access)    | **Blocked** |
+| —     | Cloudflare deployment (Workers static assets, live)         | Done        |
 | —     | Knowledge as a navigable map of the archive (generated)     | Done        |
 | —     | Trilingual site (EN / IT / DE)                              | Done        |
 | —     | Light/dark toggle, motion pass, `/lab`, IronMath case study | Next        |
@@ -107,10 +107,9 @@ one-line edit; none blocks the design phase.
 
 1. **Social URLs** — LinkedIn, YouTube, X, Instagram (`src/data/socials.ts`).
    Platforms without a URL are omitted from the UI rather than shown dead.
-2. **Production domain** — needed for canonical URL, absolute `og:image` and
-   `sitemap.xml` (`src/data/site.ts`, `index.html`, `public/robots.txt`). The
-   `.pages.dev` URL can fill this role immediately; a custom domain is not a
-   blocker.
+2. **Custom domain** — optional. The site is live on `workers.dev` and every
+   URL-dependent feature (canonical, OG, sitemap) already resolves against it.
+   Switching later is a one-line change in `site.config.json`.
 3. **Public contact address** (`src/data/site.ts`).
 4. **IronMath disclosure boundary** — the stack (React, Fastify, PostgreSQL,
    Python) is confirmed public. Still undecided: which architecture details,

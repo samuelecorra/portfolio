@@ -1,3 +1,5 @@
+import siteConfig from '../../site.config.json';
+
 import type { LocalizedText } from '@/i18n';
 import type { Unconfirmed } from '@/types';
 
@@ -36,8 +38,8 @@ export const site = {
     de: 'Persönlicher technischer Hub von Samuele Corrà: Projekte, ein öffentliches Cybersecurity-Wissensarchiv und die Belege dahinter.',
   } satisfies LocalizedText,
 
-  /** TODO(owner): production domain not decided yet. Absolute URLs depend on it. */
-  url: null as Unconfirmed<string>,
+  /** Deployed origin. Defined once in site.config.json — see vite.config.ts. */
+  url: siteConfig.url,
 
   repositoryUrl: PORTFOLIO_REPOSITORY_URL as Unconfirmed<string>,
 

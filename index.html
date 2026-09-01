@@ -15,19 +15,21 @@
     <meta name="author" content="Samuele Corrà" />
 
     <!--
-      TODO(domain): og:url, twitter:url and the og:image below must become
-      absolute URLs once the production domain is decided. Crawlers do not
-      execute JS, so these stay in static HTML rather than being set at runtime.
-      See docs/ARCHITECTURE.md § SEO.
+      %SITE_URL% is replaced at build time from site.config.json — see
+      vite.config.ts. Absolute URLs are required here because crawlers do not
+      execute JavaScript. See docs/ARCHITECTURE.md § SEO.
     -->
+    <link rel="canonical" href="%SITE_URL%/" />
+
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="%SITE_URL%/" />
     <meta property="og:site_name" content="Samuele Corrà" />
     <meta property="og:title" content="Samuele Corrà — Technical Hub" />
     <meta
       property="og:description"
       content="Projects, a public cybersecurity knowledge archive, and links to the evidence behind them."
     />
-    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image" content="%SITE_URL%/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta
@@ -36,12 +38,13 @@
     />
 
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="%SITE_URL%/" />
     <meta name="twitter:title" content="Samuele Corrà — Technical Hub" />
     <meta
       name="twitter:description"
       content="Projects, a public cybersecurity knowledge archive, and links to the evidence behind them."
     />
-    <meta name="twitter:image" content="/og-image.png" />
+    <meta name="twitter:image" content="%SITE_URL%/og-image.png" />
   </head>
   <body>
     <div id="root"></div>

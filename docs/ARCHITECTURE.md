@@ -181,9 +181,17 @@ Genuine per-route OG tags require pre-rendering or SSG, not a head-management
 library. That is a real architectural change and should be made deliberately, if
 per-project link previews ever matter.
 
-Blocked on the production domain: canonical URL, absolute `og:image`, and
-`sitemap.xml`. The sitemap is a fixed list of five routes and can be generated
-by a small build script once the domain exists — it does not need a dependency.
+The deployed origin lives in `site.config.json` — one file, read by three
+consumers: `vite.config.ts` (which replaces `%SITE_URL%` in index.html at build
+time), `src/data/site.ts`, and the sitemap generator. A custom domain later is a
+one-line change.
+
+`scripts/generate-sitemap.mjs` runs after `vite build` and emits
+`dist/sitemap.xml` plus a `dist/robots.txt` carrying the absolute `Sitemap:`
+line. Routes come from the static list, the generated archive index, and the
+project slugs. That last one is extracted from TypeScript with a regex — the
+weak link — so the script **fails the build** if the counts drop below the
+expected minimum, rather than shipping a sitemap quietly missing pages.
 
 ## Testing
 

@@ -2,11 +2,29 @@ import { fileURLToPath, URL } from 'node:url';
 
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
-import { defineConfig } from 'vitest/config';
+import { defineConfig, type Plugin } from 'vitest/config';
+
+import siteConfig from './site.config.json';
+
+/**
+ * Replaces %SITE_URL% in index.html with the deployed origin.
+ *
+ * Crawlers do not execute JavaScript, so canonical and OpenGraph URLs have to
+ * be absolute in the static HTML. This keeps the origin defined once in
+ * site.config.json instead of duplicated into markup.
+ */
+function siteUrlPlugin(): Plugin {
+  return {
+    name: 'inject-site-url',
+    transformIndexHtml(html) {
+      return html.replaceAll('%SITE_URL%', siteConfig.url);
+    },
+  };
+}
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [react(), tailwindcss(), siteUrlPlugin()],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),

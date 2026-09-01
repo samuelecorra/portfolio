@@ -1,0 +1,4 @@
+{
+  "$comment": "Single source of truth for the deployed origin. Read by vite.config.ts (to inject absolute URLs into index.html), src/data/site.ts, and scripts/generate-sitemap.mjs. Change it here only — and change it when a custom domain replaces the workers.dev subdomain.",
+  "url": "https://samuelecorra-portfolio.nabi-samuel-corra.workers.dev"
+}
