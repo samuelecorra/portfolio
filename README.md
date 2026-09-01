@@ -106,8 +106,12 @@ coupled to a specific host.
 
 Path: GitHub → Cloudflare Pages.
 
+Cloudflare now routes new Git-connected projects into **Workers** rather than
+Pages. `wrangler.jsonc` in the repo root configures a static-assets-only Worker
+serving `dist/`, with first-class SPA fallback.
+
 Connect the repository at **Cloudflare dashboard → Workers & Pages → Create →
-Pages → Connect to Git**, with:
+Connect to Git**, with:
 
 | Setting           | Value                                            |
 | ----------------- | ------------------------------------------------ |
@@ -120,7 +124,8 @@ Pages → Connect to Git**, with:
 The Git integration must be set up through the dashboard rather than Wrangler:
 only a Git-connected project gets automatic **preview deployments per branch and
 pull request**, which is the point — every `feat/*` branch gets its own public
-URL to review a redesign on real devices instead of localhost.
+URL to review a redesign on real devices instead of localhost. Enable
+_non-production branch builds_ when connecting, or previews never fire.
 
 ```
 main    → production   (portfolio.pages.dev)
@@ -128,9 +133,11 @@ feat/*  → preview      (<branch>.portfolio.pages.dev)
 ```
 
 **SPA fallback** is required so `/projects/ironmath` resolves instead of 404ing.
-`public/_redirects` already covers Cloudflare Pages and Netlify. On Vercel, add
-a `vercel.json` rewrite of `/(.*)` → `/index.html`; other static hosts need
-their own equivalent.
+Two mechanisms cover it, deliberately: `not_found_handling:
+"single-page-application"` in `wrangler.jsonc` for Cloudflare, and
+`public/_redirects` for Netlify and other static hosts. On Vercel, add a
+`vercel.json` rewrite of `/(.*)` → `/index.html`. The build output itself stays
+host-agnostic.
 
 ## Licence
 

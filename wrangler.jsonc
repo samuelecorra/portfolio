@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+
+  // Static-assets-only Worker: there is no `main` script because this site is
+  // pure static output. Cloudflare serves ./dist directly from its edge.
+  //
+  // Cloudflare now steers new Git-connected projects into Workers rather than
+  // Pages, so this replaces a Pages project. The build output is unchanged and
+  // stays portable — see README § Deployment.
+  "name": "samuelecorra-portfolio",
+  "compatibility_date": "2026-09-01",
+
+  "assets": {
+    "directory": "./dist",
+
+    // First-class SPA fallback: unmatched paths such as /projects/ironmath or
+    // /knowledge/anno2-crittografia return index.html with a 200 instead of a
+    // 404, so client-side routes resolve on a hard refresh or a shared link.
+    //
+    // public/_redirects stays in the repo as well: it does the same job on
+    // Netlify and other static hosts, keeping the output host-agnostic.
+    "not_found_handling": "single-page-application",
+  },
+
+  "observability": {
+    "enabled": true,
+  },
+}
