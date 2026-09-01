@@ -1,3 +1,5 @@
+import type { LocalizedList, LocalizedText } from '@/i18n';
+
 import type { IconName, Unconfirmed } from './common';
 
 export type ProjectCategory = 'knowledge-archive' | 'product' | 'university' | 'website';
@@ -64,13 +66,13 @@ export interface Project {
   /** Compact label for nav, breadcrumbs and cards. */
   shortTitle: string;
   /** One sentence. Positioning, not a feature list. */
-  summary: string;
+  summary: LocalizedText;
   /**
-   * Case-study paragraphs for /projects/:slug.
-   * An empty array is valid and means "no case study written yet" — the detail
+   * Case-study paragraphs for /projects/:slug, per locale.
+   * Empty arrays are valid and mean "no case study written yet" — the detail
    * route degrades to metadata instead of showing invented prose.
    */
-  description: string[];
+  description: LocalizedList;
   category: ProjectCategory;
   emphasis: ProjectEmphasis;
   status: ProjectStatus;

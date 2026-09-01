@@ -2,11 +2,13 @@ import type { JSX } from 'react';
 
 import { SocialLinks } from '@/components/social/SocialLinks';
 import { site } from '@/data/site';
+import { useI18n } from '@/i18n';
 import { externalLinkAttrs } from '@/lib/links';
 
 import { Container } from './Container';
 
 export function Footer(): JSX.Element {
+  const { t } = useI18n();
   const year = new Date().getFullYear();
 
   return (
@@ -25,10 +27,10 @@ export function Footer(): JSX.Element {
             <p className="mt-1 text-sm text-ink-faint">
               {site.repositoryUrl ? (
                 <a href={site.repositoryUrl} className="hover:text-accent" {...externalLinkAttrs}>
-                  Source on GitHub
+                  {t.footer.sourceOnGithub}
                 </a>
               ) : (
-                'Built in public — source repository coming soon.'
+                t.footer.builtInPublic
               )}
             </p>
           </div>

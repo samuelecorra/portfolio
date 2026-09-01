@@ -1,0 +1,374 @@
+{
+  "slug": "anno2-sistemi-operativi-1",
+  "files": [{ "name": "Intro all'Insegnamento", "ext": ".md", "lesson": false }],
+  "children": [
+    {
+      "name": "M1_Architettura_del_calcolatore",
+      "kind": "module",
+      "counts": {
+        "files": 31,
+        "notes": 8,
+        "pdfs": 0,
+        "code": 0,
+        "images": 22,
+        "other": 1,
+        "lessons": 7
+      },
+      "files": [{ "name": "Intro M1", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 30,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 22,
+            "other": 1,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Macchina di von Neumann – Architettura e funzionamento",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Chiamate di procedura e risposta alle interruzioni",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Memoria", "ext": ".md", "lesson": true },
+            { "name": "L4 - Connessione delle periferiche", "ext": ".md", "lesson": true },
+            {
+              "name": "L5 - Reti informatiche – Architetture e funzionamento",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L6 - Classificazione dei sistemi di elaborazione",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 23,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 22,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [
+                {
+                  "name": "prod-965551-workstation-desktop-precision-7960-5860-3680-1920x1440",
+                  "ext": ".avif",
+                  "lesson": false
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M2_Architettura_dei_SO",
+      "kind": "module",
+      "counts": {
+        "files": 6,
+        "notes": 6,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 5
+      },
+      "files": [{ "name": "Intro M2", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Funzioni di un sistema operativo", "ext": ".md", "lesson": true },
+            { "name": "L2 - Architetture dei sistemi operativi", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Generazione e avvio di un sistema operativo",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L4 - Interfacce dei Sistemi Operativi", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M3_Gestione_Processore",
+      "kind": "module",
+      "counts": {
+        "files": 76,
+        "notes": 35,
+        "pdfs": 0,
+        "code": 0,
+        "images": 41,
+        "other": 0,
+        "lessons": 34
+      },
+      "files": [{ "name": "Intro M3", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 4,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Concetto di processo", "ext": ".md", "lesson": true },
+            { "name": "L2 - Creazione e terminazione dei processi", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Sospensione e riattivazione dei processi",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 4,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 10,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 6,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Thread", "ext": ".md", "lesson": true },
+            { "name": "L2 - Modelli multi-thread", "ext": ".md", "lesson": true },
+            { "name": "L3 - Gestione dei thread", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 6,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 12,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 6,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Livelli di schedulazione e attivazione dei processi",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Criteri di valutazione della schedulazione",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Politiche di schedulazione", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - Schedulazione per sistemi in tempo reale",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L5 - Schedulazione dei thread", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 6,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 8
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            { "name": "L1 - Processi cooperanti", "ext": ".md", "lesson": true },
+            { "name": "L2 - Comunicazione tra processi", "ext": ".md", "lesson": true },
+            { "name": "L3 - Comunicazione con memoria condivisa", "ext": ".md", "lesson": true },
+            { "name": "L4 - Comunicazione con scambio di messaggi", "ext": ".md", "lesson": true },
+            { "name": "L5 - Comunicazione con mailbox", "ext": ".md", "lesson": true },
+            { "name": "L6 - Comunicazione con file e pipe", "ext": ".md", "lesson": true },
+            { "name": "L7 - Comunicazione con socket", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD5",
+          "kind": "unit",
+          "counts": {
+            "files": 18,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 11,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L0 - Intro UD5", "ext": ".md", "lesson": true },
+            { "name": "L1 - Processi concorrenti", "ext": ".md", "lesson": true },
+            { "name": "L2 - Variabili di lock", "ext": ".md", "lesson": true },
+            { "name": "L3 - Semafori", "ext": ".md", "lesson": true },
+            { "name": "L4 - Monitor", "ext": ".md", "lesson": true },
+            {
+              "name": "L5 - Problemi della Starvation e del Deadlock",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L6 - Transazioni atomiche", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 11,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 11,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD6",
+          "kind": "unit",
+          "counts": {
+            "files": 19,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 14,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD6", "ext": ".md", "lesson": true },
+            { "name": "L1 - Caratterizzazione del Deadlock", "ext": ".md", "lesson": true },
+            { "name": "L2 - Tecniche di prevenzione del Deadlock", "ext": ".md", "lesson": true },
+            { "name": "L3 - Tecniche per evitare il Deadlock", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - Tecniche di rilevazione e ripristino del Deadlock",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 13,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 13,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

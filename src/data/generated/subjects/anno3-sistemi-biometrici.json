@@ -1,0 +1,116 @@
+{
+  "slug": "anno3-sistemi-biometrici",
+  "files": [
+    { "name": "L0 - Introduzione al Corso", "ext": ".md", "lesson": true },
+    { "name": "L01 - Introduzione ai sistemi biometrici", "ext": ".md", "lesson": true },
+    {
+      "name": "L02 - Tratti biometrici e evoluzione della biometria",
+      "ext": ".md",
+      "lesson": true
+    },
+    {
+      "name": "L03 - Comparazione dei sistemi biometrici + Aspetti di Privacy, GDPR e AI Act",
+      "ext": ".md",
+      "lesson": true
+    },
+    {
+      "name": "L04 - Struttura dei sistemi biometrici e aspetti analitici del tratto",
+      "ext": ".md",
+      "lesson": true
+    },
+    {
+      "name": "L05 - Rappresentazione, Estrazione delle Caratteristiche, Matching e Indicizzazione nei DB biometrici",
+      "ext": ".md",
+      "lesson": true
+    },
+    {
+      "name": "L06A - Misura dei parametri di un sistema biometrico",
+      "ext": ".md",
+      "lesson": false
+    },
+    {
+      "name": "L6B - Dispensa operativa sulla misura dei parametri dei sistemi biometrici",
+      "ext": ".md",
+      "lesson": false
+    },
+    {
+      "name": "L07 - Impronte digitali – storia, classificazione e stato dell’arte",
+      "ext": ".md",
+      "lesson": true
+    },
+    {
+      "name": "L08 - Impronte Digitali, Sensori, Rappresentazione, Compressione e Non-Unicità",
+      "ext": ".md",
+      "lesson": true
+    },
+    {
+      "name": "L09 - Prefiltraggio, Enhancement e Feature Extraction nelle impronte digitali",
+      "ext": ".md",
+      "lesson": true
+    },
+    {
+      "name": "L10A - Algoritmi di Matching, Tassi di Errore e Stato dell’Arte",
+      "ext": ".md",
+      "lesson": false
+    },
+    {
+      "name": "L10B - Spoofing dei sensori di impronte - attacchi cooperativi e non-cooperativi",
+      "ext": ".md",
+      "lesson": false
+    },
+    { "name": "L10C - Spoofing paper", "ext": ".md", "lesson": false },
+    {
+      "name": "L11 - Sistemi biometrici basati sull’iride - fisiologia, sensori e IrisCode",
+      "ext": ".md",
+      "lesson": true
+    },
+    {
+      "name": "L12 - Algoritmi di enhancement, prefiltraggio e matching nei sistemi biometrici basati sull’iride",
+      "ext": ".md",
+      "lesson": true
+    },
+    { "name": "L12 -", "ext": ".md", "lesson": true },
+    { "name": "L13 -", "ext": ".md", "lesson": true },
+    {
+      "name": "L13A - Iride, prestazioni, ottimizzazione e spoofing",
+      "ext": ".md",
+      "lesson": false
+    },
+    { "name": "L13B - Come funziona l’Iris Recognition (Daugman)", "ext": ".md", "lesson": false },
+    {
+      "name": "L13C - Iride nel visibile, scenari operativi, spoofing e antispoofing",
+      "ext": ".md",
+      "lesson": false
+    },
+    {
+      "name": "L14 - Sistemi biometrici basati sul volto - introduzione, sensori 2D e algoritmi di prefiltraggio",
+      "ext": ".md",
+      "lesson": true
+    }
+  ],
+  "children": [
+    {
+      "name": "imgs",
+      "kind": "section",
+      "counts": {
+        "files": 427,
+        "notes": 0,
+        "pdfs": 3,
+        "code": 0,
+        "images": 424,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [
+        {
+          "name": "Lezione10b_Spoofing2021Fingerprint_Carvalho_Tihanyi",
+          "ext": ".pdf",
+          "lesson": false
+        },
+        { "name": "Lezione13b_paper_Daugman", "ext": ".pdf", "lesson": false },
+        { "name": "SCO_M3_U2_L3_D", "ext": ".pdf", "lesson": false }
+      ],
+      "children": []
+    }
+  ]
+}

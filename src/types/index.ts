@@ -10,5 +10,4 @@ export type {
   ProjectStatus,
   RepositoryVisibility,
 } from './project';
-export type { EvidenceLink, KnowledgeArea } from './knowledge';
 export type { AvailableSocialLink, SocialLink, SocialPlatform } from './social';

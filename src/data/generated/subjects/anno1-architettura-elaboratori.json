@@ -1,0 +1,619 @@
+{
+  "slug": "anno1-architettura-elaboratori",
+  "files": [],
+  "children": [
+    {
+      "name": "dal_c_ad_asm",
+      "kind": "section",
+      "counts": {
+        "files": 1,
+        "notes": 0,
+        "pdfs": 0,
+        "code": 1,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [{ "name": "primida1a10", "ext": ".c", "lesson": false }],
+      "children": []
+    },
+    {
+      "name": "lc2",
+      "kind": "section",
+      "counts": {
+        "files": 7,
+        "notes": 0,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 7,
+        "lessons": 0
+      },
+      "files": [
+        { "name": "LC2Edit", "ext": ".cnt", "lesson": false },
+        { "name": "LC2Edit", "ext": ".exe", "lesson": false },
+        { "name": "LC2EDIT", "ext": ".hlp", "lesson": false },
+        { "name": "Readme", "ext": ".txt", "lesson": false },
+        { "name": "Simulate", "ext": ".cnt", "lesson": false },
+        { "name": "Simulate", "ext": ".exe", "lesson": false },
+        { "name": "SIMULATE", "ext": ".hlp", "lesson": false }
+      ],
+      "children": []
+    },
+    {
+      "name": "lezioni",
+      "kind": "section",
+      "counts": {
+        "files": 5,
+        "notes": 0,
+        "pdfs": 5,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "M1 - Fondamenti architetturali",
+          "kind": "module",
+          "counts": {
+            "files": 1,
+            "notes": 0,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "M1doc", "ext": ".pdf", "lesson": false }],
+          "children": []
+        },
+        {
+          "name": "M2 - Linguaggio macchina",
+          "kind": "module",
+          "counts": {
+            "files": 1,
+            "notes": 0,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "M2doc", "ext": ".pdf", "lesson": false }],
+          "children": []
+        },
+        {
+          "name": "M3 - Architettura del calcolatore",
+          "kind": "module",
+          "counts": {
+            "files": 1,
+            "notes": 0,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "M3doc", "ext": ".pdf", "lesson": false }],
+          "children": []
+        },
+        {
+          "name": "M4 - Struttura della CPU",
+          "kind": "module",
+          "counts": {
+            "files": 1,
+            "notes": 0,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "M4doc", "ext": ".pdf", "lesson": false }],
+          "children": []
+        },
+        {
+          "name": "M5 - Principali linee di evoluzione architetturale",
+          "kind": "module",
+          "counts": {
+            "files": 1,
+            "notes": 0,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "M5doc", "ext": ".pdf", "lesson": false }],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M1_Fondamenti_Architetturali",
+      "kind": "module",
+      "counts": {
+        "files": 19,
+        "notes": 10,
+        "pdfs": 0,
+        "code": 0,
+        "images": 9,
+        "other": 0,
+        "lessons": 10
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 12,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 9,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            {
+              "name": "L1 - Necessità di Rappresentare l'Informazione",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Rappresentazione Analogica", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Rappresentazione Digitale dell’Informazione",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 9,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 9,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Codifiche binarie di valori numerici", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Codifica dei numeri relativi in Complemento a 2",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Codifiche binarie di informazioni non numeriche",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Postulati dell’algebra booleana", "ext": ".md", "lesson": true },
+            { "name": "L2 - Aritmetica con l’Algebra Booleana", "ext": ".md", "lesson": true },
+            { "name": "L3 - Porte Logiche", "ext": ".md", "lesson": true },
+            { "name": "L4 - Bistabili", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M2_Linguaggio_Macchina",
+      "kind": "module",
+      "counts": {
+        "files": 10,
+        "notes": 10,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 10
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            {
+              "name": "L1 - Struttura della macchina di Von Neumann",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Bus & Spazio di Indirizzamento", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            {
+              "name": "L1 - Istruzioni macchina & Modi di indirizzamento",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Struttura e Set di Istruzioni della CPU LC-2",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2.1 - Instruction Set Architecture (ISA) della CPU LC-2",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Esempi di Programmi in Linguaggio Macchina LC-2",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Linguaggio Assembly della LC-2", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Pseudo-istruzioni, Stringhe, Aree di Memoria e HALT",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            {
+              "name": "L1 - Input, ASCII e Programmi Completi con I-O",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M3_Architettura_del_Calcolatore",
+      "kind": "module",
+      "counts": {
+        "files": 10,
+        "notes": 10,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 10
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 1,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L1 - Stadi di Uscita per Collegamento al Bus", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Chip di Memoria", "ext": ".md", "lesson": true },
+            { "name": "L2 - Banchi di Memoria", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Problematiche di Input-Output", "ext": ".md", "lesson": true },
+            { "name": "L2 - Controllo di Programma", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            {
+              "name": "L1 - Principio di Funzionamento dell'Interrupt",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Interrupt Cablato", "ext": ".md", "lesson": true },
+            { "name": "L3 - Interrupt Vettorizzato", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD5",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Input-Output a DMA", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Comportamento Hardware e Software durante I-O in DMA",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M4_Struttura_della_CPU",
+      "kind": "module",
+      "counts": {
+        "files": 7,
+        "notes": 7,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 7
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Data Path di una semplicissima CPU", "ext": ".md", "lesson": true },
+            { "name": "L2 - Control Path di una semplicissima CPU", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Control Unit cablata", "ext": ".md", "lesson": true },
+            { "name": "L2 - Control Unit microprogrammata", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Compiti e organizzazione dell ALU", "ext": ".md", "lesson": true },
+            { "name": "L2 - Circuiti sommatori", "ext": ".md", "lesson": true },
+            { "name": "L3 - Circuiti moltiplicatori", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M5_Principali_Linee_di_Evoluzione_Architetturale",
+      "kind": "module",
+      "counts": {
+        "files": 7,
+        "notes": 7,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 7
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            {
+              "name": "L1 - Principio di Funzionamento della Memoria Cache",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Memoria Cache e Politica Tag Associative",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Politiche Fully Associative e Set Associative",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Accesso in Scrittura alla Memoria Cache",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L5 - Gerarchia di Memoria", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            {
+              "name": "L1 - Motivazioni del Ricorso alle Strutture Pipeline",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Problemi di Esecuzione con CPU Pipeline", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

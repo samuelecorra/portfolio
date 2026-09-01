@@ -1,0 +1,868 @@
+{
+  "slug": "anno2-statistica-e-analisi-dei-dati",
+  "files": [{ "name": "Intro all’insegnamento", "ext": ".md", "lesson": false }],
+  "children": [
+    {
+      "name": "M1_Probabilita_elementare",
+      "kind": "module",
+      "counts": {
+        "files": 113,
+        "notes": 26,
+        "pdfs": 17,
+        "code": 0,
+        "images": 70,
+        "other": 0,
+        "lessons": 25
+      },
+      "files": [{ "name": "Intro M1", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 11,
+            "notes": 4,
+            "pdfs": 3,
+            "code": 0,
+            "images": 4,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Definizione insiemistica di probabilità",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Operazioni insiemistiche con gli eventi",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Assiomi di probabilità", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 3,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "PRO_M1_U1_L1_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M1_U1_L2_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M1_U1_L3_E", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 4,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 37,
+            "notes": 8,
+            "pdfs": 7,
+            "code": 0,
+            "images": 22,
+            "other": 0,
+            "lessons": 8
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Il principio di moltiplicazione", "ext": ".md", "lesson": true },
+            { "name": "L2 - Esperimenti compositi", "ext": ".md", "lesson": true },
+            { "name": "L3 - Legge del prodotto per due eventi", "ext": ".md", "lesson": true },
+            { "name": "L4 - Probabilità di un evento condizionato", "ext": ".md", "lesson": true },
+            {
+              "name": "L5 - Legge del prodotto per eventi indipendenti e applicazioni all’affidabilità",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L6 - Legge del prodotto in generale e il paradosso del compleanno",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L7 - Legge del prodotto per n eventi indipendenti e applicazioni ai sistemi complessi",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 0,
+                "pdfs": 7,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "PRO_M1_U2_L1_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M1_U2_L2_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M1_U2_L3_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M1_U2_L4_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M1_U2_L5_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M1_U2_L6_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M1_U2_L7_E", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 22,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 22,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 32,
+            "notes": 5,
+            "pdfs": 2,
+            "code": 0,
+            "images": 25,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - Calcolo dell’unione di eventi", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Legge della Somma (o Legge delle Alternative)",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Legge della Somma per n cammini", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - Applicazioni della legge della somma all’affidabilità dei sistemi",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 2,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "PRO_M1_U3_L1_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M1_U3_L3_E", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 25,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 25,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 15,
+            "notes": 3,
+            "pdfs": 1,
+            "code": 0,
+            "images": 11,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Legge dei grandi numeri per il conteggio",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Legge dei grandi numeri per il valore atteso",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "PRO_M1_U4_L2_E", "ext": ".pdf", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 11,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 11,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD5",
+          "kind": "unit",
+          "counts": {
+            "files": 17,
+            "notes": 5,
+            "pdfs": 4,
+            "code": 0,
+            "images": 8,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD5", "ext": ".md", "lesson": true },
+            { "name": "L1 - Introduzione al Teorema di Bayes", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Bayes – formulazione, terminologia ed esempi",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Prior e Verosimiglianza", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - Bayes iterativo e aggiornamento della conoscenza",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 4,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "PRO_M1_U5_L1_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M1_U5_L2_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M1_U5_L3_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M1_U5_L4_E", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 8,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 8,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M2_Variabili_aleatorie",
+      "kind": "module",
+      "counts": {
+        "files": 73,
+        "notes": 20,
+        "pdfs": 6,
+        "code": 0,
+        "images": 47,
+        "other": 0,
+        "lessons": 19
+      },
+      "files": [{ "name": "Intro M2", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 50,
+            "notes": 5,
+            "pdfs": 1,
+            "code": 0,
+            "images": 44,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Distribuzioni e densità di variabili aleatorie",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Cumulativa e Anticumulativa", "ext": ".md", "lesson": true },
+            { "name": "L3 - Indicatori di posizione", "ext": ".md", "lesson": true },
+            { "name": "L4 - Indicatori d’ampiezza", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "PRO_M2_U1_L4_E", "ext": ".pdf", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 44,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 44,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 5,
+            "pdfs": 2,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Distribuzione Geometrica", "ext": ".md", "lesson": true },
+            { "name": "L2 - Densità Esponenziale Negativa", "ext": ".md", "lesson": true },
+            { "name": "L3 - Caratteristiche dell’esponenziale", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - Applicazioni all’affidabilità dei sistemi",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 2,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "PRO_M2_U2_L1_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M2_U2_L4_E", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 4,
+            "pdfs": 2,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - Distribuzione Binomiale", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - orma analitica della distribuzione di Poisson",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Processi Bernoulliani e Processi Poissoniani",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 2,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "PRO_M2_U3_L1_E", "ext": ".pdf", "lesson": false },
+                { "name": "PRO_M2_U3_L3_E", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 3,
+            "pdfs": 1,
+            "code": 0,
+            "images": 3,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            { "name": "L1 - Densità Gaussiana o Normale", "ext": ".md", "lesson": true },
+            { "name": "L2 - Altre considerazioni sulla Gaussiana", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "PRO_M2_U4_L2_E", "ext": ".pdf", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 3,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD5_Approfondimenti_Esame",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Distribuzione Ipergeometrica", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Approssimazione Normale della Binomiale e correzione di continuità",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M3_Argomenti_avanzati",
+      "kind": "module",
+      "counts": {
+        "files": 26,
+        "notes": 16,
+        "pdfs": 3,
+        "code": 0,
+        "images": 7,
+        "other": 0,
+        "lessons": 15
+      },
+      "files": [{ "name": "Intro M3", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 15,
+            "notes": 7,
+            "pdfs": 1,
+            "code": 0,
+            "images": 7,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Introduzione alla somma di variabili aleatorie indipendenti",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Convoluzione di distribuzioni e densità",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Funzioni generatrici della probabilità e somma di variabili aleatorie",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Somma di variabili aleatorie discrete notevoli",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L5 - Funzioni generatrici dei momenti e somma di variabili aleatorie continue notevoli",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L6 - Il Teorema del Limite Centrale", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "PRO_M3_U1_L2_E", "ext": ".pdf", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 7,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 4,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Dalla distribuzione al campione – Statistica descrittiva",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Distribuzioni del minimo e del massimo campionario",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Distribuzione della media campionaria", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "PRO_M3_U2_L3_E", "ext": ".pdf", "lesson": false }],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 3,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Introduzione alla statistica inferenziale",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Stima della media", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "PRO_M3_U3_L2_E", "ext": ".pdf", "lesson": false }],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4_Approfondimenti_Esame",
+          "kind": "unit",
+          "counts": {
+            "files": 1,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            {
+              "name": "L1 - CV, covarianza, correlazione di Pearson e skewness",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M4_Esami_svolti",
+      "kind": "module",
+      "counts": {
+        "files": 13,
+        "notes": 8,
+        "pdfs": 4,
+        "code": 0,
+        "images": 1,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "esami_2025",
+          "kind": "section",
+          "counts": {
+            "files": 13,
+            "notes": 8,
+            "pdfs": 4,
+            "code": 0,
+            "images": 1,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "1_esame_23_luglio_2025_soluzione", "ext": ".md", "lesson": false },
+            { "name": "2_esame_5_luglio_2025_soluzione", "ext": ".md", "lesson": false },
+            { "name": "3_esame_12_febbraio_2025_soluzione", "ext": ".md", "lesson": false },
+            { "name": "4_esame_15_gennaio_2025_soluzione", "ext": ".md", "lesson": false },
+            { "name": "5_esame_16_giugno_2025_soluzione", "ext": ".md", "lesson": false },
+            { "name": "6_esame_5_settembre_2025_soluzione", "ext": ".md", "lesson": false },
+            { "name": "7_esame_19_settembre_2025_soluzione", "ext": ".md", "lesson": false },
+            { "name": "8_esame_16_gennaio_2026_soluzione", "ext": ".md", "lesson": false },
+            { "name": "20250919online", "ext": ".pdf", "lesson": false },
+            { "name": "Esame statistica 05-09-25", "ext": ".pdf", "lesson": false },
+            { "name": "Esame statistics 16-06-25", "ext": ".pdf", "lesson": false },
+            { "name": "TemaEsameStatistica20260116online", "ext": ".pdf", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M5_Formulari_Esame",
+      "kind": "module",
+      "counts": {
+        "files": 5,
+        "notes": 5,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 5
+      },
+      "files": [
+        { "name": "L0 - Guida rapida d'esame e tavole statistiche", "ext": ".md", "lesson": true },
+        { "name": "L1 - M1 Formulario - Probabilità elementare", "ext": ".md", "lesson": true },
+        {
+          "name": "L2 - M2 Formulario - Variabili aleatorie e distribuzioni",
+          "ext": ".md",
+          "lesson": true
+        },
+        {
+          "name": "L3 - M3 Formulario - Somme, campionamento e inferenza",
+          "ext": ".md",
+          "lesson": true
+        },
+        {
+          "name": "L4 - Formule extra degli appelli, incongruenze e matrice di copertura",
+          "ext": ".md",
+          "lesson": true
+        }
+      ],
+      "children": []
+    }
+  ]
+}

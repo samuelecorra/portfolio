@@ -1,0 +1,566 @@
+{
+  "slug": "anno2-sistemi-operativi-2",
+  "files": [{ "name": "Intro all'Insegnamento", "ext": ".md", "lesson": false }],
+  "children": [
+    {
+      "name": "M1_Gestione_memoria_centrale",
+      "kind": "module",
+      "counts": {
+        "files": 51,
+        "notes": 18,
+        "pdfs": 0,
+        "code": 0,
+        "images": 33,
+        "other": 0,
+        "lessons": 13
+      },
+      "files": [{ "name": "Intro M1", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 10,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 5,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Indirizzamento in memoria centrale", "ext": ".md", "lesson": true },
+            { "name": "L2 - Partizionamento della memoria centrale", "ext": ".md", "lesson": true },
+            { "name": "L3 - Overlaying", "ext": ".md", "lesson": true },
+            { "name": "L4 - Swapping", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 5,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 17,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 12,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1_1 - Paginazione", "ext": ".md", "lesson": false },
+            { "name": "L1_2 - Paginazione", "ext": ".md", "lesson": false },
+            { "name": "L2 - Segmentazione", "ext": ".md", "lesson": true },
+            { "name": "L3 - Segmentazione con paginazione", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 12,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 12,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 23,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 16,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Concetti e tecniche fondamentali della memoria virtuale",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2_1 - Tecniche di sostituzione della pagina",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L2_2 - Tecniche di sostituzione della pagina",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L3 - Tecniche di allocazione dei frame", "ext": ".md", "lesson": true },
+            { "name": "L4 - Thrashing", "ext": ".md", "lesson": true },
+            { "name": "L5 - Ottimizzazione delle prestazioni", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 16,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 16,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M2_Gestione_IO",
+      "kind": "module",
+      "counts": {
+        "files": 32,
+        "notes": 10,
+        "pdfs": 0,
+        "code": 0,
+        "images": 22,
+        "other": 0,
+        "lessons": 7
+      },
+      "files": [{ "name": "Intro M2", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 2,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Struttura e funzioni dei sottosistemi di ingresso - uscita",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2_1 - Realizzazione del sottosistema di I-O",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L2_2 - Realizzazione del sottosistema di I-O",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 2,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 25,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 20,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Schedulazione degli accessi al disco", "ext": ".md", "lesson": true },
+            { "name": "L2 - Organizzazione del disco", "ext": ".md", "lesson": true },
+            { "name": "L3 - Dischi RAID", "ext": ".md", "lesson": true },
+            { "name": "L4 - Memoria terziaria", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 20,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 20,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M3_FileSystem",
+      "kind": "module",
+      "counts": {
+        "files": 76,
+        "notes": 18,
+        "pdfs": 0,
+        "code": 0,
+        "images": 58,
+        "other": 0,
+        "lessons": 11
+      },
+      "files": [{ "name": "Intro M3", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 21,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 15,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - File e loro caratteristiche", "ext": ".md", "lesson": true },
+            { "name": "L2_1 - Directory e loro caratteristiche", "ext": ".md", "lesson": false },
+            { "name": "L2_2 - Directory e loro caratteristiche", "ext": ".md", "lesson": false },
+            { "name": "L3_1 - Condivisione dei file e protezione", "ext": ".md", "lesson": false },
+            { "name": "L3_2 - Condivisione dei file e protezione", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 15,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 15,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 42,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 0,
+            "images": 34,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Struttura e realizzazione del file system",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Realizzazione dei direttori", "ext": ".md", "lesson": true },
+            {
+              "name": "L3_1 - Realizzazione dei file – Gestione dell’astrazione dei file",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L3_2 - Realizzazione dei file – Gestione dell’astrazione dei file",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L4 - Realizzazione dei file – Allocazione dei blocchi",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L5 - Valutazione dell’efficienza e delle prestazioni",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L6 - Manutenzione del file system", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 34,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 34,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 12,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 9,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - Concetti fondamentali della protezione", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Tecniche di realizzazione della protezione",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 9,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 9,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M4_Sistemi_Distribuiti",
+      "kind": "module",
+      "counts": {
+        "files": 42,
+        "notes": 19,
+        "pdfs": 1,
+        "code": 0,
+        "images": 22,
+        "other": 0,
+        "lessons": 15
+      },
+      "files": [{ "name": "Intro M4", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Obiettivi e funzioni di un sistema distribuito",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 5,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Gestione della comunicazione in rete", "ext": ".md", "lesson": true },
+            { "name": "L2 - Protocolli di comunicazione", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 5,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 29,
+            "notes": 11,
+            "pdfs": 1,
+            "code": 0,
+            "images": 17,
+            "other": 0,
+            "lessons": 8
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - Distribuzione della computazione", "ext": ".md", "lesson": true },
+            { "name": "L2 - Chiamata di procedura remota (RPC)", "ext": ".md", "lesson": true },
+            { "name": "L3 - Allocazione dei processi", "ext": ".md", "lesson": true },
+            {
+              "name": "L3_1 - Approfondimento - Task Scheduling in Sistemi Multiprocessore",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L4 - Agenti mobili", "ext": ".md", "lesson": true },
+            {
+              "name": "L5_1 - Coordinamento distribuito tra processi",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L5_2 - Coordinamento distribuito tra processi",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L6 - Deadlock in ambiente distribuito", "ext": ".md", "lesson": true },
+            { "name": "L7 - Comunicazione tra processi in rete", "ext": ".md", "lesson": true },
+            {
+              "name": "L8 - Approfondimento - Le comunicazioni in ambiente distribuito",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "docs",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "art_PIU_M7_U3_L3_att2", "ext": ".pdf", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 17,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 17,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            { "name": "L1 - File system distribuiti", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

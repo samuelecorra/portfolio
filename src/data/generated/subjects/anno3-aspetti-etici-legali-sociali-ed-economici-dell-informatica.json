@@ -1,0 +1,470 @@
+{
+  "slug": "anno3-aspetti-etici-legali-sociali-ed-economici-dell-informatica",
+  "files": [],
+  "children": [
+    {
+      "name": "M1_Eco",
+      "kind": "module",
+      "counts": {
+        "files": 20,
+        "notes": 10,
+        "pdfs": 0,
+        "code": 0,
+        "images": 10,
+        "other": 0,
+        "lessons": 10
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 5,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Introduzione", "ext": ".md", "lesson": true },
+            { "name": "L2 - Criteri dei Mercati", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 5,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 2,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Il Settore", "ext": ".md", "lesson": true },
+            { "name": "L2 - Potenziali entranti del settore", "ext": ".md", "lesson": true },
+            { "name": "L3 - Competitori operanti", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 2,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 3,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L1 - Imprese", "ext": ".md", "lesson": true },
+            { "name": "L2 - Tassonomia delle imprese", "ext": ".md", "lesson": true },
+            { "name": "L3 - Contabilità Esterna", "ext": ".md", "lesson": true },
+            { "name": "L4 - Conto Economico", "ext": ".md", "lesson": true },
+            { "name": "L5 - Struttura Organizzativa", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 3,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M2_Gestione",
+      "kind": "module",
+      "counts": {
+        "files": 33,
+        "notes": 11,
+        "pdfs": 0,
+        "code": 0,
+        "images": 22,
+        "other": 0,
+        "lessons": 11
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 12,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 9,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Analisi dei costi", "ext": ".md", "lesson": true },
+            { "name": "L2 - Tipologie di costo", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Analisi di Break Even e margine di contribuzione",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 9,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 9,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 11,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 7,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Catena del Valore", "ext": ".md", "lesson": true },
+            { "name": "L2 - Valore e investimenti", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Criteri di valutazione investimenti parte 1",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Criteri di valutazione investimenti parte 2",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 7,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 10,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 6,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Intro Project Management", "ext": ".md", "lesson": true },
+            { "name": "L2 - Definizione", "ext": ".md", "lesson": true },
+            { "name": "L3 - Pianificazione e Sequenziamento", "ext": ".md", "lesson": true },
+            { "name": "L4 - Esecuzione e gestione", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 6,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M3_Etica",
+      "kind": "module",
+      "counts": {
+        "files": 4,
+        "notes": 4,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 4
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Intro Etica Informatica", "ext": ".md", "lesson": true },
+            { "name": "L2 - Intro parte 2", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Questioni Etiche parte 1", "ext": ".md", "lesson": true },
+            { "name": "L2 - Questioni Etiche parte 2", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M4_Etica2",
+      "kind": "module",
+      "counts": {
+        "files": 2,
+        "notes": 2,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 2
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            {
+              "name": "L1 - Una metodologia per affrontare le questioni etiche dell’ICT",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Come affrontare i Dilemmi Etici", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M5_Legali",
+      "kind": "module",
+      "counts": {
+        "files": 2,
+        "notes": 2,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 2
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 1,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            {
+              "name": "L1 - Nuove Tecnologie e Proprietà Intellettuale",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 1,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [{ "name": "L1 - Privacy", "ext": ".md", "lesson": true }],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M6_Sociali",
+      "kind": "module",
+      "counts": {
+        "files": 5,
+        "notes": 5,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 5
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Premesse", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Un framework per i diritti di cittadinanza digitale - la tutela dei diritti",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            {
+              "name": "L1 - Un framework per i diritti di cittadinanza digitale – Democrazia e partecipazione",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Elementi di progettazione di buoni ambienti online deliberativi",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Software Libero", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

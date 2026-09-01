@@ -66,6 +66,15 @@ src/
 **The UI is data-driven.** Components render; they never hold content. Adding a
 project means adding one object to `src/data/projects.ts` — no component edits.
 
+**The site is trilingual** (English, Italian, German) with a picker in the
+navbar. Custom ~150-line implementation, no i18n dependency; the English
+dictionary is the type, so incomplete translations fail the build.
+
+**The curriculum is generated, not written.** `npm run sync:archive` reads the
+knowledge archive's own manifest and derives every subject, module, unit and
+lesson — 24 subjects, 167 modules, 287 didactic units, 1,558 lessons, 6,110
+files. Nobody types those numbers.
+
 Detail:
 
 - [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — decisions and why

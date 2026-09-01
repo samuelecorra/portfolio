@@ -1,0 +1,481 @@
+{
+  "slug": "anno3-progettazione-di-software-sicuro",
+  "files": [
+    { "name": "5_Progettazione_di_Software_Sicuro", "ext": ".iml", "lesson": false },
+    { "name": "SchedaInsegnamentoPSS", "ext": ".pdf", "lesson": false }
+  ],
+  "children": [
+    {
+      "name": "M1",
+      "kind": "section",
+      "counts": {
+        "files": 8,
+        "notes": 8,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 8
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Proprietà del software", "ext": ".md", "lesson": true },
+            { "name": "L2 - Proprietà del software sicuro", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Fasi di sviluppo del software", "ext": ".md", "lesson": true },
+            { "name": "L2 - Modelli di ciclo di vita del software", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - La sicurezza nel ciclo di vita del software",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Ciclo di vulnerabilità", "ext": ".md", "lesson": true },
+            { "name": "L2 - Attacchi a livello di progettazione", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Attacchi a livello di implementazione ed operazione",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M2",
+      "kind": "section",
+      "counts": {
+        "files": 5,
+        "notes": 5,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 5
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            {
+              "name": "L1 - Architettura sicura e introduzione ai principi guida",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Linee guida e principi per architetture sicure pt1",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Linee guida e principi per architetture sicure pt2",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Criteri di scelta di tecnologie sicure", "ext": ".md", "lesson": true },
+            { "name": "L2 - Il caso di studio di Java Sandbox", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M3",
+      "kind": "section",
+      "counts": {
+        "files": 12,
+        "notes": 12,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 12
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Proprietà delle Specifiche", "ext": ".md", "lesson": true },
+            { "name": "L2 - Metodi di Specifica", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L1 - Macchine a Stati Finiti di Base", "ext": ".md", "lesson": true },
+            { "name": "L2 - Macchine a Stati Finiti con Output", "ext": ".md", "lesson": true },
+            { "name": "L3 - Macchine a Stati Finiti Estese (EFSM)", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - Communicating Finite State Machines (CFSM)",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L5 - Macchine di Stato UML — Stati Semplici", "ext": ".md", "lesson": true },
+            { "name": "L6 - Macchine di Stato UML — Stati Composti", "ext": ".md", "lesson": true },
+            { "name": "L7 - Modellare con le Macchine di Stato UML", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - I Principi del Design by Contract", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Il Contratto nel Software Object Oriented — JML",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M4",
+      "kind": "section",
+      "counts": {
+        "files": 4,
+        "notes": 4,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 4
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            {
+              "name": "L1 - Sicurezza dei tipi nei linguaggi di programmazione",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Alcune violazioni di sicurezza in C", "ext": ".md", "lesson": true },
+            { "name": "L3 - Programmi sicuri in C", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 1,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L1 - Macchine a stati finiti in Java", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M5",
+      "kind": "section",
+      "counts": {
+        "files": 64,
+        "notes": 12,
+        "pdfs": 3,
+        "code": 48,
+        "images": 0,
+        "other": 1,
+        "lessons": 12
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "esercizi_laboratorio",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 2,
+            "code": 0,
+            "images": 0,
+            "other": 1,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "EserciziarioLaboratorioPSS", "ext": ".pdf", "lesson": false },
+            { "name": "EserciziarioTeoriaPSS", "ext": ".pdf", "lesson": false },
+            { "name": "SoluzioniEserciziarioLaboratorioPSS", "ext": ".zip", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Il ruolo del testing", "ext": ".md", "lesson": true },
+            { "name": "L2 - Terminologia del testing", "ext": ".md", "lesson": true },
+            { "name": "L3 - Tipi di testing", "ext": ".md", "lesson": true },
+            { "name": "L4 - Tecniche per la validazione e verifica", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Concetti base", "ext": ".md", "lesson": true },
+            { "name": "L2 - I limiti del testing", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L1 - Grafo di flusso di un programma", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Copertura delle istruzioni e degli archi",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Copertura delle decisioni e delle condizioni",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L4 - MCC e MCDC", "ext": ".md", "lesson": true },
+            { "name": "L5 - Valutare la copertura con Emma", "ext": ".md", "lesson": true },
+            { "name": "L6 - JUnit", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 49,
+            "notes": 0,
+            "pdfs": 1,
+            "code": 48,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "EserciziarioPSS", "ext": ".pdf", "lesson": false }],
+          "children": [
+            {
+              "name": "SoluzioniEserciziarioPSS",
+              "kind": "section",
+              "counts": {
+                "files": 48,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 48,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "DiningPhilosophers", "ext": ".java", "lesson": false },
+                {
+                  "name": "DiningPhilosophersCoperturaCondizioni",
+                  "ext": ".java",
+                  "lesson": false
+                },
+                { "name": "DiningPhilosophersCoperturaDecisioni", "ext": ".java", "lesson": false },
+                { "name": "Fila", "ext": ".java", "lesson": false },
+                { "name": "FilaCoperturaDecisioni", "ext": ".java", "lesson": false },
+                { "name": "FilaTest", "ext": ".java", "lesson": false },
+                { "name": "ForzaQuattro", "ext": ".java", "lesson": false },
+                { "name": "ForzaQuattroCoperturaCondizioni", "ext": ".java", "lesson": false },
+                { "name": "ForzaQuattroCoperturaDecisioni", "ext": ".java", "lesson": false },
+                { "name": "GiocoDello8", "ext": ".java", "lesson": false },
+                { "name": "GiocoDello8Test", "ext": ".java", "lesson": false },
+                { "name": "KnightTour", "ext": ".java", "lesson": false },
+                { "name": "KnightTourTest", "ext": ".java", "lesson": false },
+                { "name": "NaturalSet", "ext": ".java", "lesson": false },
+                { "name": "NaturalSetCoperturaDecisioni", "ext": ".java", "lesson": false },
+                { "name": "NaturalSetTest", "ext": ".java", "lesson": false },
+                { "name": "OraDiPunta", "ext": ".java", "lesson": false },
+                { "name": "OraDiPuntaCoperturaIstruzioni", "ext": ".java", "lesson": false },
+                { "name": "OraDiPuntaTest", "ext": ".java", "lesson": false },
+                { "name": "Ostello", "ext": ".java", "lesson": false },
+                { "name": "OstelloCoperturaDecisioni", "ext": ".java", "lesson": false },
+                { "name": "OstelloTest", "ext": ".java", "lesson": false },
+                { "name": "OttoRegineSimpl", "ext": ".java", "lesson": false },
+                { "name": "OttoRegineSimplTest", "ext": ".java", "lesson": false },
+                { "name": "ProdCons", "ext": ".java", "lesson": false },
+                { "name": "ProdConsCoperturaCondizioni", "ext": ".java", "lesson": false },
+                { "name": "ProdConsTest", "ext": ".java", "lesson": false },
+                { "name": "QuadratoMagico3", "ext": ".java", "lesson": false },
+                { "name": "QuadratoMagico3Test", "ext": ".java", "lesson": false },
+                { "name": "Queue", "ext": ".java", "lesson": false },
+                { "name": "QueueTest", "ext": ".java", "lesson": false },
+                { "name": "Rubik2D", "ext": ".java", "lesson": false },
+                { "name": "Rubik2DCondizioni", "ext": ".java", "lesson": false },
+                { "name": "Rubik2Dtest", "ext": ".java", "lesson": false },
+                { "name": "Sokoban", "ext": ".java", "lesson": false },
+                { "name": "SokobanTest", "ext": ".java", "lesson": false },
+                { "name": "Sudoku", "ext": ".java", "lesson": false },
+                { "name": "SudokuCoperturaCondizioni", "ext": ".java", "lesson": false },
+                { "name": "SudokuTest", "ext": ".java", "lesson": false },
+                { "name": "TicTacToe", "ext": ".java", "lesson": false },
+                { "name": "TicTacToeCoperturaCondizioni", "ext": ".java", "lesson": false },
+                { "name": "TicTacToeCoperturaDecisioni", "ext": ".java", "lesson": false },
+                { "name": "Tombola", "ext": ".java", "lesson": false },
+                { "name": "TombolaCoperturaCondizioni", "ext": ".java", "lesson": false },
+                { "name": "TombolaTest", "ext": ".java", "lesson": false },
+                { "name": "UndirectedGraph", "ext": ".java", "lesson": false },
+                { "name": "UndirectedGraphCoperturaCondizioni", "ext": ".java", "lesson": false },
+                { "name": "UndirectedGraphTest", "ext": ".java", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

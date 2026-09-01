@@ -1,0 +1,1399 @@
+{
+  "slug": "anno1-analisi-1",
+  "files": [{ "name": "schema_lezioni", "ext": ".md", "lesson": false }],
+  "children": [
+    {
+      "name": "M01_Matematica Liceale",
+      "kind": "module",
+      "counts": {
+        "files": 43,
+        "notes": 43,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 35
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD0 - Strumenti discreti e induzione",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Sommatorie e produttorie", "ext": ".md", "lesson": true },
+            { "name": "L2 - Fattoriale e coefficienti binomiali", "ext": ".md", "lesson": true },
+            { "name": "L3 - Principio di induzione", "ext": ".md", "lesson": true },
+            { "name": "L4 - Binomio di Newton", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD1 - 1o e 2o grado",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L0 - Equivalenza, equazioni e sistemi", "ext": ".md", "lesson": true },
+            { "name": "L1 - Rette", "ext": ".md", "lesson": true },
+            { "name": "L2 - Equazioni e Disequazioni di 1o grado", "ext": ".md", "lesson": true },
+            { "name": "L3 - Parabole", "ext": ".md", "lesson": true },
+            { "name": "L4 - Equazioni e disequazioni di 2o grado", "ext": ".md", "lesson": true },
+            { "name": "L5 - Circonferenza nel piano cartesiano", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2 - Potenze",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Potenze e loro proprietà", "ext": ".md", "lesson": true },
+            { "name": "L2 - Potenze con esponente reciproco", "ext": ".md", "lesson": true },
+            { "name": "L2A - Radicali e razionalizzazione", "ext": ".md", "lesson": false },
+            { "name": "L3 - Potenze con esponente razionale", "ext": ".md", "lesson": true },
+            { "name": "L4 - Potenze con esponente reale", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3 - Disequazioni Razionali",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Valore assoluto e distanza", "ext": ".md", "lesson": true },
+            { "name": "L0A - Struttura e operazioni sui polinomi", "ext": ".md", "lesson": false },
+            {
+              "name": "L0B - Prodotti notevoli e fattorizzazione di base",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L0C - Divisione tra polinomi e regola di Ruffini",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L0D - Teoremi del resto e del fattore", "ext": ".md", "lesson": false },
+            {
+              "name": "L0E - Radici, molteplicità e fattorizzazione completa",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L1 - Polinomi nelle disequazioni", "ext": ".md", "lesson": true },
+            { "name": "L2 - Razionali Fratte", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4 - Disequazioni Irrazionali",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Equazioni irrazionali", "ext": ".md", "lesson": true },
+            { "name": "L1 - Irrazionali con indici pari", "ext": ".md", "lesson": true },
+            { "name": "L2 - Irrazionali con indici dispari", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD5 - Logaritmi ed Esponenziali",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Definizioni e proprietà dei logaritmi", "ext": ".md", "lesson": true },
+            { "name": "L2 - Equazioni e disequazioni logaritmiche", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Definizioni e proprietà degli esponenziali",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L4 - Equazioni e disequazioni esponenziali", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD6 - Trigonometria",
+          "kind": "unit",
+          "counts": {
+            "files": 9,
+            "notes": 9,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L1 - Intro alla goniometria", "ext": ".md", "lesson": true },
+            { "name": "L2 - Funzioni goniometriche", "ext": ".md", "lesson": true },
+            { "name": "L3 - Simmetrie", "ext": ".md", "lesson": true },
+            { "name": "L4 - Funzioni goniometriche inverse", "ext": ".md", "lesson": true },
+            { "name": "L5 - Formule fondamentali", "ext": ".md", "lesson": true },
+            {
+              "name": "L5A - Prostaferesi, Werner e identità trigonometriche",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L6 - Equazioni e disequazioni goniometriche", "ext": ".md", "lesson": true },
+            { "name": "L6A - Equazioni trigonometriche avanzate", "ext": ".md", "lesson": false },
+            { "name": "L7 - Triangoli e trigonometria", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD7 - Funzioni Iperboliche",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Funzioni Iperboliche", "ext": ".md", "lesson": true },
+            { "name": "L2 - Grafici", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Identità, equazioni e disequazioni iperboliche",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L4 - Funzioni iperboliche inverse", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M02_Insiemistica e Relazioni",
+      "kind": "module",
+      "counts": {
+        "files": 14,
+        "notes": 14,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 14
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1 - Insiemi",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Intro Insiemistica", "ext": ".md", "lesson": true },
+            { "name": "L2 - Sottoinsiemi", "ext": ".md", "lesson": true },
+            { "name": "L3 - Operazioni insiemistiche", "ext": ".md", "lesson": true },
+            { "name": "L4 - Operatori Booleani OR AND NOT", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2 - Applicazioni",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Intro Applicazioni", "ext": ".md", "lesson": true },
+            { "name": "L2 - Caratteristiche delle applicazioni", "ext": ".md", "lesson": true },
+            { "name": "L3 - Applicazione inversa", "ext": ".md", "lesson": true },
+            { "name": "L4 - Composizione", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3 - Relazioni",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Intro Relazioni", "ext": ".md", "lesson": true },
+            { "name": "L2 - Relazioni d'ordine", "ext": ".md", "lesson": true },
+            { "name": "L3 - Relazioni d'equivalenza", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4 - Min Max Inf Sup",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Insiemi Numerici", "ext": ".md", "lesson": true },
+            { "name": "L2 - Minimo e massimo", "ext": ".md", "lesson": true },
+            { "name": "L3 - Sup e Inf", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M03_Finito ed Infinito",
+      "kind": "module",
+      "counts": {
+        "files": 8,
+        "notes": 8,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 4
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1 - Insiemi finiti ed infiniti",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Insiemi finiti", "ext": ".md", "lesson": true },
+            {
+              "name": "L1A - Principi di conteggio e principio dei cassetti",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L2 - Insiemi infiniti", "ext": ".md", "lesson": true },
+            {
+              "name": "L2A - Confronto tra cardinalità e teorema di Cantor-Bernstein",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2 - Numerabilità e potenza del continuo",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Infinità numerabile", "ext": ".md", "lesson": true },
+            {
+              "name": "L1A - Stabilità della numerabilità e applicazioni",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L2 - Potenza del continuo", "ext": ".md", "lesson": true },
+            {
+              "name": "L2A - Cardinalità del continuo e gerarchia degli infiniti",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M04_Numeri Complessi",
+      "kind": "module",
+      "counts": {
+        "files": 10,
+        "notes": 10,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 8
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1 - Costruzione ed operazioni",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Intro ai complessi e insieme C", "ext": ".md", "lesson": true },
+            { "name": "L2 - Forma algebrica", "ext": ".md", "lesson": true },
+            { "name": "L3 - Piano Complesso", "ext": ".md", "lesson": true },
+            { "name": "L3A - Luoghi geometrici e trasformazioni", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2 - Forma trigonometrica ed esponenziale",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Forma trigonometrica", "ext": ".md", "lesson": true },
+            { "name": "L2 - Formula di De Moivre", "ext": ".md", "lesson": true },
+            { "name": "L3 - Forma esponenziale", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3 - Radici e logaritmi",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Radici in C", "ext": ".md", "lesson": true },
+            { "name": "L1A - Equazioni e fattorizzazione in C", "ext": ".md", "lesson": false },
+            { "name": "L2 - Logaritmi in C", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M05_Successioni",
+      "kind": "module",
+      "counts": {
+        "files": 20,
+        "notes": 20,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 16
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1 - Definizioni ed esempi",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Intro alle successioni", "ext": ".md", "lesson": true },
+            { "name": "L2 - Limitatezza", "ext": ".md", "lesson": true },
+            { "name": "L3 - Monotonia", "ext": ".md", "lesson": true },
+            { "name": "L4 - Successione estratta", "ext": ".md", "lesson": true },
+            {
+              "name": "L4A - Valori di aderenza e Bolzano-Weierstrass",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L4B - Limite superiore e limite inferiore", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2 - Limiti e teoremi",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Definizioni di limite", "ext": ".md", "lesson": true },
+            { "name": "L2 - Verifiche e teoremi", "ext": ".md", "lesson": true },
+            { "name": "L3 - Successioni di Cauchy", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3 - Calcolo dei limiti",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Aritmetizzazione", "ext": ".md", "lesson": true },
+            { "name": "L2 - Forme di indecisione", "ext": ".md", "lesson": true },
+            { "name": "L2A - Stolz-Cesaro e medie di Cesaro", "ext": ".md", "lesson": false },
+            { "name": "L3 - Alcuni limiti", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4 - il numero e ed i limiti notevoli",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            {
+              "name": "L0 - Successioni geometriche e disuguaglianza di Bernoulli",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L1 - Il numero e", "ext": ".md", "lesson": true },
+            { "name": "L2 - Limiti Notevoli", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD5 - Infinitesime e definite per ricorrenza",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Successioni infinitesime", "ext": ".md", "lesson": true },
+            { "name": "L2 - Successioni a confronto", "ext": ".md", "lesson": true },
+            { "name": "L3 - Successioni definite per ricorrenza", "ext": ".md", "lesson": true },
+            { "name": "L3A - Ricorrenze lineari", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M06_Serie Numeriche",
+      "kind": "module",
+      "counts": {
+        "files": 13,
+        "notes": 13,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 8
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1 - Intro e Criterio di Cauchy",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Intro serie numeriche", "ext": ".md", "lesson": true },
+            { "name": "L2 - Alcune serie facili", "ext": ".md", "lesson": true },
+            { "name": "L3 - Criterio di Cauchy", "ext": ".md", "lesson": true },
+            {
+              "name": "L3A - Condensazione di Cauchy e serie logaritmiche",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2 - Serie a termini positivi e criteri di convergenza",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Criterio del confronto", "ext": ".md", "lesson": true },
+            { "name": "L2 - Criterio del rapporto", "ext": ".md", "lesson": true },
+            { "name": "L3 - Criterio della radice", "ext": ".md", "lesson": true },
+            { "name": "L3A - Criteri di Raabe-Duhamel e Gauss", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3 - Serie a termini di segno qualunque",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Serie a segno alterno", "ext": ".md", "lesson": true },
+            { "name": "L2 - Convergenza assoluta", "ext": ".md", "lesson": true },
+            {
+              "name": "L2A - Dirichlet Abel e sommazione per parti",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L2B - Prodotti e riordinamenti", "ext": ".md", "lesson": false },
+            { "name": "L2C - Serie complesse e doppie", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M07_Funzioni",
+      "kind": "module",
+      "counts": {
+        "files": 15,
+        "notes": 15,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 10
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1 - Fondamenti delle funzioni",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Intro funzioni - R f R", "ext": ".md", "lesson": true },
+            { "name": "L1A - Operazioni composizione e grafico", "ext": ".md", "lesson": false },
+            { "name": "L1B - Iniettivita suriettivita e inversa", "ext": ".md", "lesson": false },
+            { "name": "L2 - Min Max Inf Sup", "ext": ".md", "lesson": true },
+            { "name": "L2A - Monotonia e limitatezza", "ext": ".md", "lesson": false },
+            { "name": "L3 - Simmetrie e periodicità", "ext": ".md", "lesson": true },
+            { "name": "L3A - Trasformazioni dei grafici", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2 - Insieme di definizione",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Funzioni razionali e irrazionali", "ext": ".md", "lesson": true },
+            { "name": "L2 - Funzioni logaritmiche ed esponenziali", "ext": ".md", "lesson": true },
+            { "name": "L3 - Funzioni trigonometriche", "ext": ".md", "lesson": true },
+            { "name": "L4 - Funzioni con modulo", "ext": ".md", "lesson": true },
+            { "name": "L4A - Funzioni speciali e famiglie", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3 - Zeri e Segno",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Calcolo degli zeri", "ext": ".md", "lesson": true },
+            { "name": "L2 - Valori approssimati", "ext": ".md", "lesson": true },
+            { "name": "L3 - Calcolo del segno", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M08_Limiti",
+      "kind": "module",
+      "counts": {
+        "files": 73,
+        "notes": 31,
+        "pdfs": 0,
+        "code": 0,
+        "images": 42,
+        "other": 0,
+        "lessons": 25
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "imgs",
+          "kind": "section",
+          "counts": {
+            "files": 42,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 0,
+            "images": 42,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": []
+        },
+        {
+          "name": "UD1 - Fondamenti",
+          "kind": "unit",
+          "counts": {
+            "files": 10,
+            "notes": 10,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            {
+              "name": "L1 - Introduzione intuitiva al concetto di limite",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Limiti per x tendente a infinito", "ext": ".md", "lesson": true },
+            { "name": "L3 - Definizione formale di limite", "ext": ".md", "lesson": true },
+            {
+              "name": "L3A - Topologia della retta - intorni e punti di accumulazione",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L3B - Prime dimostrazioni con la definizione e negazione del limite",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L3C - Limiti laterali, limiti infiniti e retta reale estesa",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L3D - Teoremi generali sui limiti - unicita, segno, confronto",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L3E - Criterio sequenziale di Heine e criterio di Cauchy",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L3F - Algebra dei limiti, composizione e forme indeterminate",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L4 - Funzioni continue e limiti delle funzioni elementari",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2 - Calcolo dei limiti",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            {
+              "name": "L1 - Limiti di funzioni razionali per x tendente a un numero",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Limiti di funzioni polinomiali e razionali per x tendente a +- infinito",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Limiti all’infinito con esponenziali e logaritmi – scala di confronto asintotico",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Limiti di funzioni composte e altri strumenti utili",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L5 - Asintoti verticali, orizzontali e obliqui",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L6 - Valore assoluto, funzioni a tratti e limiti con parametri",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3 - Limiti Notevoli",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            {
+              "name": "L1 - Limiti notevoli – introduzione e primi esempi",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Limiti notevoli advanced (magheggi e sostituzioni)",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4 - Argomenti avanzati",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            {
+              "name": "L1 - Errori comuni nel calcolo dei limiti e strumenti avanzati",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Equivalenze asintotiche", "ext": ".md", "lesson": true },
+            { "name": "L3 - Il piccolo-o", "ext": ".md", "lesson": true },
+            { "name": "L4 - Formula di Taylor con resto di Peano", "ext": ".md", "lesson": true },
+            {
+              "name": "L5 - Limiti con Taylor (resto di Peano) — Esempi",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L6 - Ordine di infinitesimo e parte principale",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L7 - Esercizi riepilogativi sui limiti", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD5 - Continuita e teoremi globali",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            {
+              "name": "L1 - Continuita in un punto - definizione e criteri",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Algebra delle funzioni continue e funzioni elementari",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Classificazione delle discontinuita ed estensione continua",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Teorema degli zeri e dei valori intermedi, metodo di bisezione",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L5 - Teorema di Weierstrass e continuita dell'inversa monotona",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L6 - Continuita uniforme, Lipschitz e teorema di Heine-Cantor",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M09_Derivate",
+      "kind": "module",
+      "counts": {
+        "files": 30,
+        "notes": 30,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 30
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1 - Definizione e significato",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L1 - Introduzione alla derivata prima", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Definizione rigorosa, derivate laterali e notazioni",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Retta tangente, retta normale e interpretazione fisica",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L4 - Derivabilita implica continuita", "ext": ".md", "lesson": true },
+            { "name": "L5 - Approssimazione lineare e differenziale", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2 - Regole di derivazione",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            {
+              "name": "L1 - Derivate fondamentali dalla definizione",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Derivate di seno, coseno, esponenziale e logaritmo",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Linearita e regola del prodotto", "ext": ".md", "lesson": true },
+            { "name": "L4 - Derivata del reciproco e del quoziente", "ext": ".md", "lesson": true },
+            { "name": "L5 - Regola della catena", "ext": ".md", "lesson": true },
+            { "name": "L6 - Derivata della funzione inversa", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3 - Derivate delle funzioni elementari",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            {
+              "name": "L1 - Potenze reali, esponenziali e derivazione logaritmica",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Derivate delle funzioni trigonometriche e iperboliche",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Derivate delle inverse trigonometriche e iperboliche",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Valore assoluto e derivazione implicita",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L5 - Derivate successive e classi Ck", "ext": ".md", "lesson": true },
+            { "name": "L6 - Esercizi svolti sulle derivate", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4 - Non derivabilita e raccordi",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Punti di non derivabilita", "ext": ".md", "lesson": true },
+            { "name": "L2 - Continuita e derivabilita - esercizi", "ext": ".md", "lesson": true },
+            { "name": "L3 - Raccordi con parametri e casi sottili", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD5 - Teoremi fondamentali",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L1 - Teorema di Fermat e punti critici", "ext": ".md", "lesson": true },
+            { "name": "L2 - Teorema di Rolle", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Teorema di Lagrange e limite della derivata",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Conseguenze di Lagrange - monotonia e criterio della derivata prima",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L5 - Teorema di Cauchy e teorema di Darboux", "ext": ".md", "lesson": true },
+            { "name": "L6 - Disuguaglianze tramite derivate", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD6 - Ottimizzazione e applicazioni",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Massimi e minimi con le derivate", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Problema di geometria solida (Maturita 2014)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Rettangolo di area massima sotto y = valore assoluto di x^2-1",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L4 - Metodo di Newton e derivazione numerica", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M10_Derivabilita",
+      "kind": "module",
+      "counts": {
+        "files": 14,
+        "notes": 14,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 14
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1 - Raccordo con M09 e ripasso",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Mappa dei prerequisiti da M09", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Esercizi di ripasso su regole, inversa e monotonia",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2 - l'Hopital e applicazioni",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - I teoremi di l'Hopital", "ext": ".md", "lesson": true },
+            { "name": "L2 - Confronto fra infiniti", "ext": ".md", "lesson": true },
+            { "name": "L3 - Calcolo di limiti", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - Esercizi su l'Hopital e forme indeterminate",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3 - Taylor e applicazioni",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L1 - La formula di Taylor", "ext": ".md", "lesson": true },
+            { "name": "L2 - Il resto di Peano", "ext": ".md", "lesson": true },
+            { "name": "L3 - Il resto di Lagrange", "ext": ".md", "lesson": true },
+            { "name": "L4 - Maclaurin", "ext": ".md", "lesson": true },
+            { "name": "L5 - Applicazioni", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4 - Concavita e flessi",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Definizione di concavita", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Determinazione del verso della concavita",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Esercizi su concavita e flessi", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M11_Studio_di_Funzione",
+      "kind": "module",
+      "counts": {
+        "files": 15,
+        "notes": 0,
+        "pdfs": 14,
+        "code": 0,
+        "images": 0,
+        "other": 1,
+        "lessons": 0
+      },
+      "files": [{ "name": "MCS_M11", "ext": ".zip", "lesson": false }],
+      "children": [
+        {
+          "name": "pdf",
+          "kind": "section",
+          "counts": {
+            "files": 14,
+            "notes": 0,
+            "pdfs": 14,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "MCS_M11_U01_L01", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U01_L02", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U01_L03", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U02_L01", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U02_L02", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U02_L03", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U02_L04", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U03_L01", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U03_L02", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U03_L03", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U04_L01", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U04_L02", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U04_L03", "ext": ".pdf", "lesson": false },
+            { "name": "MCS_M11_U04_L04", "ext": ".pdf", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M12_Integrali",
+      "kind": "module",
+      "counts": {
+        "files": 18,
+        "notes": 18,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 18
+      },
+      "files": [
+        { "name": "L01 -  Introduzione agli integrali definiti", "ext": ".md", "lesson": true },
+        {
+          "name": "L02 - Primitive, integrali indefiniti e prime proprieta",
+          "ext": ".md",
+          "lesson": true
+        },
+        {
+          "name": "L03 - Primitive generalizzate e funzioni composte",
+          "ext": ".md",
+          "lesson": true
+        },
+        { "name": "L04 - Integrazione per parti", "ext": ".md", "lesson": true },
+        {
+          "name": "L05 - Integrazione per parti — trucchetto del “per 1” e integrali ciclici",
+          "ext": ".md",
+          "lesson": true
+        },
+        { "name": "L06 - Integrazione per sostituzione", "ext": ".md", "lesson": true },
+        {
+          "name": "L07 - Sostituzione, quando usare dy o quando ricavare dx",
+          "ext": ".md",
+          "lesson": true
+        },
+        {
+          "name": "L08 - Integrali di funzioni razionali “semplici”",
+          "ext": ".md",
+          "lesson": true
+        },
+        {
+          "name": "L09 - Metodo generale per integrare funzioni razionali",
+          "ext": ".md",
+          "lesson": true
+        },
+        {
+          "name": "L10  - Funzioni razionali con fattori “speciali” al denominatore",
+          "ext": ".md",
+          "lesson": true
+        },
+        { "name": "L11 - Integrali – esercizi svolti", "ext": ".md", "lesson": true },
+        {
+          "name": "L12 - Esercizi svolti di Analisi 1 sugli integrali",
+          "ext": ".md",
+          "lesson": true
+        },
+        { "name": "L13 - Integrali e area", "ext": ".md", "lesson": true },
+        { "name": "L14 - Volumi dei solidi di rotazione", "ext": ".md", "lesson": true },
+        { "name": "L15 - Integrali impropri introduzione", "ext": ".md", "lesson": true },
+        {
+          "name": "L16 - Integrali impropri advanced esempi piu elaborati",
+          "ext": ".md",
+          "lesson": true
+        },
+        { "name": "L17 - Integrali impropri convergenza", "ext": ".md", "lesson": true },
+        { "name": "L18 - Integrali impropri esercizi Analisi 1", "ext": ".md", "lesson": true }
+      ],
+      "children": []
+    }
+  ]
+}

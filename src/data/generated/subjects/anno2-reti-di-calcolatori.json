@@ -1,0 +1,1831 @@
+{
+  "slug": "anno2-reti-di-calcolatori",
+  "files": [{ "name": "L0 - Intro all'Insegnamento", "ext": ".md", "lesson": true }],
+  "children": [
+    {
+      "name": "M1_Tecniche_comunicazione_digitale",
+      "kind": "module",
+      "counts": {
+        "files": 124,
+        "notes": 29,
+        "pdfs": 2,
+        "code": 0,
+        "images": 93,
+        "other": 0,
+        "lessons": 28
+      },
+      "files": [{ "name": "Intro_M1", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 28,
+            "notes": 5,
+            "pdfs": 2,
+            "code": 0,
+            "images": 21,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "dispensa_segnali", "ext": ".pdf", "lesson": false },
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Segnali", "ext": ".md", "lesson": true },
+            { "name": "L2 - La rete telefonica", "ext": ".md", "lesson": true },
+            { "name": "L3 - La rete mobile", "ext": ".md", "lesson": true },
+            { "name": "L4 - Multiplexing digitale", "ext": ".md", "lesson": true },
+            { "name": "L5 - domande di fine unita", "ext": ".pdf", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 21,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 21,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 34,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 0,
+            "images": 26,
+            "other": 0,
+            "lessons": 8
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Introduzione al livello Data Link", "ext": ".md", "lesson": true },
+            { "name": "L2 - Il sottolivello MAC", "ext": ".md", "lesson": true },
+            { "name": "L3 - Introduzione a Ethernet", "ext": ".md", "lesson": true },
+            { "name": "L4 - Ethernet – Frame e CSMA-CD", "ext": ".md", "lesson": true },
+            { "name": "L5 - Gestione delle collisioni in Ethernet", "ext": ".md", "lesson": true },
+            { "name": "L6 - Switched Ethernet", "ext": ".md", "lesson": true },
+            { "name": "L7 - VLAN e Trunking", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 26,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 26,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 10,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 7,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - Data Link e Modello ISO OSI", "ext": ".md", "lesson": true },
+            { "name": "L2 - Il modello OSI semplificato", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 7,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 51,
+            "notes": 12,
+            "pdfs": 0,
+            "code": 0,
+            "images": 39,
+            "other": 0,
+            "lessons": 12
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Strutturazione gerarchica delle reti locali e protocollo VTP",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Topologie ridondanti e problemi di broadcast",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Protocollo di Spanning Tree (STP)", "ext": ".md", "lesson": true },
+            { "name": "L4 - Hardware di rete", "ext": ".md", "lesson": true },
+            { "name": "L5 - Schede, connettori e hub", "ext": ".md", "lesson": true },
+            { "name": "L6 - Server, bus e stazioni di lavoro --", "ext": ".md", "lesson": true },
+            { "name": "L7 - I ripetitori e i bridge", "ext": ".md", "lesson": true },
+            { "name": "L8 - Gli switch", "ext": ".md", "lesson": true },
+            { "name": "L9 - Tecnologia di commutazione", "ext": ".md", "lesson": true },
+            { "name": "L10 - I router", "ext": ".md", "lesson": true },
+            { "name": "L11 - Esercitazione fine Unità didattica", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 39,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 39,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M2_Protocolli_rete_TCP_IP",
+      "kind": "module",
+      "counts": {
+        "files": 246,
+        "notes": 57,
+        "pdfs": 25,
+        "code": 0,
+        "images": 164,
+        "other": 0,
+        "lessons": 46
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 10,
+            "notes": 3,
+            "pdfs": 2,
+            "code": 0,
+            "images": 5,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Introduzione al livello di rete", "ext": ".md", "lesson": true },
+            { "name": "L2 - Protocolli del livello di rete", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 5,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            },
+            {
+              "name": "L3 - Esercitazione fine unità",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 2,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "DAM_M2_U1_FINE_UD_DOMANDE", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U1_FINE_UD_EXE", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 33,
+            "notes": 13,
+            "pdfs": 8,
+            "code": 0,
+            "images": 12,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Internet Protocol (IP)", "ext": ".md", "lesson": true },
+            { "name": "L2 - Introduzione alla configurazione IP", "ext": ".md", "lesson": true },
+            { "name": "L3 - Complementi di IP", "ext": ".md", "lesson": true },
+            { "name": "L4 - Progetto di inter-reti", "ext": ".md", "lesson": true },
+            { "name": "L5 - Assegnazione dinamica di indirizzi IP", "ext": ".md", "lesson": true },
+            {
+              "name": "L6 - DHCP (Dynamic Host Configuration Protocol)",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "dispense",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "DAMNO_M2_U2_L1_D", "ext": ".pdf", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 13,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 12,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "DAMNO_M2_U2_L1_D", "ext": ".pdf", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "L7 - Esercitazione Fine Unita",
+              "kind": "section",
+              "counts": {
+                "files": 12,
+                "notes": 6,
+                "pdfs": 6,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "DAM_M2_U2_FINE_UD_DOMANDE", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U2_FINE_UD_EXE_1_SOLUZIONE", "ext": ".md", "lesson": false },
+                { "name": "DAM_M2_U2_FINE_UD_EXE_1", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U2_FINE_UD_EXE_2_SOLUZIONE", "ext": ".md", "lesson": false },
+                { "name": "DAM_M2_U2_FINE_UD_EXE_2", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U2_FINE_UD_EXE_3_SOLUZIONE", "ext": ".md", "lesson": false },
+                { "name": "DAM_M2_U2_FINE_UD_EXE_3", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U2_FINE_UD_EXE_4_SOLUZIONE", "ext": ".md", "lesson": false },
+                { "name": "DAM_M2_U2_FINE_UD_EXE_4", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U2_FINE_UD_EXE_5_SOLUZIONE", "ext": ".md", "lesson": false },
+                { "name": "DAM_M2_U2_FINE_UD_EXE_5", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U2_FINE_UD_SOLUZIONI", "ext": ".md", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 29,
+            "notes": 5,
+            "pdfs": 8,
+            "code": 0,
+            "images": 16,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - Introduzione all’instradamento IP", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - ICMP (Internet Control Message Protocol)",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Address Resolution Protocol (ARP)", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - Introduzione all’instradamento IP Multicast",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 17,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 16,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "DAMNO_M2_U3_L3_D", "ext": ".pdf", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "L5 - Esercitazione fine unita",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 0,
+                "pdfs": 7,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "DAM_M2_U3_FINE_UD_DOMANDE", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U3_FINE_UD_EXE_1", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U3_FINE_UD_EXE_2", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U3_FINE_UD_EXE_3", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U3_FINE_UD_EXE_4", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U3_FINE_UD_EXE_5", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U3_FINE_UD_EXE_6", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 14,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 9,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            { "name": "L1 - Indirizzi pubblici e privati", "ext": ".md", "lesson": true },
+            { "name": "L2 - NAT avanzato", "ext": ".md", "lesson": true },
+            { "name": "L3 - Configurazione NAT", "ext": ".md", "lesson": true },
+            { "name": "L4 - Esercitazione fine unita", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 9,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 9,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD5",
+          "kind": "unit",
+          "counts": {
+            "files": 89,
+            "notes": 15,
+            "pdfs": 5,
+            "code": 0,
+            "images": 69,
+            "other": 0,
+            "lessons": 10
+          },
+          "files": [
+            { "name": "L0 - Intro UD5", "ext": ".md", "lesson": true },
+            { "name": "L1 - Introduzione al controllo d’errore", "ext": ".md", "lesson": true },
+            { "name": "L2 - Efficienza e controllo d’errore", "ext": ".md", "lesson": true },
+            { "name": "L3_1 - Complementi sul controllo d’errore", "ext": ".md", "lesson": false },
+            { "name": "L3_2 - Complementi sul controllo d’errore", "ext": ".md", "lesson": false },
+            { "name": "L3_3 - Complementi sul controllo d’errore", "ext": ".md", "lesson": false },
+            { "name": "L4 - Controllo di flusso TCP", "ext": ".md", "lesson": true },
+            { "name": "L5_1 - Flusso TCP", "ext": ".md", "lesson": false },
+            { "name": "L5_2 - Flusso TCP", "ext": ".md", "lesson": false },
+            { "name": "L6 - Calcolo del timeout TCP", "ext": ".md", "lesson": true },
+            { "name": "L7 - Andamento del RTT", "ext": ".md", "lesson": true },
+            { "name": "L8 - Controllo della congestione", "ext": ".md", "lesson": true },
+            { "name": "L9 - Flusso e congestione TCP", "ext": ".md", "lesson": true },
+            { "name": "L10 - Timeout e decremento moltiplicativo", "ext": ".md", "lesson": true },
+            { "name": "L11 - Fast Retransmit e Fast Recovery", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 70,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 69,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "DAMNO_M2_U5_L4_D", "ext": ".pdf", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "L12 - Esercitazione fine unita",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 4,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "DAM_M2_U5_FINE_UD_DOMANDE", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U5_FINE_UD_EXE_1", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U5_FINE_UD_EXE_2new", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_U5_FINE_UD_EXE_3", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD6",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 5,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD6", "ext": ".md", "lesson": true },
+            { "name": "L1 - User Datagram Protocol (UDP)", "ext": ".md", "lesson": true },
+            { "name": "L2 - UDP e TCP a confronto", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 5,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD7",
+          "kind": "unit",
+          "counts": {
+            "files": 31,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 0,
+            "images": 23,
+            "other": 0,
+            "lessons": 8
+          },
+          "files": [
+            { "name": "L0 - Intro UD7", "ext": ".md", "lesson": true },
+            { "name": "L1 - Richiami di instradamento statico", "ext": ".md", "lesson": true },
+            { "name": "L2 - Instradamento intradominio", "ext": ".md", "lesson": true },
+            { "name": "L3 - Da RIP a OSPF", "ext": ".md", "lesson": true },
+            { "name": "L4 - OSPF avanzato", "ext": ".md", "lesson": true },
+            { "name": "L5 - Metriche OSPF", "ext": ".md", "lesson": true },
+            { "name": "L6 - Instradamento interdominio e BGP", "ext": ".md", "lesson": true },
+            { "name": "L7 - Esercitazione fine unita", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 23,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 23,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD8",
+          "kind": "unit",
+          "counts": {
+            "files": 16,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 13,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD8", "ext": ".md", "lesson": true },
+            { "name": "L1 - IPv6", "ext": ".md", "lesson": true },
+            { "name": "L2 - Indirizzi IPv6", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 13,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 13,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD9",
+          "kind": "unit",
+          "counts": {
+            "files": 16,
+            "notes": 2,
+            "pdfs": 2,
+            "code": 0,
+            "images": 12,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD9", "ext": ".md", "lesson": true },
+            { "name": "L1 - Sicurezza IP (IPsec)", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 12,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 12,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            },
+            {
+              "name": "L2 - Esercitazione fine modulo",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 2,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "DAM_M2_FINE_MODULO_EXE_I", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M2_FINE_MODULO_EXE_II", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M3_Protocolli_applicativi",
+      "kind": "module",
+      "counts": {
+        "files": 132,
+        "notes": 25,
+        "pdfs": 0,
+        "code": 0,
+        "images": 107,
+        "other": 0,
+        "lessons": 24
+      },
+      "files": [{ "name": "Intro M3", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 26,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 21,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Nomi e indirizzi", "ext": ".md", "lesson": true },
+            { "name": "L2 - Caratteristiche del DNS", "ext": ".md", "lesson": true },
+            { "name": "L3 - Complementi sui nomi", "ext": ".md", "lesson": true },
+            { "name": "L4 - Risoluzione dei nomi", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 21,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 21,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 26,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 21,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - FTP (File Transfer Protocol)", "ext": ".md", "lesson": true },
+            { "name": "L2 - Da FTP a Telnet", "ext": ".md", "lesson": true },
+            { "name": "L3 - SMTP – Introduzione", "ext": ".md", "lesson": true },
+            { "name": "L4 - Sistemi P2P (Peer-to-Peer)", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 21,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 21,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 22,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 16,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - SMTP", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - MIME (Multipurpose Internet Mail Extensions)",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - La posta elettronica", "ext": ".md", "lesson": true },
+            { "name": "L4 - Lo spam", "ext": ".md", "lesson": true },
+            { "name": "L5 - Le difficoltà nel combattere lo spam", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 16,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 16,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 40,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 36,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            { "name": "L1 - World Wide Web", "ext": ".md", "lesson": true },
+            { "name": "L2 - HTTP (HyperText Transfer Protocol)", "ext": ".md", "lesson": true },
+            { "name": "L3 - WWW e HTTP", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 36,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 36,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD5",
+          "kind": "unit",
+          "counts": {
+            "files": 17,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 13,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD5", "ext": ".md", "lesson": true },
+            { "name": "L1 - Gestione delle reti", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - SNMP (Simple Network Management Protocol)",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Complementi di SNMP", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 13,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 13,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M4_Tecniche_programmazione_distribuita",
+      "kind": "module",
+      "counts": {
+        "files": 33,
+        "notes": 13,
+        "pdfs": 5,
+        "code": 0,
+        "images": 15,
+        "other": 0,
+        "lessons": 13
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 33,
+            "notes": 13,
+            "pdfs": 5,
+            "code": 0,
+            "images": 15,
+            "other": 0,
+            "lessons": 13
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Interfaccia di programmazione di TCP IP",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Creazione di un socket", "ext": ".md", "lesson": true },
+            { "name": "L3 - Setup di connessione", "ext": ".md", "lesson": true },
+            { "name": "L4 - Funzioni di comunicazione via socket", "ext": ".md", "lesson": true },
+            { "name": "L7 - Socket Java", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 12,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 12,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            },
+            {
+              "name": "L5",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 3,
+                "pdfs": 2,
+                "code": 0,
+                "images": 2,
+                "other": 0,
+                "lessons": 3
+              },
+              "files": [
+                { "name": "DAM_M4_U1_L5_EXE_1", "ext": ".pdf", "lesson": false },
+                { "name": "DAM_M4_U1_L5_EXE_2", "ext": ".pdf", "lesson": false },
+                { "name": "L5 - Codifica degli indirizzi", "ext": ".md", "lesson": true },
+                { "name": "L5.1 - TCPClientEcho", "ext": ".md", "lesson": true },
+                { "name": "L5.2 - TCPServerEcho", "ext": ".md", "lesson": true }
+              ],
+              "children": [
+                {
+                  "name": "imgs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 2,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "L6",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 2,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 2
+              },
+              "files": [
+                { "name": "DAM_M4_U1_L6_EXE_1", "ext": ".pdf", "lesson": false },
+                { "name": "L6 - Select", "ext": ".md", "lesson": true },
+                { "name": "L6.1 - TCPServerEchoSelect", "ext": ".md", "lesson": true }
+              ],
+              "children": []
+            },
+            {
+              "name": "L8",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 2,
+                "pdfs": 1,
+                "code": 0,
+                "images": 1,
+                "other": 0,
+                "lessons": 2
+              },
+              "files": [
+                { "name": "DAMNO_M4_U1_L8_D", "ext": ".pdf", "lesson": false },
+                {
+                  "name": "L8 - Un semplice visualizzatore di header HTTP",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                { "name": "L8.1 - HTTP Viewer Lab", "ext": ".md", "lesson": true }
+              ],
+              "children": []
+            },
+            {
+              "name": "L9 - Esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "M4UD1EsFinale", "ext": ".pdf", "lesson": false }],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M5_Esame",
+      "kind": "module",
+      "counts": {
+        "files": 35,
+        "notes": 14,
+        "pdfs": 1,
+        "code": 3,
+        "images": 3,
+        "other": 14,
+        "lessons": 0
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "esame_5_luglio_2024",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 1,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "soluzioneParteA", "ext": ".md", "lesson": false }],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "esame_8_maggio_2026",
+          "kind": "section",
+          "counts": {
+            "files": 4,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 1,
+            "images": 1,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "proxy", "ext": ".c", "lesson": false },
+            { "name": "soluzioneParteA", "ext": ".md", "lesson": false },
+            { "name": "soluzioneParteB", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "esame_20_marzo_2026",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "soluzioneParteA", "ext": ".md", "lesson": false },
+            { "name": "soluzioneParteB", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "esame_21_marzo_2025",
+          "kind": "section",
+          "counts": {
+            "files": 1,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "soluzioneParteB", "ext": ".md", "lesson": false }],
+          "children": []
+        },
+        {
+          "name": "esame_23_maggio_2025",
+          "kind": "section",
+          "counts": {
+            "files": 4,
+            "notes": 2,
+            "pdfs": 1,
+            "code": 0,
+            "images": 1,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "Reti_23_05_2025", "ext": ".pdf", "lesson": false },
+            { "name": "SoluzioneParteA", "ext": ".md", "lesson": false },
+            { "name": "SoluzioneParteB", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "formulari",
+          "kind": "section",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "formulario_dns", "ext": ".md", "lesson": false },
+            { "name": "formulario_http_analisi", "ext": ".md", "lesson": false },
+            { "name": "formulario_http_download", "ext": ".md", "lesson": false },
+            { "name": "formulario_iptables_esercizi", "ext": ".md", "lesson": false },
+            { "name": "formulario_socket", "ext": ".md", "lesson": false },
+            { "name": "sintassi_iptables", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "implementazione_socket",
+          "kind": "section",
+          "counts": {
+            "files": 16,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 2,
+            "images": 0,
+            "other": 14,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "client1_museo", "ext": "", "lesson": false },
+            { "name": "client1_museo", "ext": ".c", "lesson": false },
+            { "name": "server_museo", "ext": "", "lesson": false },
+            { "name": "server_museo", "ext": ".c", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "client1_museo 2.dSYM",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 0,
+                "other": 3,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "Contents",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 0,
+                    "other": 3,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Info", "ext": ".plist", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Resources",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 0,
+                        "images": 0,
+                        "other": 2,
+                        "lessons": 0
+                      },
+                      "files": [],
+                      "children": [
+                        {
+                          "name": "DWARF",
+                          "kind": "section",
+                          "counts": {
+                            "files": 1,
+                            "notes": 0,
+                            "pdfs": 0,
+                            "code": 0,
+                            "images": 0,
+                            "other": 1,
+                            "lessons": 0
+                          },
+                          "files": [{ "name": "client1_museo", "ext": "", "lesson": false }],
+                          "children": []
+                        },
+                        {
+                          "name": "Relocations",
+                          "kind": "section",
+                          "counts": {
+                            "files": 1,
+                            "notes": 0,
+                            "pdfs": 0,
+                            "code": 0,
+                            "images": 0,
+                            "other": 1,
+                            "lessons": 0
+                          },
+                          "files": [],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "client1_museo.dSYM",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 0,
+                "other": 3,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "Contents",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 0,
+                    "other": 3,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Info", "ext": ".plist", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Resources",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 0,
+                        "images": 0,
+                        "other": 2,
+                        "lessons": 0
+                      },
+                      "files": [],
+                      "children": [
+                        {
+                          "name": "DWARF",
+                          "kind": "section",
+                          "counts": {
+                            "files": 1,
+                            "notes": 0,
+                            "pdfs": 0,
+                            "code": 0,
+                            "images": 0,
+                            "other": 1,
+                            "lessons": 0
+                          },
+                          "files": [{ "name": "client1_museo", "ext": "", "lesson": false }],
+                          "children": []
+                        },
+                        {
+                          "name": "Relocations",
+                          "kind": "section",
+                          "counts": {
+                            "files": 1,
+                            "notes": 0,
+                            "pdfs": 0,
+                            "code": 0,
+                            "images": 0,
+                            "other": 1,
+                            "lessons": 0
+                          },
+                          "files": [],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "server_museo 2.dSYM",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 0,
+                "other": 3,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "Contents",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 0,
+                    "other": 3,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Info", "ext": ".plist", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Resources",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 0,
+                        "images": 0,
+                        "other": 2,
+                        "lessons": 0
+                      },
+                      "files": [],
+                      "children": [
+                        {
+                          "name": "DWARF",
+                          "kind": "section",
+                          "counts": {
+                            "files": 1,
+                            "notes": 0,
+                            "pdfs": 0,
+                            "code": 0,
+                            "images": 0,
+                            "other": 1,
+                            "lessons": 0
+                          },
+                          "files": [{ "name": "server_museo", "ext": "", "lesson": false }],
+                          "children": []
+                        },
+                        {
+                          "name": "Relocations",
+                          "kind": "section",
+                          "counts": {
+                            "files": 1,
+                            "notes": 0,
+                            "pdfs": 0,
+                            "code": 0,
+                            "images": 0,
+                            "other": 1,
+                            "lessons": 0
+                          },
+                          "files": [],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "server_museo.dSYM",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 0,
+                "other": 3,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "Contents",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 0,
+                    "other": 3,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Info", "ext": ".plist", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Resources",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 0,
+                        "images": 0,
+                        "other": 2,
+                        "lessons": 0
+                      },
+                      "files": [],
+                      "children": [
+                        {
+                          "name": "DWARF",
+                          "kind": "section",
+                          "counts": {
+                            "files": 1,
+                            "notes": 0,
+                            "pdfs": 0,
+                            "code": 0,
+                            "images": 0,
+                            "other": 1,
+                            "lessons": 0
+                          },
+                          "files": [{ "name": "server_museo", "ext": "", "lesson": false }],
+                          "children": []
+                        },
+                        {
+                          "name": "Relocations",
+                          "kind": "section",
+                          "counts": {
+                            "files": 1,
+                            "notes": 0,
+                            "pdfs": 0,
+                            "code": 0,
+                            "images": 0,
+                            "other": 1,
+                            "lessons": 0
+                          },
+                          "files": [],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M6_Recaps",
+      "kind": "module",
+      "counts": {
+        "files": 6,
+        "notes": 5,
+        "pdfs": 1,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [
+        {
+          "name": "Eserciziario A - Reti Di Calcolatori - Enhanced",
+          "ext": ".pdf",
+          "lesson": false
+        },
+        { "name": "RECAP_01_M1_Fisico_DataLink", "ext": ".md", "lesson": false },
+        { "name": "RECAP_02_M2_IP_routing_ARP_DHCP", "ext": ".md", "lesson": false },
+        { "name": "RECAP_03_M2_TCP_UDP", "ext": ".md", "lesson": false },
+        { "name": "RECAP_04_Routing_dinamico_IPv6_IPsec", "ext": ".md", "lesson": false },
+        { "name": "RECAP_05_Esercizi_template", "ext": ".md", "lesson": false }
+      ],
+      "children": []
+    },
+    {
+      "name": "Progetti",
+      "kind": "section",
+      "counts": {
+        "files": 60,
+        "notes": 7,
+        "pdfs": 1,
+        "code": 29,
+        "images": 9,
+        "other": 14,
+        "lessons": 2
+      },
+      "files": [
+        { "name": "L1 - Progetto Integrativo - Regole e Opzioni", "ext": ".md", "lesson": true },
+        { "name": "L2 - Progetto Router IPv4 in C - Design", "ext": ".md", "lesson": true },
+        { "name": "progetti", "ext": ".txt", "lesson": false }
+      ],
+      "children": [
+        {
+          "name": "router_ipv4_C",
+          "kind": "section",
+          "counts": {
+            "files": 57,
+            "notes": 5,
+            "pdfs": 1,
+            "code": 29,
+            "images": 9,
+            "other": 13,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "", "ext": "", "lesson": false },
+            { "name": "Makefile", "ext": "", "lesson": false },
+            { "name": "README", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "conf",
+              "kind": "section",
+              "counts": {
+                "files": 8,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 0,
+                "other": 8,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "r1_static", "ext": ".conf", "lesson": false },
+                { "name": "r1", "ext": ".conf", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "frr",
+                  "kind": "section",
+                  "counts": {
+                    "files": 6,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 0,
+                    "other": 6,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": [
+                    {
+                      "name": "r2",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 0,
+                        "images": 0,
+                        "other": 2,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "ripd", "ext": ".conf", "lesson": false },
+                        { "name": "zebra", "ext": ".conf", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "r3",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 0,
+                        "images": 0,
+                        "other": 2,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "ripd", "ext": ".conf", "lesson": false },
+                        { "name": "zebra", "ext": ".conf", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "r4",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 0,
+                        "images": 0,
+                        "other": 2,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "ripd", "ext": ".conf", "lesson": false },
+                        { "name": "zebra", "ext": ".conf", "lesson": false }
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "imunes",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 1,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "deploy_crouter", "ext": ".sh", "lesson": false },
+                { "name": "r1", "ext": ".conf", "lesson": false },
+                { "name": "README", "ext": ".md", "lesson": false },
+                { "name": "topo", "ext": ".imn", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "relazione",
+              "kind": "section",
+              "counts": {
+                "files": 16,
+                "notes": 3,
+                "pdfs": 1,
+                "code": 2,
+                "images": 9,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "build_pdf", "ext": ".sh", "lesson": false },
+                { "name": "cheatsheet_comandi", "ext": ".md", "lesson": false },
+                { "name": "presentazione_orale", "ext": ".md", "lesson": false },
+                { "name": "relazione", "ext": ".md", "lesson": false },
+                { "name": "relazione", "ext": ".pdf", "lesson": false },
+                { "name": "stile", "ext": ".css", "lesson": false },
+                { "name": "topologia", "ext": ".dot", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "img",
+                  "kind": "section",
+                  "counts": {
+                    "files": 9,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 9,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "src",
+              "kind": "section",
+              "counts": {
+                "files": 20,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 20,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "arp", "ext": ".c", "lesson": false },
+                { "name": "arp", "ext": ".h", "lesson": false },
+                { "name": "common", "ext": ".h", "lesson": false },
+                { "name": "config", "ext": ".c", "lesson": false },
+                { "name": "config", "ext": ".h", "lesson": false },
+                { "name": "forward", "ext": ".c", "lesson": false },
+                { "name": "forward", "ext": ".h", "lesson": false },
+                { "name": "icmp", "ext": ".c", "lesson": false },
+                { "name": "icmp", "ext": ".h", "lesson": false },
+                { "name": "log", "ext": ".c", "lesson": false },
+                { "name": "log", "ext": ".h", "lesson": false },
+                { "name": "main", "ext": ".c", "lesson": false },
+                { "name": "netio", "ext": ".c", "lesson": false },
+                { "name": "netio", "ext": ".h", "lesson": false },
+                { "name": "parse", "ext": ".c", "lesson": false },
+                { "name": "parse", "ext": ".h", "lesson": false },
+                { "name": "rib", "ext": ".c", "lesson": false },
+                { "name": "rib", "ext": ".h", "lesson": false },
+                { "name": "ripd", "ext": ".c", "lesson": false },
+                { "name": "ripd", "ext": ".h", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "test",
+              "kind": "section",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 6,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "demo", "ext": ".sh", "lesson": false },
+                { "name": "offload", "ext": ".sh", "lesson": false },
+                { "name": "run_rip", "ext": ".sh", "lesson": false },
+                { "name": "topo", "ext": ".sh", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "scenari",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "fuzz", "ext": ".py", "lesson": false },
+                    { "name": "guasto_link", "ext": ".sh", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

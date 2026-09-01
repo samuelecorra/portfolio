@@ -1,0 +1,3883 @@
+{
+  "slug": "anno1-programmazione-web-mobile",
+  "files": [],
+  "children": [
+    {
+      "name": "1_CorsoCompletoHTML5",
+      "kind": "section",
+      "counts": {
+        "files": 117,
+        "notes": 111,
+        "pdfs": 0,
+        "code": 2,
+        "images": 4,
+        "other": 0,
+        "lessons": 111
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "M01_Fondamenti",
+          "kind": "module",
+          "counts": {
+            "files": 17,
+            "notes": 14,
+            "pdfs": 0,
+            "code": 1,
+            "images": 2,
+            "other": 0,
+            "lessons": 14
+          },
+          "files": [
+            { "name": "L01-HowWebWorks", "ext": ".md", "lesson": true },
+            { "name": "L02 - Che cos’è realmente una pagina HTML", "ext": ".md", "lesson": true },
+            { "name": "L03 - Che cos’è davvero un sito web", "ext": ".md", "lesson": true },
+            {
+              "name": "L04 - Come funzionano i motori di ricerca e perché riguardano l’HTML",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L05 - Installazione di VSCode e config dell’ambiente di lavoro",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L06 - Scorciatoie fondamentali in Visual Studio Code",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L07 - La struttura basica di una pagina HTML",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L08 - Elementi, tag e attributi in HTML", "ext": ".md", "lesson": true },
+            {
+              "name": "L09 -  Elementi block ed elementi inline in HTML",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L10 - Il tag head in HTML", "ext": ".md", "lesson": true },
+            { "name": "L11 - Gli headings (h1–h6) nel body", "ext": ".md", "lesson": true },
+            { "name": "L12 - Il paragrafo p e la scrittura sul web", "ext": ".md", "lesson": true },
+            {
+              "name": "L13 - L’attributo lang sul documento e sugli elementi",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L14 - Esercizio 1 – Prima pagina HTML completa",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "esercizio_1finale",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 2,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "index", "ext": ".html", "lesson": false }],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "M02_Formattazione_Testo",
+          "kind": "module",
+          "counts": {
+            "files": 11,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 1,
+            "images": 2,
+            "other": 0,
+            "lessons": 8
+          },
+          "files": [
+            {
+              "name": "L01 - Formattazione del testo – enfasi, grassetto, evidenziazione",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L02 - Esercizio 2 – Formattazione del testo sull’Esercizio 1",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L03 - Commenti in HTML", "ext": ".md", "lesson": true },
+            { "name": "L04 - Liste ordinate e non ordinate in HTML", "ext": ".md", "lesson": true },
+            { "name": "L05 - Liste descrittive (dl, dt, dd)", "ext": ".md", "lesson": true },
+            {
+              "name": "L06 - Le citazioni in HTML - blockquote, q, cite e l’attributo cite",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L07 - Altri elementi fondamentali per la formattazione del testo in HTML",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L08 - Esercizio 3 - Formattazione avanzata HTML",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "esercizio_2",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 2,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "index", "ext": ".html", "lesson": false }],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "M03_Collegamenti_Ipertestuali",
+          "kind": "module",
+          "counts": {
+            "files": 9,
+            "notes": 9,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 9
+          },
+          "files": [
+            {
+              "name": "L01 - Introduzione ai collegamenti ipertestuali",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L02 - Testo dei link – buone e cattive pratiche",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L03 - Percorsi assoluti e percorsi relativi", "ext": ".md", "lesson": true },
+            { "name": "L04 - Link e-mail e telefono", "ext": ".md", "lesson": true },
+            {
+              "name": "L05 - Fragment di documento e fragment di testo",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L06 - Attributo rel nei link HTML", "ext": ".md", "lesson": true },
+            {
+              "name": "L07 - Esercizio 4 – Ripasso link, fragment, mailto, rel e tag",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L08 - Il menù di navigazione nav, liste e link)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L09 - Esercizio 5 – Creare un menu completo e replicarlo su tutte le pagine",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "M04_Immagini_e_Multimedia",
+          "kind": "module",
+          "counts": {
+            "files": 20,
+            "notes": 20,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 20
+          },
+          "files": [
+            {
+              "name": "L01 - Intro ad img - Immagini e accessibilità",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L02 - Copyright, Licenze e Buone Pratiche per l’Uso delle Immagini sul Web",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L03 - Formati delle Immagini e Supporto dei Browser",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L04 - Immagini, Performance e SEO", "ext": ".md", "lesson": true },
+            { "name": "L05 - Lazy Loading", "ext": ".md", "lesson": true },
+            {
+              "name": "L06 - Immagini di Sfondo - Perché non si fanno in HTML",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L07 - Image Mapping", "ext": ".md", "lesson": true },
+            {
+              "name": "L08 - Esercizio 6 – Testo e immagini (con image map)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L09 - L’elemento figure e la descrizione semantica dei contenuti multimediali",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L10 - L’elemento picture", "ext": ".md", "lesson": true },
+            { "name": "L11 - Esercizio 7", "ext": ".md", "lesson": true },
+            { "name": "L12 - L’elemento video", "ext": ".md", "lesson": true },
+            { "name": "L13 - L’elemento audio", "ext": ".md", "lesson": true },
+            { "name": "L14 - Sottotitoli nei video HTML con track", "ext": ".md", "lesson": true },
+            { "name": "L15 - Esercizio 8", "ext": ".md", "lesson": true },
+            { "name": "L16 - L’elemento iframe", "ext": ".md", "lesson": true },
+            { "name": "L17 - Incorporare Video YouTube con iframe", "ext": ".md", "lesson": true },
+            { "name": "L18 - Immagini Vettoriali (SVG)", "ext": ".md", "lesson": true },
+            { "name": "L19 - Icone SVG e librerie di icone nel web", "ext": ".md", "lesson": true },
+            { "name": "L20 - Esercizio 9", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M05_Tabelle",
+          "kind": "module",
+          "counts": {
+            "files": 10,
+            "notes": 10,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 10
+          },
+          "files": [
+            { "name": "L01 - Introduzione alle Tabelle in HTML", "ext": ".md", "lesson": true },
+            {
+              "name": "L02 - Aggiungere l’Header della Tabella (th)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L03 - Colspan e Rowspan - Unire Celle in Orizzontale e Verticale",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L04 - col e colgroup - Stilare Intere Colonne con HTML",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L05 - Esercizio 10", "ext": ".md", "lesson": true },
+            {
+              "name": "L06 - caption - Dare un Titolo alla Tabella e Aumentare l’Accessibilità",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L07 - thead, tbody e tfoot - Strutturare la Tabella in Sezioni Semantiche",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L08 - Tabelle annidate - perché esistono, come si fanno, e perché evitarle",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L09 - Accessibilità avanzata delle tabelle - Scope e Headers-ID",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L10 - Esercizio 11", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M06_Debug_Codice",
+          "kind": "module",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            {
+              "name": "L01 - Debug del codice - Introduzione alla Chrome Developer Tool",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L02 - Validazione del codice HTML", "ext": ".md", "lesson": true },
+            {
+              "name": "L03 - Debug HTML - trovare e fixare i common mistakes",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "M07_Form",
+          "kind": "module",
+          "counts": {
+            "files": 18,
+            "notes": 18,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 18
+          },
+          "files": [
+            { "name": "L01 - Introduzione ai form HTML", "ext": ".md", "lesson": true },
+            {
+              "name": "L02 - La struttura pratica di un form in HTML",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L03 - Struttura del form – come organizzare un form complesso",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L04 - Struttura di un form control", "ext": ".md", "lesson": true },
+            {
+              "name": "L05 - I primi input type – text, password, email, hidden",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L06 - I campi numerici – number, tel, range", "ext": ".md", "lesson": true },
+            { "name": "L07 - I campi data e ora", "ext": ".md", "lesson": true },
+            { "name": "L08 - I campi color e search", "ext": ".md", "lesson": true },
+            { "name": "L09 - Le checkbox - la scelta inclusiva", "ext": ".md", "lesson": true },
+            { "name": "L10 - I Radio Button – la scelta esclusiva", "ext": ".md", "lesson": true },
+            {
+              "name": "L11 - Il campo file – caricamento di uno o più file, filtri, formati e periferiche",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L12 - I bottoni (submit, reset, button) e il pulsante immagine (input type image)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L13 - La Textarea — il campo per testi lunghi",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L14 - Le Select - menu a tendina, gruppi, valori e selezioni multiple",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L15 - Le Datalist — input con suggerimenti e autocompletamento",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L16 - Progress Bar e Meter — gli ultimi due elementi dei form",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L17 - Esercizio 12", "ext": ".md", "lesson": true },
+            { "name": "L18 - Esercizio 13", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M08_Struttura_PaginaWEB",
+          "kind": "module",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L01 - Analisi del layout delle pagine web", "ext": ".md", "lesson": true },
+            { "name": "L02 - Elementi semantici HTML", "ext": ".md", "lesson": true },
+            { "name": "L03 - div e span - Elementi non semantici", "ext": ".md", "lesson": true },
+            { "name": "L04 - Classi e ID", "ext": ".md", "lesson": true },
+            { "name": "L05 - Elementi br e hr nel layout", "ext": ".md", "lesson": true },
+            { "name": "L06 - Esercizio 14", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M09_ResponsiveDesign",
+          "kind": "module",
+          "counts": {
+            "files": 1,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L01 - Introduzione al Responsive Design", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M10_Accessibilita",
+          "kind": "module",
+          "counts": {
+            "files": 7,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L01 - Introduzione all’Accessibilità", "ext": ".md", "lesson": true },
+            {
+              "name": "L02 - Le Regole Fondamentali dell’Accessibilità",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L03 - I migliori Screen Reader gratuiti sul Chrome Web Store",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L04 - Che cos’è WAI-ARIA", "ext": ".md", "lesson": true },
+            { "name": "L05 - Come usare ARIA nella pratica", "ext": ".md", "lesson": true },
+            { "name": "L06 - Accessibilità dei file multimediali", "ext": ".md", "lesson": true },
+            { "name": "L07 - Accessibilità da Mobile", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M11_AttributiExtra",
+          "kind": "module",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            {
+              "name": "L01 - Attributi Extra - Gli Eventi sulla Pagina",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L02 - Attributi Extra - Drag & Drop", "ext": ".md", "lesson": true },
+            { "name": "L03 - Attributi Personalizzati (data-)", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M12_ConcettiFinali",
+          "kind": "module",
+          "counts": {
+            "files": 12,
+            "notes": 12,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 12
+          },
+          "files": [
+            { "name": "L01 - Minificazione", "ext": ".md", "lesson": true },
+            {
+              "name": "L02 - HTML nelle email - un settore che quasi nessuno conosce",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L03 - Esercizio 15", "ext": ".md", "lesson": true },
+            {
+              "name": "L04 - Mettere online il sito con Altervista e FileZilla",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L05 - Struttura finale del sito - i tre file fondamentali",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L06 - Creazione del file robots.txt", "ext": ".md", "lesson": true },
+            { "name": "L07 - La Sitemap.xml", "ext": ".md", "lesson": true },
+            { "name": "L08 - Il file .htaccess", "ext": ".md", "lesson": true },
+            { "name": "L09 - CDN (Content Delivery Network)", "ext": ".md", "lesson": true },
+            { "name": "L10 - A cosa serve CSS", "ext": ".md", "lesson": true },
+            { "name": "L11 - A cosa serve JavaScript", "ext": ".md", "lesson": true },
+            { "name": "L12 - Chiusura del Corso HTML", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "2_CorsoCompletoCSS3",
+      "kind": "section",
+      "counts": {
+        "files": 138,
+        "notes": 138,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 138
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "M01 - Fondamenti",
+          "kind": "module",
+          "counts": {
+            "files": 14,
+            "notes": 14,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 14
+          },
+          "files": [
+            { "name": "L01 - Introduzione al CSS", "ext": ".md", "lesson": true },
+            {
+              "name": "L02 - Installare Visual Studio Code e configurare",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L03 - Shortcut essenziali per VSCode", "ext": ".md", "lesson": true },
+            {
+              "name": "L04 -  Il CSS di default del browser (User Agent Stylesheet)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L05 - I quattro modi per inserire CSS in una pagina HTML",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L06 - Come il browser carica e processa il CSS",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L07 - Che cos’è il DOM (Document Object Model)",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L08 - Sintassi base del CSS", "ext": ".md", "lesson": true },
+            {
+              "name": "L09 - Commenti in CSS - come funzionano e perché sono indispensabili",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L10 - Il principio della Cascata nel CSS", "ext": ".md", "lesson": true },
+            { "name": "L11 - Ereditarietà in CSS", "ext": ".md", "lesson": true },
+            { "name": "L12 - Specificità in CSS", "ext": ".md", "lesson": true },
+            {
+              "name": "L13 - Developer Tools di Chrome per HTML e CSS",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L14 - Esercizio 1", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M02 - Selettori",
+          "kind": "module",
+          "counts": {
+            "files": 12,
+            "notes": 12,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 12
+          },
+          "files": [
+            { "name": "L01 - Introduzione ai Selettori CSS", "ext": ".md", "lesson": true },
+            { "name": "L02 - Il Selettore Globale", "ext": ".md", "lesson": true },
+            { "name": "L03 - I Selettori di Elemento (tag)", "ext": ".md", "lesson": true },
+            { "name": "L04 - I Selettori di ID", "ext": ".md", "lesson": true },
+            { "name": "L05 - Il Selettore di Classe (.classe)", "ext": ".md", "lesson": true },
+            { "name": "L06 - Liste di selettori", "ext": ".md", "lesson": true },
+            { "name": "L07 - Esercizio 2", "ext": ".md", "lesson": true },
+            { "name": "L08 - I Selettori di Attributo", "ext": ".md", "lesson": true },
+            { "name": "L09 - Pseudoclassi e Pseudoelementi", "ext": ".md", "lesson": true },
+            { "name": "L10 - Combinatori dei selettori CSS", "ext": ".md", "lesson": true },
+            { "name": "L11 - Esercizio 3", "ext": ".md", "lesson": true },
+            { "name": "L12 - Esercizio 4", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M03 - Stili e Colori",
+          "kind": "module",
+          "counts": {
+            "files": 12,
+            "notes": 12,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 12
+          },
+          "files": [
+            {
+              "name": "L01 - Stile e colori - tipi di colori in CSS",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L02 - Le nuove unità di misura dei colori - HVB, Lab e LCH",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L03 - Psicologia dei colori nel Web Design", "ext": ".md", "lesson": true },
+            {
+              "name": "L04 - Palette di Colori e Schema Cromatico nel Web Design",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L05 - Dark Mode (Modalità Scura) nel Web Design",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L06 - Background, Background-Color e Gradienti in CSS",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L07 - Contrasto tra colori e accessibilità", "ext": ".md", "lesson": true },
+            {
+              "name": "L08 - Immagini di sfondo - background-image & co.",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L09 - I Bordi in CSS (border, direction, radius)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L10 - Outline in CSS (outline, offset, differenze dai bordi)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L11 - Box-Shadow in CSS (ombra esterna, interna, blur, spread, offset)",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L12 - Esercizio 5", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M04 - Dimensioni, Spazi ed UDM",
+          "kind": "module",
+          "counts": {
+            "files": 9,
+            "notes": 9,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 9
+          },
+          "files": [
+            {
+              "name": "L01 - Box Model, Box-Sizing e calcolo delle dimensioni",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L02 - Margine (margin)", "ext": ".md", "lesson": true },
+            {
+              "name": "L03 - Padding - la dimensione interna del box",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L04 - Width, Height, Min, Max e comportamento automatico",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L05 - Esercizio 6", "ext": ".md", "lesson": true },
+            { "name": "L06 - Unità di misura in CSS", "ext": ".md", "lesson": true },
+            { "name": "L07 - Nuove unità di misura del 2022", "ext": ".md", "lesson": true },
+            { "name": "L08 - Esercizio 7", "ext": ".md", "lesson": true },
+            { "name": "L09 - Dimensioni e margini inline", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M05 - Testo",
+          "kind": "module",
+          "counts": {
+            "files": 11,
+            "notes": 11,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 11
+          },
+          "files": [
+            {
+              "name": "L01 - Font Family - Le Famiglie Tipografiche e i Font Safe-Web",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L02 - Copyright dei Font - Cosa Puoi Usare e Cosa No",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L03 - Web Font (Google Fonts) - Come importarli e usarli nel progetto",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L04 - Come abbinare i font in modo corretto", "ext": ".md", "lesson": true },
+            { "name": "L05 - Psicologia dei font", "ext": ".md", "lesson": true },
+            { "name": "L06 - Stili dei Font in CSS", "ext": ".md", "lesson": true },
+            {
+              "name": "L07 - Direzione del Testo (writing-mode e direction)",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L08 - Text-Shadow", "ext": ".md", "lesson": true },
+            { "name": "L09 - Text Layout", "ext": ".md", "lesson": true },
+            { "name": "L10 - Overflow", "ext": ".md", "lesson": true },
+            { "name": "L11 - Esercizio 8", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M06 - Stile di altri Elementi",
+          "kind": "module",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L01 - Stile dei Link e Pseudo-Classi", "ext": ".md", "lesson": true },
+            { "name": "L02 - Accessibilità dei Link Esterni", "ext": ".md", "lesson": true },
+            { "name": "L03 - Stile delle Liste", "ext": ".md", "lesson": true },
+            { "name": "L04 - Stile delle Tabelle", "ext": ".md", "lesson": true },
+            { "name": "L05 - Esercizio 9", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M07 - Posizionamento",
+          "kind": "module",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L01 - Display e visibilità degli elementi", "ext": ".md", "lesson": true },
+            { "name": "L02 -  La proprietà position", "ext": ".md", "lesson": true },
+            { "name": "L03 - Lo z-index", "ext": ".md", "lesson": true },
+            {
+              "name": "L04 - La proprietà float e la gestione del testo attorno alle immagini",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L05 - object-fit e il ridimensionamento intelligente delle immagini",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L06 -Esercizio 10", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M08 - Hack",
+          "kind": "module",
+          "counts": {
+            "files": 1,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            {
+              "name": "L01 - Hacking CSS - capire cosa puoi fare e cosa non puoi fare con HTML-CSS",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "M09 - Animazioni",
+          "kind": "module",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            {
+              "name": "L01 - Transform, tutte le trasformazioni base del CSS",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L02 - Transition - rendere fluido il passaggio tra due stati",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L03 -  Animation - il cuore delle animazioni in CSS",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L04 - Esercizio 11", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M10 - Layout",
+          "kind": "module",
+          "counts": {
+            "files": 9,
+            "notes": 9,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 9
+          },
+          "files": [
+            { "name": "L01 - Introduzione ai Layout", "ext": ".md", "lesson": true },
+            { "name": "L02 - Normal Flow Layout", "ext": ".md", "lesson": true },
+            { "name": "L03 - Grid Layout", "ext": ".md", "lesson": true },
+            {
+              "name": "L04 - Masonry layout – che cos’è e perché te lo cito solo di passaggio",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L05 - Esercizio 12", "ext": ".md", "lesson": true },
+            { "name": "L06 - Multicolumn Layout", "ext": ".md", "lesson": true },
+            { "name": "L07 - Esercizio 13", "ext": ".md", "lesson": true },
+            { "name": "L08 - FlexBox", "ext": ".md", "lesson": true },
+            { "name": "L09 - Esercizio 14", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M11 - ResponsiveDesign",
+          "kind": "module",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L01 - Introduzione al Responsive Design", "ext": ".md", "lesson": true },
+            {
+              "name": "L02 - DevTools e Responsive Design - come testarli correttamente",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L03 - Che cosa sono le media query", "ext": ".md", "lesson": true },
+            { "name": "L04 - Esercizio 15", "ext": ".md", "lesson": true },
+            { "name": "L05 - Media query vs container query", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M12 - Form",
+          "kind": "module",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L01 - Stilizzare i form", "ext": ".md", "lesson": true },
+            {
+              "name": "L02 - Checkbox personalizzate - l’escamotage classico",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L03 - Pseudoclassi per i form", "ext": ".md", "lesson": true },
+            { "name": "L04 - Esercizio 16", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M13 - Altri Concetti",
+          "kind": "module",
+          "counts": {
+            "files": 10,
+            "notes": 10,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 10
+          },
+          "files": [
+            { "name": "L01 - Funzioni in CSS", "ext": ".md", "lesson": true },
+            { "name": "L02 - Variabili e funzione var() in CSS", "ext": ".md", "lesson": true },
+            { "name": "L03 - Pseudoclassi di selezione", "ext": ".md", "lesson": true },
+            { "name": "L04 - Pseudoclasse is", "ext": ".md", "lesson": true },
+            { "name": "L05 - Pseudoclasse not", "ext": ".md", "lesson": true },
+            { "name": "L06 - Pseudoclasse has", "ext": ".md", "lesson": true },
+            {
+              "name": "L07 - @supports e il nuovo mondo della Baseline CSS",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L08 - Personalizzare la scrollbar in CSS", "ext": ".md", "lesson": true },
+            {
+              "name": "L09 - Struttura del codice CSS – Metodo BEM (Block, Element, Modifier)",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L10 - Proprietà filter in CSS", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M14 - Performance",
+          "kind": "module",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L01 - Critical Rendering Path", "ext": ".md", "lesson": true },
+            { "name": "L02 - Render Blocking CSS", "ext": ".md", "lesson": true },
+            { "name": "L03 - Critical CSS", "ext": ".md", "lesson": true },
+            { "name": "L04 - Minificazione di HTML e CSS", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M15 - Framework CSS",
+          "kind": "module",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L01 - Introduzione ai Framework CSS", "ext": ".md", "lesson": true },
+            { "name": "L02 - Cosa sono (davvero) i framework CSS", "ext": ".md", "lesson": true },
+            {
+              "name": "L03 - Bootstrap vs Tailwind – due filosofie opposte di CSS",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L04 - Bootstrap pratico – prima infarinatura",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L05 - Tailwind CSS – prima infarinatura pratica",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L06 - Componenti e ecosistema Tailwind", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M16 - Concetti di Web Design",
+          "kind": "module",
+          "counts": {
+            "files": 16,
+            "notes": 16,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 16
+          },
+          "files": [
+            { "name": "L01 - Sezione Web Design – Introduzione", "ext": ".md", "lesson": true },
+            { "name": "L02 - Flat Design vs Material Design", "ext": ".md", "lesson": true },
+            {
+              "name": "L03 - L’accordion (componente “collassabile”)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L04 - Gli Alert (messaggi di avviso, successo, errore, informazione)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L05 - I Badge (etichette, numerini, indicatori di stato)",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L06 - Le Breadcrumb (le “briciole di pane”)", "ext": ".md", "lesson": true },
+            {
+              "name": "L07 - I Bottoni (tutti i tipi, tutti gli stili, come riconoscerli e quando usarli)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L08 - Le Card (il componente più diffuso del web moderno)",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L09 - Il Carosello (Carousel)", "ext": ".md", "lesson": true },
+            { "name": "L10 - Il Collapse", "ext": ".md", "lesson": true },
+            { "name": "L11 - Drawer, Sidebar e Navigation Drawer", "ext": ".md", "lesson": true },
+            { "name": "L12 - Modale - Dialog", "ext": ".md", "lesson": true },
+            { "name": "L13 - Navbar (Navigation Bar)", "ext": ".md", "lesson": true },
+            { "name": "L14 - Tabs", "ext": ".md", "lesson": true },
+            { "name": "L15 - La Paginazione", "ext": ".md", "lesson": true },
+            { "name": "L16 - Macro blocchi di design di un sito web", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M17 - PreProcessori",
+          "kind": "module",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            {
+              "name": "L01 - Che cosa sono i preprocessori CSS e perché esistono",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L02 - I Preprocessori quali sono, cosa fanno e che differenze hanno",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L03 - Sass vs SCSS", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M18 - Fine Corso",
+          "kind": "module",
+          "counts": {
+            "files": 7,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L01 - Annotazione EMMET", "ext": ".md", "lesson": true },
+            { "name": "L02 - Esercizio 17 pt1", "ext": ".md", "lesson": true },
+            { "name": "L03 -  Esercizio 17 pt2", "ext": ".md", "lesson": true },
+            { "name": "L04 - Esercizio 17 pt3", "ext": ".md", "lesson": true },
+            {
+              "name": "L05 - Dallo sviluppo al deploy – come mettere online la tua landing page",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L06 - E a cosa serve JS dunque...", "ext": ".md", "lesson": true },
+            { "name": "L07 - Prossimi steps da muovere...", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "3_CorsoCompletoJS",
+      "kind": "section",
+      "counts": {
+        "files": 139,
+        "notes": 139,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 139
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "M01_IntroCorso",
+          "kind": "module",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L01 - Introduzione a JavaScript", "ext": ".md", "lesson": true },
+            { "name": "L02 - Che cosa possiamo fare con JavaScript", "ext": ".md", "lesson": true },
+            { "name": "L03 - JavaScript moderno e versioni", "ext": ".md", "lesson": true },
+            {
+              "name": "L04 - Installare e configurare Visual Studio Code",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "M02_Fondamenti",
+          "kind": "module",
+          "counts": {
+            "files": 59,
+            "notes": 59,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 59
+          },
+          "files": [
+            {
+              "name": "L01 - Come inserire JavaScript in una pagina HTML",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L02 - Sintassi base di JavaScript", "ext": ".md", "lesson": true },
+            {
+              "name": "L03 - Istruzioni, espressioni, dichiarazioni e blocchi",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L04 - Le variabili in JavaScript", "ext": ".md", "lesson": true },
+            {
+              "name": "L05 - Nomenclatura delle variabili e differenza tra let e var",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L06 - Costanti in JavaScript", "ext": ".md", "lesson": true },
+            { "name": "L07 - Esercizio Variabili", "ext": ".md", "lesson": true },
+            { "name": "L08 - Commenti in JavaScript", "ext": ".md", "lesson": true },
+            { "name": "L09 - Tipi di dato in JavaScript", "ext": ".md", "lesson": true },
+            {
+              "name": "L10 - Conversione e Coercizione dei tipi di dato in JavaScript",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L11 - Esercizio tipi di dato", "ext": ".md", "lesson": true },
+            {
+              "name": "L12 - Numeri e operatori aritmetici in JavaScript",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L13 - Precedenza degli operatori in JavaScript",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L14 - Metodi e proprietà dei numeri in JavaScript",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L15 - Il tipo di dato BigInt in JavaScript", "ext": ".md", "lesson": true },
+            {
+              "name": "L16 - Gli operatori di assegnazione in JavaScript",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L17 - Esercizio Numeri", "ext": ".md", "lesson": true },
+            {
+              "name": "L18 - Introduzione alle stringhe in JavaScript",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L19 - Concatenazione e primi metodi delle stringhe",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L20 - Metodi di ricerca sulle stringhe in JavaScript",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L21 - Template Literals in JavaScript", "ext": ".md", "lesson": true },
+            { "name": "L22 - Esercizio Stringhe", "ext": ".md", "lesson": true },
+            { "name": "L23 - Introduzione agli Array in JavaScript", "ext": ".md", "lesson": true },
+            {
+              "name": "L24 - Metodi degli array – Parte 1 (manipolazione di base)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L25 - Metodi degli array – Parte 2 (ordinamento e ricerca)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L26 - Array come costanti (const) – cosa si può fare e cosa è vietato",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L27 - Esercizio sugli Array – 10 step per dominarli davvero",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L28 - Introduzione agli oggetti in JavaScript",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L29 - Metodi degli oggetti in JavaScript", "ext": ".md", "lesson": true },
+            { "name": "L30 - Dot notation vs Bracket notation", "ext": ".md", "lesson": true },
+            { "name": "L31 -  La keyword this in JavaScript", "ext": ".md", "lesson": true },
+            { "name": "L32 - Esercizio oggetti", "ext": ".md", "lesson": true },
+            {
+              "name": "L33 - undefined e null — significato, differenze, casi d’uso",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L34 - Il tipo Date in JavaScript", "ext": ".md", "lesson": true },
+            { "name": "L35 - I Booleani e i Falsy Values", "ext": ".md", "lesson": true },
+            { "name": "L36 -", "ext": ".md", "lesson": true },
+            { "name": "L37 -", "ext": ".md", "lesson": true },
+            { "name": "L38 -", "ext": ".md", "lesson": true },
+            { "name": "L39 -", "ext": ".md", "lesson": true },
+            { "name": "L40 -", "ext": ".md", "lesson": true },
+            { "name": "L41 -", "ext": ".md", "lesson": true },
+            { "name": "L42 -", "ext": ".md", "lesson": true },
+            { "name": "L43 -", "ext": ".md", "lesson": true },
+            { "name": "L44 -", "ext": ".md", "lesson": true },
+            { "name": "L45 -", "ext": ".md", "lesson": true },
+            { "name": "L46 -", "ext": ".md", "lesson": true },
+            { "name": "L47 -", "ext": ".md", "lesson": true },
+            { "name": "L48 -", "ext": ".md", "lesson": true },
+            { "name": "L49 -", "ext": ".md", "lesson": true },
+            { "name": "L50 -", "ext": ".md", "lesson": true },
+            { "name": "L51 -", "ext": ".md", "lesson": true },
+            { "name": "L52 -", "ext": ".md", "lesson": true },
+            { "name": "L53 -", "ext": ".md", "lesson": true },
+            { "name": "L54 -", "ext": ".md", "lesson": true },
+            { "name": "L55 -", "ext": ".md", "lesson": true },
+            { "name": "L56 -", "ext": ".md", "lesson": true },
+            { "name": "L57 -", "ext": ".md", "lesson": true },
+            { "name": "L58 -", "ext": ".md", "lesson": true },
+            { "name": "L59 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M03_AltriConcetti",
+          "kind": "module",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true },
+            { "name": "L06 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M04_ManipolazioneDOM",
+          "kind": "module",
+          "counts": {
+            "files": 14,
+            "notes": 14,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 14
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true },
+            { "name": "L06 -", "ext": ".md", "lesson": true },
+            { "name": "L07 -", "ext": ".md", "lesson": true },
+            { "name": "L08 -", "ext": ".md", "lesson": true },
+            { "name": "L09 -", "ext": ".md", "lesson": true },
+            { "name": "L10 -", "ext": ".md", "lesson": true },
+            { "name": "L11 -", "ext": ".md", "lesson": true },
+            { "name": "L12 -", "ext": ".md", "lesson": true },
+            { "name": "L13 -", "ext": ".md", "lesson": true },
+            { "name": "L14 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M05_OOP",
+          "kind": "module",
+          "counts": {
+            "files": 11,
+            "notes": 11,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 11
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true },
+            { "name": "L06 -", "ext": ".md", "lesson": true },
+            { "name": "L07 -", "ext": ".md", "lesson": true },
+            { "name": "L08 -", "ext": ".md", "lesson": true },
+            { "name": "L09 -", "ext": ".md", "lesson": true },
+            { "name": "L10 -", "ext": ".md", "lesson": true },
+            { "name": "L11 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M06_Asincrono",
+          "kind": "module",
+          "counts": {
+            "files": 9,
+            "notes": 9,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 9
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true },
+            { "name": "L06 -", "ext": ".md", "lesson": true },
+            { "name": "L07 -", "ext": ".md", "lesson": true },
+            { "name": "L08 -", "ext": ".md", "lesson": true },
+            { "name": "L09 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M07_JavaScript_Moderno",
+          "kind": "module",
+          "counts": {
+            "files": 8,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 8
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true },
+            { "name": "L06 -", "ext": ".md", "lesson": true },
+            { "name": "L07 -", "ext": ".md", "lesson": true },
+            { "name": "L08 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M08_Avanzato",
+          "kind": "module",
+          "counts": {
+            "files": 10,
+            "notes": 10,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 10
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true },
+            { "name": "L06 -", "ext": ".md", "lesson": true },
+            { "name": "L07 -", "ext": ".md", "lesson": true },
+            { "name": "L08 -", "ext": ".md", "lesson": true },
+            { "name": "L09 -", "ext": ".md", "lesson": true },
+            { "name": "L10 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M09_EcosistemaJS",
+          "kind": "module",
+          "counts": {
+            "files": 11,
+            "notes": 11,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 11
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true },
+            { "name": "L06 -", "ext": ".md", "lesson": true },
+            { "name": "L07 -", "ext": ".md", "lesson": true },
+            { "name": "L08 -", "ext": ".md", "lesson": true },
+            { "name": "L09 -", "ext": ".md", "lesson": true },
+            { "name": "L10 -", "ext": ".md", "lesson": true },
+            { "name": "L11 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M10_Ottimizzazione",
+          "kind": "module",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M11_Conclusione",
+          "kind": "module",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "4_CorsoCompletoBootstrap",
+      "kind": "section",
+      "counts": {
+        "files": 67,
+        "notes": 67,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 67
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "M01_Intro",
+          "kind": "module",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true },
+            { "name": "L06 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M02_Fondamenti",
+          "kind": "module",
+          "counts": {
+            "files": 11,
+            "notes": 11,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 11
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true },
+            { "name": "L06 -", "ext": ".md", "lesson": true },
+            { "name": "L07 -", "ext": ".md", "lesson": true },
+            { "name": "L08 -", "ext": ".md", "lesson": true },
+            { "name": "L09 -", "ext": ".md", "lesson": true },
+            { "name": "L10 -", "ext": ".md", "lesson": true },
+            { "name": "L11 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M03_Form",
+          "kind": "module",
+          "counts": {
+            "files": 8,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 8
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true },
+            { "name": "L06 -", "ext": ".md", "lesson": true },
+            { "name": "L07 -", "ext": ".md", "lesson": true },
+            { "name": "L08 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M04_Componenti",
+          "kind": "module",
+          "counts": {
+            "files": 17,
+            "notes": 17,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 17
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true },
+            { "name": "L06 -", "ext": ".md", "lesson": true },
+            { "name": "L07 -", "ext": ".md", "lesson": true },
+            { "name": "L08 -", "ext": ".md", "lesson": true },
+            { "name": "L09 -", "ext": ".md", "lesson": true },
+            { "name": "L10 -", "ext": ".md", "lesson": true },
+            { "name": "L11 -", "ext": ".md", "lesson": true },
+            { "name": "L12 -", "ext": ".md", "lesson": true },
+            { "name": "L13 -", "ext": ".md", "lesson": true },
+            { "name": "L14 -", "ext": ".md", "lesson": true },
+            { "name": "L15 -", "ext": ".md", "lesson": true },
+            { "name": "L16 -", "ext": ".md", "lesson": true },
+            { "name": "L17 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M05_Altro",
+          "kind": "module",
+          "counts": {
+            "files": 13,
+            "notes": 13,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 13
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true },
+            { "name": "L06 -", "ext": ".md", "lesson": true },
+            { "name": "L07 -", "ext": ".md", "lesson": true },
+            { "name": "L08 -", "ext": ".md", "lesson": true },
+            { "name": "L09 -", "ext": ".md", "lesson": true },
+            { "name": "L10 -", "ext": ".md", "lesson": true },
+            { "name": "L11 -", "ext": ".md", "lesson": true },
+            { "name": "L12 -", "ext": ".md", "lesson": true },
+            { "name": "L13 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M06_Ecosistema",
+          "kind": "module",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M07_Customize",
+          "kind": "module",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true },
+            { "name": "L03 -", "ext": ".md", "lesson": true },
+            { "name": "L04 -", "ext": ".md", "lesson": true },
+            { "name": "L05 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "M08_Outro",
+          "kind": "module",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L01 -", "ext": ".md", "lesson": true },
+            { "name": "L02 -", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "oldCorsoJS",
+      "kind": "section",
+      "counts": {
+        "files": 316,
+        "notes": 0,
+        "pdfs": 0,
+        "code": 283,
+        "images": 24,
+        "other": 9,
+        "lessons": 0
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "1_intro",
+          "kind": "section",
+          "counts": {
+            "files": 9,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 9,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "1.0_introduzione_js",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "1.1_output_di_base",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "1.2_popolare_la_pagina",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "2_variabili",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "3_operatori_aritmetici",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "4_accept_user_input_easy",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "4.1_accept_user_input_professional",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "5_type_conversion",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "6_costanti",
+          "kind": "section",
+          "counts": {
+            "files": 6,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 6,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "6.0_constants",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "6.1_ constants_con_input",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "7_counter_program",
+          "kind": "section",
+          "counts": {
+            "files": 4,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 1,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "favicon",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 0,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [{ "name": "favicon", "ext": ".ico", "lesson": false }],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "8_math_object",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "9_randomNumber",
+          "kind": "section",
+          "counts": {
+            "files": 9,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 9,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "9.0_random_num_generator",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "9.1_random_num_appweb",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "9.2_random_num_appweb2",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "10_if",
+          "kind": "section",
+          "counts": {
+            "files": 6,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 6,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "10.0_if_statements",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "10.1_if_statements_webapp",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "11_checked_property",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "12_ternary_operator",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "13_switches",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "14_string_methods",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "15_string_slicing",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "16_metod_chaining",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "17_logical_operators",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "18_strict_equality_operator",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "19_while",
+          "kind": "section",
+          "counts": {
+            "files": 6,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 6,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "19.0_while_loops",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "19.1_prosieguo_while",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "20_for_loops",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "21_number_guessing_game",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "22_functions",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "23_scope_delle_variabili",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "24_Temp_Conversion_Program",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "25_array_in_js",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "26_spread_operator",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "27_rest_parameters",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "28_Dice_Roller_Program",
+          "kind": "section",
+          "counts": {
+            "files": 9,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 6,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "facce_dado",
+              "kind": "section",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 6,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "29_Random_Password_Gen",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "30_callbacks",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "31_forEach",
+          "kind": "section",
+          "counts": {
+            "files": 6,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 6,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "31.0_for_each",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "31.1_for_each_array_stringhe",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "32_map()",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "33_filter()",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "34_reduce()",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "35_function_expressions",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "36_arrow_functions",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "37_javascript_objects",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "38_this_in_javascript",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "39_constructor",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "40_classi_in_javascript",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "41_keyword_static",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "42_inheritance",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "43_super_keyword",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "44_getters_e_setters",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "45_destructuring",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "46_nested_objects",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "47_array_of_objects",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "48_sorting_in_js",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "49_shuffle_an_array",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "50_date_objects",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "51_closures",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "52_setTimeout()",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "53_Digital_Clock_WebApp",
+          "kind": "section",
+          "counts": {
+            "files": 6,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 1,
+            "other": 2,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "background", "ext": ".avif", "lesson": false },
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "fonts",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 0,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [{ "name": "GlitchGoblin-2O87v", "ext": ".ttf", "lesson": false }],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "54_Cronometro_WebApp",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "55_ES6_modules",
+          "kind": "section",
+          "counts": {
+            "files": 4,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 4,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "mathUtil", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "56_Codice_sincrono_e_asincrono",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "57_Error_Handling",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "58_PinKalkulator",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "59_DOM",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "60_element_selectors",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "61_DOM_Navigation",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "62_Add_&_Change_HTML_elements",
+          "kind": "section",
+          "counts": {
+            "files": 6,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 6,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "62.0_Add_&_Change_HTML_elements",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "62.1_Add_&_Change_pt2",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "63_Mouse_events",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "64_key_Events",
+          "kind": "section",
+          "counts": {
+            "files": 9,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 9,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "64.0_Key_events",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "64.1_Key_events_pt2",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "64.2_Key_mover",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "65_show_&_hide_html",
+          "kind": "section",
+          "counts": {
+            "files": 4,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 1,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "img",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "66_Nodelists",
+          "kind": "section",
+          "counts": {
+            "files": 9,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 9,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "66.0_Nodelists",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "66.1_Nodelists_pt2",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "66.2_Nodelists_pt3",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "67_classlist",
+          "kind": "section",
+          "counts": {
+            "files": 12,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 12,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "67.0_classlist",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "67.1_classlist_pt2",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "67.2_classlist_pt3",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "67.3_classlist_challengeround",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "68_Rock_Paper_Scissor",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "69_Image_Slider",
+          "kind": "section",
+          "counts": {
+            "files": 6,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 3,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 3,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "70_CallBack_Hell",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "71_Promises",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "72_Async_E_Await",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "73_intro_JSON",
+          "kind": "section",
+          "counts": {
+            "files": 12,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 6,
+            "images": 0,
+            "other": 6,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "73_JSON_files",
+              "kind": "section",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 3,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "arrayDiNomi", "ext": ".json", "lesson": false },
+                { "name": "fidanzati", "ext": ".json", "lesson": false },
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "principessa", "ext": ".json", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "73.1_JSON_files_FETCH",
+              "kind": "section",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 3,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "arrayDiNomi", "ext": ".json", "lesson": false },
+                { "name": "fidanzati", "ext": ".json", "lesson": false },
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "principessa", "ext": ".json", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "74_fetch",
+          "kind": "section",
+          "counts": {
+            "files": 6,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 6,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "74_Fetch_data_from_an_API",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "74.1_async_fetch_&_Pokémon",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "index", "ext": ".html", "lesson": false },
+                { "name": "index", "ext": ".js", "lesson": false },
+                { "name": "style", "ext": ".css", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "75_Meteo_per_Principessa",
+          "kind": "section",
+          "counts": {
+            "files": 16,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 3,
+            "images": 13,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "index", "ext": ".html", "lesson": false },
+            { "name": "index", "ext": ".js", "lesson": false },
+            { "name": "style", "ext": ".css", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "icone",
+              "kind": "section",
+              "counts": {
+                "files": 13,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 13,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

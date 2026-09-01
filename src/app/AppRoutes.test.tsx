@@ -1,14 +1,18 @@
 import { render, screen, within } from '@testing-library/react';
 import { MemoryRouter } from 'react-router';
+
+import { I18nProvider } from '@/i18n';
 import { describe, expect, it } from 'vitest';
 
 import { AppRoutes } from './AppRoutes';
 
 function renderAt(path: string): void {
   render(
-    <MemoryRouter initialEntries={[path]}>
-      <AppRoutes />
-    </MemoryRouter>,
+    <I18nProvider>
+      <MemoryRouter initialEntries={[path]}>
+        <AppRoutes />
+      </MemoryRouter>
+    </I18nProvider>,
   );
 }
 
@@ -54,9 +58,34 @@ describe('routing', () => {
     expect(screen.getByRole('heading', { level: 1, name: /page not found/i })).toBeInTheDocument();
   });
 
-  it('renders the knowledge index', () => {
+  it('renders the knowledge index with the full curriculum', () => {
     renderAt('/knowledge');
-    expect(screen.getByRole('heading', { level: 2, name: /competence/i })).toBeInTheDocument();
+
+    expect(
+      screen.getByRole('heading', { level: 1, name: /three years, in full/i }),
+    ).toBeInTheDocument();
+
+    // Three degree years, each as its own labelled section.
+    expect(screen.getByRole('heading', { level: 2, name: /year 1/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 2, name: /year 3/i })).toBeInTheDocument();
+
+    // Real subjects, not the six invented areas the page used to show.
+    expect(screen.getByRole('heading', { name: /cryptography/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /database systems/i })).toBeInTheDocument();
+    expect(screen.getAllByRole('article').length).toBeGreaterThanOrEqual(20);
+  });
+
+  it('renders a subject page for a known slug', () => {
+    renderAt('/knowledge/anno2-crittografia');
+
+    expect(screen.getByRole('heading', { level: 1, name: /cryptography/i })).toBeInTheDocument();
+    // The Italian original stays visible so the label matches the archive folder.
+    expect(screen.getByText('Crittografia')).toBeInTheDocument();
+  });
+
+  it('falls back to the not-found page for an unknown subject slug', () => {
+    renderAt('/knowledge/not-a-subject');
+    expect(screen.getByRole('heading', { level: 1, name: /page not found/i })).toBeInTheDocument();
   });
 
   it('renders a not-found page for an unknown route', () => {

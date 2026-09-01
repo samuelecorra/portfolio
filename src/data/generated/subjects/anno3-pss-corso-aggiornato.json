@@ -1,0 +1,991 @@
+{
+  "slug": "anno3-pss-corso-aggiornato",
+  "files": [],
+  "children": [
+    {
+      "name": "1_Teoria",
+      "kind": "section",
+      "counts": {
+        "files": 207,
+        "notes": 10,
+        "pdfs": 16,
+        "code": 1,
+        "images": 180,
+        "other": 0,
+        "lessons": 9
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "imgs",
+          "kind": "section",
+          "counts": {
+            "files": 180,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 0,
+            "images": 180,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": []
+        },
+        {
+          "name": "l1",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 1,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "l1", "ext": ".md", "lesson": true },
+            { "name": "PRODOTTO-PROCESSO", "ext": ".pdf", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "l2",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 1,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "INGEGNERIA DEI REQUISITI", "ext": ".pdf", "lesson": false },
+            { "name": "l2", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "l3_4_5",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 1,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "l3_4_5", "ext": ".md", "lesson": false },
+            { "name": "MODELLI DI SISTEMA", "ext": ".pdf", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "l6",
+          "kind": "section",
+          "counts": {
+            "files": 5,
+            "notes": 1,
+            "pdfs": 3,
+            "code": 1,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "6DbCJML", "ext": ".pdf", "lesson": false },
+            { "name": "jmldbc", "ext": ".pdf", "lesson": false },
+            { "name": "l6", "ext": ".md", "lesson": true },
+            { "name": "tutorialJML", "ext": ".pdf", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "codici",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "intro_jml", "ext": ".java", "lesson": false }],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "l7",
+          "kind": "section",
+          "counts": {
+            "files": 5,
+            "notes": 1,
+            "pdfs": 4,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "FSMinJava", "ext": ".pdf", "lesson": false },
+            { "name": "implementation", "ext": ".pdf", "lesson": false },
+            { "name": "JavaSecuritypartedue", "ext": ".pdf", "lesson": false },
+            { "name": "l7", "ext": ".md", "lesson": true },
+            { "name": "SicurezzainJavaAppletOstili", "ext": ".pdf", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "l8",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 1,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "l8", "ext": ".md", "lesson": true },
+            { "name": "TESTING", "ext": ".pdf", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "l9",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 1,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "CriteriCopertura", "ext": ".pdf", "lesson": false },
+            { "name": "l9", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "l10",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 1,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "aspetti di sicurezza", "ext": ".pdf", "lesson": false },
+            { "name": "l10", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "l11",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 1,
+            "pdfs": 2,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "AnalisiStatica", "ext": ".pdf", "lesson": false },
+            { "name": "java_checklist", "ext": ".pdf", "lesson": false },
+            { "name": "l11", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "l12",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 1,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "DevOps and Code ManagementITA", "ext": ".pdf", "lesson": false },
+            { "name": "l12", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "2_Laboratorio",
+      "kind": "section",
+      "counts": {
+        "files": 93,
+        "notes": 8,
+        "pdfs": 14,
+        "code": 43,
+        "images": 3,
+        "other": 25,
+        "lessons": 6
+      },
+      "files": [{ "name": "laboratorio", "ext": ".iml", "lesson": false }],
+      "children": [
+        {
+          "name": "esercizi",
+          "kind": "section",
+          "counts": {
+            "files": 14,
+            "notes": 2,
+            "pdfs": 1,
+            "code": 11,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "cassettaPostale", "ext": ".java", "lesson": false },
+            { "name": "esame_22maggio2026", "ext": ".md", "lesson": false },
+            { "name": "Fila", "ext": ".java", "lesson": false },
+            { "name": "lab22maggio2026", "ext": ".java", "lesson": false },
+            { "name": "NaturalSet", "ext": ".java", "lesson": false },
+            { "name": "OraDiPunta", "ext": ".java", "lesson": false },
+            { "name": "Ostello", "ext": ".java", "lesson": false },
+            { "name": "ProduttoreConsumatore", "ext": ".java", "lesson": false },
+            { "name": "README_esercizi", "ext": ".md", "lesson": false },
+            { "name": "Rubik2D", "ext": ".java", "lesson": false },
+            { "name": "Sudoku", "ext": ".java", "lesson": false },
+            { "name": "Tombola", "ext": ".java", "lesson": false },
+            { "name": "tutoring_jml", "ext": ".pdf", "lesson": false },
+            { "name": "UndirectedGraph", "ext": ".java", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "l1",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 1,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "l1", "ext": ".md", "lesson": true },
+            { "name": "Lezione1", "ext": ".pdf", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "l2",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 1,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "l2", "ext": ".md", "lesson": true },
+            { "name": "Lezione2", "ext": ".pdf", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "l3",
+          "kind": "section",
+          "counts": {
+            "files": 19,
+            "notes": 1,
+            "pdfs": 4,
+            "code": 8,
+            "images": 0,
+            "other": 6,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "l3", "ext": ".iml", "lesson": false },
+            { "name": "l3", "ext": ".md", "lesson": true },
+            { "name": "Lezione3", "ext": ".pdf", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "Esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 5,
+                "images": 0,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [{ "name": "", "ext": "", "lesson": false }],
+              "children": [
+                {
+                  "name": "src",
+                  "kind": "section",
+                  "counts": {
+                    "files": 5,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 5,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Counter", "ext": ".java", "lesson": false },
+                    { "name": "Examples", "ext": ".java", "lesson": false },
+                    { "name": "PositiveCounter", "ext": ".java", "lesson": false },
+                    { "name": "PositiveCounterWithInvariant", "ext": ".java", "lesson": false },
+                    { "name": "SumProductExamples", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "javaEsami",
+              "kind": "section",
+              "counts": {
+                "files": 10,
+                "notes": 0,
+                "pdfs": 3,
+                "code": 3,
+                "images": 0,
+                "other": 4,
+                "lessons": 0
+              },
+              "files": [{ "name": "javaEsami", "ext": ".iml", "lesson": false }],
+              "children": [
+                {
+                  "name": "GiocoDello8",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 1,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "", "ext": "", "lesson": false },
+                    { "name": "esercizioGiocoOttoJML", "ext": ".pdf", "lesson": false }
+                  ],
+                  "children": [
+                    {
+                      "name": "src",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "GiocoDello8ConJML", "ext": ".java", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "KnightTour",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 1,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "", "ext": "", "lesson": false },
+                    { "name": "esercizioKnightTourJML", "ext": ".pdf", "lesson": false }
+                  ],
+                  "children": [
+                    {
+                      "name": "src",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "KnightTour", "ext": ".java", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sokoban",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 1,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "", "ext": "", "lesson": false },
+                    { "name": "esercizioSokobanJML", "ext": ".pdf", "lesson": false }
+                  ],
+                  "children": [
+                    {
+                      "name": "src",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "Sokoban", "ext": ".java", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "l4",
+          "kind": "section",
+          "counts": {
+            "files": 5,
+            "notes": 1,
+            "pdfs": 1,
+            "code": 1,
+            "images": 1,
+            "other": 1,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "", "ext": "", "lesson": false },
+            { "name": "l4", "ext": ".md", "lesson": true },
+            { "name": "Lezione4", "ext": ".pdf", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            },
+            {
+              "name": "src",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "CounterAssert", "ext": ".java", "lesson": false }],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "l5",
+          "kind": "section",
+          "counts": {
+            "files": 46,
+            "notes": 1,
+            "pdfs": 3,
+            "code": 23,
+            "images": 2,
+            "other": 17,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "eserciziJUnit", "ext": ".pdf", "lesson": false },
+            { "name": "esercizioCoperturaTicTacToe", "ext": ".pdf", "lesson": false },
+            { "name": "l5", "ext": ".code-workspace", "lesson": false },
+            { "name": "l5", "ext": ".md", "lesson": true },
+            { "name": "Lezione5", "ext": ".pdf", "lesson": false },
+            { "name": "pom", "ext": ".xml", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "01_esempi-base-junit",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 5,
+                "images": 0,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "", "ext": "", "lesson": false },
+                { "name": "pom", "ext": ".xml", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "src",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Esempi", "ext": ".java", "lesson": false },
+                    { "name": "Punto2D", "ext": ".java", "lesson": false },
+                    { "name": "Sort", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "src_test",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "EsempiAssert", "ext": ".java", "lesson": false },
+                    { "name": "EsempiAssertArrayEquals", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "02_sumclass",
+              "kind": "section",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 4,
+                "images": 0,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [{ "name": "pom", "ext": ".xml", "lesson": false }],
+              "children": [
+                {
+                  "name": "bin",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "", "ext": "", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "src",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "SumClass", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "src_test",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "SumTest", "ext": ".java", "lesson": false },
+                    { "name": "WrongSum1Test", "ext": ".java", "lesson": false },
+                    { "name": "WrongSum2Test", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "03_esercizi-junit",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 2,
+                "images": 0,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "", "ext": "", "lesson": false },
+                { "name": "pom", "ext": ".xml", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "src",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "KnightTour", "ext": ".java", "lesson": false },
+                    { "name": "Sokoban", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "04_copertura-lazy",
+              "kind": "section",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 4,
+                "images": 0,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "", "ext": "", "lesson": false },
+                { "name": "pom", "ext": ".xml", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "src",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "EsempioPerCoverageConLazy", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "src_test",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    {
+                      "name": "EsempioPerCoverageConLazy_CoperturaCondizioni",
+                      "ext": ".java",
+                      "lesson": false
+                    },
+                    {
+                      "name": "EsempioPerCoverageConLazy_CoperturaDecisioni",
+                      "ext": ".java",
+                      "lesson": false
+                    },
+                    { "name": "prova", "ext": ".c", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "05_copertura-non-lazy",
+              "kind": "section",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 4,
+                "images": 0,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "", "ext": "", "lesson": false },
+                { "name": "pom", "ext": ".xml", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "src",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "EsempioPerCoverage", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "src_test",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    {
+                      "name": "EsempioPerCoverage_CoperturaCondizioni",
+                      "ext": ".java",
+                      "lesson": false
+                    },
+                    {
+                      "name": "EsempioPerCoverage_CoperturaDecisioni",
+                      "ext": ".java",
+                      "lesson": false
+                    },
+                    {
+                      "name": "EsempioPerCoverage_CoperturaIstruzioni",
+                      "ext": ".java",
+                      "lesson": false
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "06_esercizio-copertura-tictactoe",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 2,
+                "images": 0,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "", "ext": "", "lesson": false },
+                { "name": "pom", "ext": ".xml", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "src",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "TicTacToeEsercizioCopertura", "ext": ".java", "lesson": false },
+                    { "name": "TicTacToeLazyEsercizioCopertura", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "07_esercizio-magazzino-jml-junit",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 2,
+                "images": 0,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [{ "name": "pom", "ext": ".xml", "lesson": false }],
+              "children": [
+                {
+                  "name": "src",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Magazzino", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "src_test",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "MagazzinoTest", "ext": ".java", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 2,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            },
+            {
+              "name": "lib",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 0,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "hamcrest-core-1.3", "ext": ".jar", "lesson": false },
+                { "name": "junit-4.13.2", "ext": ".jar", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "l6",
+          "kind": "section",
+          "counts": {
+            "files": 4,
+            "notes": 1,
+            "pdfs": 3,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "6DbCJML", "ext": ".pdf", "lesson": false },
+            { "name": "jmldbc", "ext": ".pdf", "lesson": false },
+            { "name": "l6", "ext": ".md", "lesson": true },
+            { "name": "tutorialJML", "ext": ".pdf", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

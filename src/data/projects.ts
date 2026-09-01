@@ -25,13 +25,28 @@ export const projects: Project[] = [
     slug: 'cybersecurity-knowledge-archive',
     title: 'Cybersecurity Knowledge Archive',
     shortTitle: 'Knowledge Archive',
-    summary:
-      'A public, inspectable archive of the theory, notes, exercises and exam preparation built across a cybersecurity degree.',
-    description: [
-      'This is the material behind the claims made elsewhere on this site: lecture notes, worked exercises, theory write-ups and exam preparation, kept in the open and versioned.',
-      'It spans cybersecurity, networking, databases, operating systems, cryptography, mathematics, statistics and core computer science — organised so that a reader can go straight to a subject and judge the depth for themselves.',
-      'It is published deliberately. Anyone assessing technical background should be able to read the actual work rather than take a bullet point on trust.',
-    ],
+    summary: {
+      en: 'A public, inspectable archive of the theory, notes, exercises and exam preparation built across a cybersecurity degree.',
+      it: 'Un archivio pubblico e ispezionabile di teoria, appunti, esercizi e preparazione agli esami costruito lungo tutta la laurea in cybersecurity.',
+      de: 'Ein öffentliches, einsehbares Archiv aus Theorie, Notizen, Übungen und Prüfungsvorbereitung, entstanden über ein ganzes Cybersecurity-Studium.',
+    },
+    description: {
+      en: [
+        'This is the material behind the claims made elsewhere on this site: lecture notes, worked exercises, theory write-ups and exam preparation, kept in the open and versioned.',
+        'It spans cybersecurity, networking, databases, operating systems, cryptography, mathematics, statistics and core computer science — organised so that a reader can go straight to a subject and judge the depth for themselves.',
+        'It is published deliberately. Anyone assessing technical background should be able to read the actual work rather than take a bullet point on trust.',
+      ],
+      it: [
+        'Questo è il materiale dietro le affermazioni fatte altrove su questo sito: appunti delle lezioni, esercizi svolti, sintesi teoriche e preparazione agli esami, tenuti in chiaro e versionati.',
+        'Copre cybersecurity, reti, basi di dati, sistemi operativi, crittografia, matematica, statistica e informatica di base — organizzato perché chi legge possa andare dritto a una materia e giudicarne la profondità da sé.',
+        'È pubblicato di proposito. Chi valuta un background tecnico dovrebbe poter leggere il lavoro vero, non fidarsi di un elenco puntato.',
+      ],
+      de: [
+        'Das ist das Material hinter den Aussagen auf dieser Website: Vorlesungsnotizen, gelöste Übungen, Theorieausarbeitungen und Prüfungsvorbereitung — offen und versioniert.',
+        'Es umfasst Cybersicherheit, Netzwerke, Datenbanken, Betriebssysteme, Kryptographie, Mathematik, Statistik und Informatik-Grundlagen — so gegliedert, dass man direkt zu einem Fach springen und die Tiefe selbst beurteilen kann.',
+        'Die Veröffentlichung ist Absicht. Wer einen technischen Hintergrund beurteilt, sollte die eigentliche Arbeit lesen können, statt einem Stichpunkt zu vertrauen.',
+      ],
+    },
     category: 'knowledge-archive',
     emphasis: 'primary',
     status: 'active',
@@ -75,13 +90,19 @@ export const projects: Project[] = [
     slug: 'ironmath',
     title: 'IronMath',
     shortTitle: 'IronMath',
-    summary: 'An AI-powered learning platform for STEM education.',
-    description: [
-      'IronMath is an EdTech product applying AI to STEM learning.',
+    summary: {
+      en: 'An AI-powered learning platform for STEM education.',
+      it: 'Una piattaforma di apprendimento potenziata dall’AI per la didattica STEM.',
+      de: 'Eine KI-gestützte Lernplattform für die MINT-Ausbildung.',
+    },
+    description: {
+      en: ['IronMath is an EdTech product applying AI to STEM learning.'],
+      it: ['IronMath è un prodotto EdTech che applica l’AI all’apprendimento STEM.'],
+      de: ['IronMath ist ein EdTech-Produkt, das KI auf das MINT-Lernen anwendet.'],
       // NOTE: the case study is intentionally short. It will be expanded with
       // problem / architecture / role / decisions / outcomes WITHOUT exposing
       // proprietary source. See docs/CONTENT_MODEL.md § Private projects.
-    ],
+    },
     category: 'product',
     emphasis: 'standard',
     status: 'active',
@@ -116,8 +137,12 @@ export const projects: Project[] = [
     slug: 'cybercuisine',
     title: 'CyberCuisine',
     shortTitle: 'CyberCuisine',
-    summary: 'A university web development project, built and published in the open.',
-    description: [],
+    summary: {
+      en: 'A university web development project, built and published in the open.',
+      it: 'Un progetto universitario di sviluppo web, costruito e pubblicato in chiaro.',
+      de: 'Ein Universitätsprojekt zur Webentwicklung, offen entwickelt und veröffentlicht.',
+    },
+    description: { en: [], it: [], de: [] },
     category: 'university',
     emphasis: 'standard',
     status: 'archived',
@@ -150,10 +175,22 @@ export const projects: Project[] = [
     slug: 'portfolio',
     title: 'This Portfolio',
     shortTitle: 'Portfolio',
-    summary: "The website you're browsing. Designed and developed in public.",
-    description: [
-      'This site is part of the portfolio it presents. The repository is intended to be public, so the architecture, design system and content model can be read directly.',
-    ],
+    summary: {
+      en: "The website you're browsing. Designed and developed in public.",
+      it: 'Il sito che stai visitando. Progettato e sviluppato in pubblico.',
+      de: 'Die Website, die du gerade ansiehst. Öffentlich entworfen und entwickelt.',
+    },
+    description: {
+      en: [
+        'This site is part of the portfolio it presents. The repository is public, so the architecture, design system and content model can be read directly.',
+      ],
+      it: [
+        'Questo sito fa parte del portfolio che presenta. La repository è pubblica, così architettura, design system e content model si possono leggere direttamente.',
+      ],
+      de: [
+        'Diese Website ist Teil des Portfolios, das sie präsentiert. Das Repository ist öffentlich, sodass Architektur, Designsystem und Content-Modell direkt nachlesbar sind.',
+      ],
+    },
     category: 'website',
     emphasis: 'minor',
     status: 'in-progress',

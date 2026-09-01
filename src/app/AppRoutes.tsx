@@ -8,6 +8,7 @@ import { KnowledgePage } from '@/pages/KnowledgePage';
 import { NotFoundPage } from '@/pages/NotFoundPage';
 import { ProjectDetailPage } from '@/pages/ProjectDetailPage';
 import { ProjectsPage } from '@/pages/ProjectsPage';
+import { SubjectPage } from '@/pages/SubjectPage';
 
 /**
  * Route table.
@@ -25,6 +26,7 @@ export function AppRoutes(): JSX.Element {
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="projects/:slug" element={<ProjectDetailPage />} />
         <Route path="knowledge" element={<KnowledgePage />} />
+        <Route path="knowledge/:slug" element={<SubjectPage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>

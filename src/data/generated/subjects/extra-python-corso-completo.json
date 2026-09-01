@@ -1,0 +1,8 @@
+{
+  "slug": "extra-python-corso-completo",
+  "files": [
+    { "name": "l1", "ext": ".py", "lesson": false },
+    { "name": "l2", "ext": ".py", "lesson": false }
+  ],
+  "children": []
+}

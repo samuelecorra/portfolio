@@ -1,31 +1,36 @@
 import type { JSX } from 'react';
 
-import { KnowledgeCard } from '@/components/knowledge/KnowledgeCard';
 import { Section } from '@/components/layout/Section';
+import { StatBand } from '@/components/knowledge/StatBand';
+import { SubjectCard } from '@/components/knowledge/SubjectCard';
 import { ActionLink } from '@/components/ui/ActionLink';
-import { getKnowledgeAreas } from '@/data/knowledge';
+import { getTopSubjects } from '@/data/curriculum';
+import { useI18n } from '@/i18n';
 
-const PREVIEW_COUNT = 3;
+const PREVIEW_COUNT = 6;
 
 export function KnowledgePreview(): JSX.Element {
-  const areas = getKnowledgeAreas().slice(0, PREVIEW_COUNT);
+  const { t } = useI18n();
+  const subjects = getTopSubjects(PREVIEW_COUNT);
 
   return (
     <Section
       id="knowledge"
-      eyebrow="Knowledge"
-      title="What I actually know"
-      description="Competence as concrete topics rather than percentages. Every claim links to evidence."
+      eyebrow={t.knowledge.eyebrow}
+      title={t.knowledge.title}
+      description={t.knowledge.description}
     >
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {areas.map((area) => (
-          <KnowledgeCard key={area.id} area={area} />
+      <StatBand />
+
+      <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {subjects.map((subject) => (
+          <SubjectCard key={subject.slug} subject={subject} />
         ))}
       </div>
 
       <div className="mt-10">
         <ActionLink href="/knowledge" emphasis="secondary">
-          Full knowledge index
+          {t.knowledge.all}
         </ActionLink>
       </div>
     </Section>

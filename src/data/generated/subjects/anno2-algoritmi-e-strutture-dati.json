@@ -1,0 +1,1420 @@
+{
+  "slug": "anno2-algoritmi-e-strutture-dati",
+  "files": [{ "name": "0_Intro all'insegnamento", "ext": ".md", "lesson": false }],
+  "children": [
+    {
+      "name": "M01_Elementi_Fondamentali_DS_e_Algo",
+      "kind": "module",
+      "counts": {
+        "files": 29,
+        "notes": 12,
+        "pdfs": 0,
+        "code": 6,
+        "images": 6,
+        "other": 5,
+        "lessons": 4
+      },
+      "files": [{ "name": "Intro M1", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "Codici",
+          "kind": "section",
+          "counts": {
+            "files": 11,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 6,
+            "images": 0,
+            "other": 5,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "1_minimo_iterativo",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "1_minimo_iterativo", "ext": ".c", "lesson": false },
+                { "name": "1_minimo_iterativo", "ext": ".exe", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "2_minimo_ricorsivo",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "2_minimo_ricorsivo", "ext": ".c", "lesson": false },
+                { "name": "2_minimo_ricorsivo", "ext": ".exe", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "3_switch_colori",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "switch_colori", "ext": ".c", "lesson": false },
+                { "name": "switch_colori", "ext": ".exe", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "4_esempio_puntatori",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "esempio_puntatori", "ext": ".c", "lesson": false },
+                { "name": "esempio_puntatori", "ext": ".exe", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "5_esempio_mapping",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "esempio_mapping", "ext": ".c", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "6_SelectionSortAnalisi",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "selsort", "ext": ".c", "lesson": false },
+                { "name": "selsort", "ext": ".exe", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Lezioni_Presenza_Ariel_2025_2026",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "Lezione 3 ottobre 2025", "ext": ".md", "lesson": true },
+            { "name": "Lezione 29 settembre 2025", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 12,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 6,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1_Introduzione", "ext": ".md", "lesson": false },
+            { "name": "L2_1_Efficienza_e_complessita", "ext": ".md", "lesson": false },
+            { "name": "L2_2_Efficienza_e_complessita", "ext": ".md", "lesson": false },
+            { "name": "L3_Complessita_per_induzione", "ext": ".md", "lesson": false },
+            { "name": "L4_Soluzione_di_problema_computazionale", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 6,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            {
+              "name": "L1_Aspetti_fondamentali_formalismo_rappresentazione_tipi_di_dati",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L2_Costruzione_ADT", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M02_DS_Lineari",
+      "kind": "module",
+      "counts": {
+        "files": 228,
+        "notes": 10,
+        "pdfs": 0,
+        "code": 11,
+        "images": 200,
+        "other": 7,
+        "lessons": 3
+      },
+      "files": [{ "name": "Intro M2", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "Codici",
+          "kind": "section",
+          "counts": {
+            "files": 18,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 11,
+            "images": 0,
+            "other": 7,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "0_Ripasso_Puntatori",
+              "kind": "section",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "1_Intro_Puntatori", "ext": ".c", "lesson": false },
+                { "name": "1_Intro_Puntatori", "ext": ".exe", "lesson": false },
+                { "name": "2_Call_by_Value", "ext": ".c", "lesson": false },
+                { "name": "2_Call_by_Value", "ext": ".exe", "lesson": false },
+                { "name": "3_Call_by_Reference", "ext": ".c", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "1_Esempio_Lista",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "lista", "ext": ".c", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "2_Lista_con_Cursori",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "lista_con_cursori", "ext": ".c", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "3_Programmare_con_le_Liste",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 2,
+                "images": 0,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "0_specifica", "ext": ".c", "lesson": false },
+                { "name": "0_specifica", "ext": ".exe", "lesson": false },
+                { "name": "rango_lista", "ext": ".c", "lesson": false },
+                { "name": "rango_lista", "ext": ".exe", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "4_Pile",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 2,
+                "images": 0,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "intro_pile", "ext": ".c", "lesson": false },
+                { "name": "intro_pile", "ext": ".exe", "lesson": false },
+                { "name": "pila_vettoriale", "ext": ".c", "lesson": false },
+                { "name": "pila_vettoriale", "ext": ".exe", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "5_Programmare_con_le_Pile",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "programmare_con_le_pile", "ext": ".c", "lesson": false },
+                { "name": "programmare_con_le_pile", "ext": ".exe", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "6_Programmare_con_le_Code",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "programmare_con_le_code", "ext": ".c", "lesson": false }],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 138,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 135,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [{ "name": "L0 - Intro UD1", "ext": ".md", "lesson": true }],
+          "children": [
+            {
+              "name": "L1",
+              "kind": "section",
+              "counts": {
+                "files": 39,
+                "notes": 1,
+                "pdfs": 0,
+                "code": 0,
+                "images": 38,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "L1_Liste", "ext": ".md", "lesson": false }],
+              "children": [
+                {
+                  "name": "imgs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 38,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 38,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "L2",
+              "kind": "section",
+              "counts": {
+                "files": 98,
+                "notes": 1,
+                "pdfs": 0,
+                "code": 0,
+                "images": 97,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "L2_Programmare_con_Liste", "ext": ".md", "lesson": false }],
+              "children": [
+                {
+                  "name": "imgs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 97,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 97,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 68,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 65,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [{ "name": "L0 - Intro UD2", "ext": ".md", "lesson": true }],
+          "children": [
+            {
+              "name": "L1",
+              "kind": "section",
+              "counts": {
+                "files": 20,
+                "notes": 1,
+                "pdfs": 0,
+                "code": 0,
+                "images": 19,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "L1_Pile", "ext": ".md", "lesson": false }],
+              "children": [
+                {
+                  "name": "imgs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 19,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 19,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "L2",
+              "kind": "section",
+              "counts": {
+                "files": 47,
+                "notes": 1,
+                "pdfs": 0,
+                "code": 0,
+                "images": 46,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "L2_Programmare_con_pile", "ext": ".md", "lesson": false }],
+              "children": [
+                {
+                  "name": "imgs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 46,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 46,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [{ "name": "L0 - Intro UD3", "ext": ".md", "lesson": true }],
+          "children": [
+            {
+              "name": "L1",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 1,
+                "pdfs": 0,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "L1_Code", "ext": ".md", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "L2",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 1,
+                "pdfs": 0,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "L2_Programmare_con_Code", "ext": ".md", "lesson": false }],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M03_DS_Alberi",
+      "kind": "module",
+      "counts": {
+        "files": 41,
+        "notes": 12,
+        "pdfs": 0,
+        "code": 1,
+        "images": 28,
+        "other": 0,
+        "lessons": 2
+      },
+      "files": [{ "name": "Intro M3", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 21,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 0,
+            "images": 13,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1_Alberi_Specifiche", "ext": ".md", "lesson": false },
+            { "name": "L2_Alberi_Algoritmi_visita", "ext": ".md", "lesson": false },
+            { "name": "L3_Alberi_realizzazioni", "ext": ".md", "lesson": false },
+            { "name": "L4_Programmare_con_alberi", "ext": ".md", "lesson": false },
+            { "name": "L5_Alberi_binari", "ext": ".md", "lesson": false },
+            { "name": "L6_Programmare_con_alberi_binari", "ext": ".md", "lesson": false },
+            { "name": "L7_Alberi_binari_e_complessita", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 13,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 13,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 18,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 15,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1_Heap", "ext": ".md", "lesson": false },
+            { "name": "L2_HeapSort_e_SelectionSort", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 15,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 15,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 1,
+            "notes": 0,
+            "pdfs": 0,
+            "code": 1,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "trees_intro", "ext": ".c", "lesson": false }],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M04_DS_Reticolari",
+      "kind": "module",
+      "counts": {
+        "files": 25,
+        "notes": 9,
+        "pdfs": 0,
+        "code": 0,
+        "images": 16,
+        "other": 0,
+        "lessons": 2
+      },
+      "files": [{ "name": "Intro M4", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 16,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 12,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1_Grafi_definizioni_e_modelli", "ext": ".md", "lesson": false },
+            { "name": "L2_Grafi_specifica_e_realizzazioni", "ext": ".md", "lesson": false },
+            { "name": "L3_Programmare_con_grafi", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 12,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 12,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 4,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1_Esplorazione_grafo", "ext": ".md", "lesson": false },
+            { "name": "L2_Programmare_con_algo_visita", "ext": ".md", "lesson": false },
+            { "name": "L3_Proprieta_grafo", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 4,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M05_DS_Orizzontali",
+      "kind": "module",
+      "counts": {
+        "files": 18,
+        "notes": 8,
+        "pdfs": 0,
+        "code": 0,
+        "images": 10,
+        "other": 0,
+        "lessons": 2
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 2,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1_Insiemi_specifica_e_realizzazioni", "ext": ".md", "lesson": false },
+            { "name": "L2_Programmare_con_insiemi", "ext": ".md", "lesson": false },
+            { "name": "L3_MFSET", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 2,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 1,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "L1_Dizionari_con_vettori_ordinati", "ext": ".md", "lesson": false },
+            { "name": "L2_Tabelle_Hash", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 9,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 7,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1_Alberi_bilanciati_di_ricerca", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 7,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M06_Impatto_delle_DS_su_complessita_algo",
+      "kind": "module",
+      "counts": {
+        "files": 32,
+        "notes": 10,
+        "pdfs": 0,
+        "code": 0,
+        "images": 22,
+        "other": 0,
+        "lessons": 2
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 26,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 19,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1_1_Problema_dei_cammini_minimi", "ext": ".md", "lesson": false },
+            { "name": "L1_2_Problema_dei_cammini_minimi", "ext": ".md", "lesson": false },
+            { "name": "L2_Algo_Dijkstra_Johnson", "ext": ".md", "lesson": false },
+            { "name": "L3_Algo_BellmanFordMoore_pila_PapeDesopo", "ext": ".md", "lesson": false },
+            { "name": "L4_Confronto_tra_complessita", "ext": ".md", "lesson": false },
+            { "name": "L5_Applicazione_cammini_minimi", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 19,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 19,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 3,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1_Progetto_di_algoritmi", "ext": ".md", "lesson": false },
+            { "name": "L2_Pseudocodice_e_problemi_computazionali", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 3,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M07_Divide_et_Impera",
+      "kind": "module",
+      "counts": {
+        "files": 7,
+        "notes": 5,
+        "pdfs": 0,
+        "code": 2,
+        "images": 0,
+        "other": 0,
+        "lessons": 1
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1_Complessita_algo_ricorsivi", "ext": ".md", "lesson": false },
+            { "name": "L2_Progetto_di_algo_Divide_et_Impera", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 2,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "L1_Merge_sort", "ext": ".md", "lesson": false },
+            { "name": "L2_Quick_sort", "ext": ".md", "lesson": false },
+            { "name": "main", "ext": ".py", "lesson": false },
+            { "name": "quicksort", "ext": ".py", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M08_Greedy",
+      "kind": "module",
+      "counts": {
+        "files": 7,
+        "notes": 7,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 3
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1_Progetto_algoritmi_greedy", "ext": ".md", "lesson": false },
+            { "name": "L2_Problema_massima_diversita", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1_Algoritmo_di_Kruskal", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1_Algoritmo_di_Moore", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M09_BackTrack",
+      "kind": "module",
+      "counts": {
+        "files": 4,
+        "notes": 4,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 2
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1_Progetti_di_algoritmi_backtrack", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1_Algoritmi_per_StringMatching", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M10_Programmazione_Dinamica",
+      "kind": "module",
+      "counts": {
+        "files": 5,
+        "notes": 4,
+        "pdfs": 0,
+        "code": 0,
+        "images": 1,
+        "other": 0,
+        "lessons": 2
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            {
+              "name": "L1_Progetto_di_algo_per_programmazione_dinamica",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 1,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            {
+              "name": "L1_Algoritmo_per_StringMatching_approssimato",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M11_Teoria_Complessita",
+      "kind": "module",
+      "counts": {
+        "files": 5,
+        "notes": 5,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 2
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            {
+              "name": "L1_Problemi_computazionali_e_certificati_polinomiali",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L2_NonDeterminismo_ed_enumerazione", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1_Classi_P_e_NP", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M12_Esami_passati",
+      "kind": "module",
+      "counts": {
+        "files": 18,
+        "notes": 9,
+        "pdfs": 0,
+        "code": 0,
+        "images": 9,
+        "other": 0,
+        "lessons": 4
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "Approfondimenti_per_Esame",
+          "kind": "section",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Audit di copertura degli appelli", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Algoritmo di Prim e proprietà del taglio",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Fibonacci iterativo ricorsivo e dinamico",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Ricerca binaria di confine ed elemento maggioritario",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "esame_9_gennaio_2026",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 2,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "Soluzione_Appello_09_01_2026", "ext": ".md", "lesson": false }],
+          "children": []
+        },
+        {
+          "name": "esame_10_gennaio_2025",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 2,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "Soluzione_Appello_10_01_2025", "ext": ".md", "lesson": false }],
+          "children": []
+        },
+        {
+          "name": "esame_20_marzo_2026",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 2,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "Soluzione_Appello_20_03_2026", "ext": ".md", "lesson": false }],
+          "children": []
+        },
+        {
+          "name": "esame_21_gennaio_2026",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 2,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "Soluzione_Appello_21_01_2026", "ext": ".md", "lesson": false }],
+          "children": []
+        },
+        {
+          "name": "esame_22_novembre_2025",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 1,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "Soluzione_Prova_In_Itinere_22_11_2025", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

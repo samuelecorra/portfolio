@@ -1,0 +1,526 @@
+{
+  "slug": "anno3-sicurezza-web-mobile",
+  "files": [],
+  "children": [
+    {
+      "name": "M1_Intro_CyberSec",
+      "kind": "module",
+      "counts": {
+        "files": 6,
+        "notes": 6,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1_Intro",
+          "kind": "unit",
+          "counts": {
+            "files": 1,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "L0_Intro_corso", "ext": ".md", "lesson": false }],
+          "children": []
+        },
+        {
+          "name": "UD2_CybersecNotions",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "L1_Cybersec_Intro", "ext": ".md", "lesson": false },
+            { "name": "L2_Cybersec_Definition", "ext": ".md", "lesson": false },
+            { "name": "L3_Hackers&Crackers", "ext": ".md", "lesson": false },
+            { "name": "L4_Minacce_del_Cyberspazio", "ext": ".md", "lesson": false },
+            { "name": "L5_Progettazione_della_Sicurezza", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M2_AccessControl&Authentication",
+      "kind": "module",
+      "counts": {
+        "files": 16,
+        "notes": 11,
+        "pdfs": 5,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [
+        { "name": "domande_fineM2", "ext": ".md", "lesson": false },
+        { "name": "domande_fineM2", "ext": ".pdf", "lesson": false }
+      ],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "L1_Politiche_Sicurezza", "ext": ".md", "lesson": false },
+            { "name": "L2_DAC_MAC_RBAC", "ext": ".md", "lesson": false },
+            { "name": "L3_Matrice_Accessi", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "L1_Autenticazione_Intro", "ext": ".md", "lesson": false },
+            { "name": "L2_Autenticazione_Password", "ext": ".md", "lesson": false },
+            { "name": "L3_Autenticazione_Possesso", "ext": ".md", "lesson": false },
+            { "name": "L4_Autenticazione_Biometrica", "ext": ".md", "lesson": false },
+            { "name": "L5_Biometria_Esempi_Confronto", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 2,
+            "pdfs": 4,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "L1",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 1,
+                "pdfs": 2,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "es_linux1", "ext": ".pdf", "lesson": false },
+                { "name": "L1_Intro_Linux", "ext": ".md", "lesson": false },
+                { "name": "linux_m2_d1", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "L2",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 1,
+                "pdfs": 2,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "es_linux2", "ext": ".pdf", "lesson": false },
+                { "name": "L2_Controllo_Accessi_Linux", "ext": ".md", "lesson": false },
+                { "name": "linux_m2_d2", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M3",
+      "kind": "section",
+      "counts": {
+        "files": 18,
+        "notes": 15,
+        "pdfs": 3,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 15
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 6,
+            "pdfs": 2,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true },
+            { "name": "L3", "ext": ".md", "lesson": true },
+            { "name": "L4", "ext": ".md", "lesson": true },
+            { "name": "L5", "ext": ".md", "lesson": true },
+            { "name": "L6", "ext": ".md", "lesson": true },
+            { "name": "paper-pki", "ext": ".pdf", "lesson": false },
+            { "name": "pkitutorial", "ext": ".pdf", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 7,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "AbadiNeedham", "ext": ".pdf", "lesson": false },
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true },
+            { "name": "L3", "ext": ".md", "lesson": true },
+            { "name": "L4", "ext": ".md", "lesson": true },
+            { "name": "L5", "ext": ".md", "lesson": true },
+            { "name": "L6", "ext": ".md", "lesson": true },
+            { "name": "L7", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M4",
+      "kind": "section",
+      "counts": {
+        "files": 24,
+        "notes": 19,
+        "pdfs": 5,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 17
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1_Contesto",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true },
+            { "name": "L3", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true },
+            { "name": "L3", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true },
+            { "name": "L3", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD5",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 2,
+            "pdfs": 4,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [],
+          "children": [
+            {
+              "name": "L1",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 1,
+                "pdfs": 2,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "apache_m4_d1", "ext": ".pdf", "lesson": false },
+                { "name": "es_apache1", "ext": ".pdf", "lesson": false },
+                { "name": "L1_Introduzione_ad_Apache", "ext": ".md", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "L2",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 1,
+                "pdfs": 2,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "apache_m4_d2", "ext": ".pdf", "lesson": false },
+                { "name": "es_apache2", "ext": ".pdf", "lesson": false },
+                {
+                  "name": "L2_Direttive_User_Based_e_Autenticazione_Apache",
+                  "ext": ".md",
+                  "lesson": false
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD6",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true },
+            { "name": "L3", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD7",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 3,
+            "pdfs": 1,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "L3",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 1,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 1
+              },
+              "files": [
+                { "name": "es_gpg", "ext": ".pdf", "lesson": false },
+                { "name": "L3", "ext": ".md", "lesson": true }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M5",
+      "kind": "section",
+      "counts": {
+        "files": 5,
+        "notes": 3,
+        "pdfs": 2,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 3
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 3,
+            "pdfs": 2,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [{ "name": "L3", "ext": ".md", "lesson": true }],
+          "children": [
+            {
+              "name": "L1",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 1,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 1
+              },
+              "files": [
+                { "name": "10-Years-of-Mobile-Malware-Whitepaper", "ext": ".pdf", "lesson": false },
+                { "name": "L1", "ext": ".md", "lesson": true }
+              ],
+              "children": []
+            },
+            {
+              "name": "L2",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 1,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 1
+              },
+              "files": [
+                { "name": "L2", "ext": ".md", "lesson": true },
+                { "name": "madware_and_malware_analysis", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

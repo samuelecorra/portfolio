@@ -1,0 +1,1417 @@
+{
+  "slug": "anno2-basi-di-dati",
+  "files": [{ "name": "Lezione 0 - Intro all'insegnamento", "ext": ".md", "lesson": true }],
+  "children": [
+    {
+      "name": "M01_Intro_Basi_di_Dati",
+      "kind": "module",
+      "counts": {
+        "files": 8,
+        "notes": 5,
+        "pdfs": 0,
+        "code": 0,
+        "images": 3,
+        "other": 0,
+        "lessons": 4
+      },
+      "files": [{ "name": "Intro M1", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 3,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Gestione dei dati - introduzione", "ext": ".md", "lesson": true },
+            { "name": "L2 - Modelli dei dati", "ext": ".md", "lesson": true },
+            { "name": "L3 - Utilizzo dei DBMS", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 3,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M02_Modello_e_Algebra_Relazionali",
+      "kind": "module",
+      "counts": {
+        "files": 50,
+        "notes": 17,
+        "pdfs": 2,
+        "code": 0,
+        "images": 31,
+        "other": 0,
+        "lessons": 13
+      },
+      "files": [{ "name": "Intro M2", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 3,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Introduzione al concetto di relazione", "ext": ".md", "lesson": true },
+            { "name": "L2 - Introduzione al modello relazionale", "ext": ".md", "lesson": true },
+            { "name": "L3 - Vincoli di integrità", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 3,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 32,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 0,
+            "images": 24,
+            "other": 0,
+            "lessons": 8
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Introduzione all’algebra relazionale", "ext": ".md", "lesson": true },
+            { "name": "L2 - Selezione e proiezione", "ext": ".md", "lesson": true },
+            { "name": "L3 - Unione, differenza e intersezione", "ext": ".md", "lesson": true },
+            { "name": "L4 - Prodotto cartesiano e Join", "ext": ".md", "lesson": true },
+            {
+              "name": "L5 - Equivalenza e ottimizzazione delle espressioni algebriche",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L6 - Idiomi di interrogazione – esiste - per ogni, minimo - massimo",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L7 - Idiomi di interrogazione - cardinalità e copertura",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 24,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 24,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 10,
+            "notes": 4,
+            "pdfs": 2,
+            "code": 0,
+            "images": 4,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            {
+              "name": "L1_1 - Esercitazione di algebra relazionale",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "L1_2 - Esercitazione di algebra relazionale", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 1,
+                "pdfs": 2,
+                "code": 0,
+                "images": 4,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "E1 - esercizi ed eserciziario pdf", "ext": ".md", "lesson": false },
+                { "name": "Eserciziario_algebra_relazionale", "ext": ".pdf", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "imgs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 5,
+                    "notes": 0,
+                    "pdfs": 1,
+                    "code": 0,
+                    "images": 4,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Eserciziario_algebra_relazionale", "ext": ".pdf", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M03_SQL",
+      "kind": "module",
+      "counts": {
+        "files": 65,
+        "notes": 21,
+        "pdfs": 2,
+        "code": 0,
+        "images": 41,
+        "other": 1,
+        "lessons": 19
+      },
+      "files": [{ "name": "Intro M3", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 5,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Introduzione e Domini", "ext": ".md", "lesson": true },
+            { "name": "L2 - Schemi, Tabelle e Vincoli", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 5,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 10,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 7,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - SELECT, FROM, WHERE", "ext": ".md", "lesson": true },
+            { "name": "L2 - Join e variabili", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 7,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 15,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 11,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Ordinamenti, aggregazioni e raggruppamenti",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Interrogazioni insiemistiche e nidificate",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Funzioni scalari in SQL", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 11,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 11,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 4,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Inserimenti, cancellazioni e aggiornamenti",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 4,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD5",
+          "kind": "unit",
+          "counts": {
+            "files": 14,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 10,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD5", "ext": ".md", "lesson": true },
+            { "name": "L1 - Vincoli di integrità generici", "ext": ".md", "lesson": true },
+            { "name": "L2 - Viste", "ext": ".md", "lesson": true },
+            { "name": "L3 - Autorizzazioni e controllo dell’accesso", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 10,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 10,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD6",
+          "kind": "unit",
+          "counts": {
+            "files": 11,
+            "notes": 4,
+            "pdfs": 2,
+            "code": 0,
+            "images": 4,
+            "other": 1,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "desktop", "ext": ".ini", "lesson": false },
+            { "name": "L0 - Intro UD6", "ext": ".md", "lesson": true },
+            { "name": "L1 - Esercitazione SQL - Parte I", "ext": ".md", "lesson": true },
+            { "name": "L2 - Esercitazione SQL - Parte II", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 1,
+                "pdfs": 2,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "E1 - Esercizi ed Eserciziario SQL", "ext": ".md", "lesson": false },
+                { "name": "Eserciziario_SQL - Di Meo & Pedroni", "ext": ".pdf", "lesson": false },
+                { "name": "Eserciziario_SQL", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 4,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M04_Progettazione_di_Basi_di_Dati",
+      "kind": "module",
+      "counts": {
+        "files": 111,
+        "notes": 28,
+        "pdfs": 1,
+        "code": 0,
+        "images": 82,
+        "other": 0,
+        "lessons": 20
+      },
+      "files": [{ "name": "Intro M4", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 3,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Ciclo di vita dei sistemi informativi", "ext": ".md", "lesson": true },
+            { "name": "L2 - Raccolta e analisi dei requisiti", "ext": ".md", "lesson": true },
+            { "name": "L3 - Fasi della progettazione", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 3,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 28,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 23,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Modello E-R - Entità, relazioni e attributi",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Modello E-R - Le cardinalità", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Modello E-R - Identificatori e gerarchie",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L4 - Modello E-R - Documentazione di schemi", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 23,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 23,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 19,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 15,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - Strategie di progetto - Top-down", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Strategie di progetto - Bottom-up, Inside-out e Mista",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Qualità di schemi concettuali e strumenti di supporto",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 15,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 15,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 44,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 38,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Ristrutturazione di schemi E-R - Analisi delle ridondanze",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Ristrutturazione di schemi E-R - Eliminazione delle gerarchie",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Ristrutturazione di schemi E-R - Partizionamenti, accorpamenti e scelta degli identificatori",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L4 - Traduzione verso il modello logico", "ext": ".md", "lesson": true },
+            {
+              "name": "L5 - Documentazione, verifica e progettazione fisica",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 38,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 38,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD5",
+          "kind": "unit",
+          "counts": {
+            "files": 12,
+            "notes": 8,
+            "pdfs": 1,
+            "code": 0,
+            "images": 3,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L0 - Intro UD5", "ext": ".md", "lesson": true },
+            {
+              "name": "L1_1 - Esercitazione di progettazione concettuale - Schema E-R",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L1_2 - Esercitazione di progettazione logica - Traduzione dello schema E-R",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L2_1 - Esercitazione di progettazione concettuale (Schema E-R)",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L2_2 - Esercitazione di progettazione logica (Schema relazionale)",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L3_1 - Esercitazione di progettazione concettuale (Schema E-R)",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L3_2 - Esercitazione di progettazione logica (Schema relazionale)",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 5,
+                "notes": 1,
+                "pdfs": 1,
+                "code": 0,
+                "images": 3,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "E1 - Esercizi ed Eserciziario SQL", "ext": ".md", "lesson": false },
+                { "name": "Eserciziario_ER", "ext": ".pdf", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "imgs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 3,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M05_Organizzazione_Fisica_delle_Basi_di_Dati",
+      "kind": "module",
+      "counts": {
+        "files": 21,
+        "notes": 8,
+        "pdfs": 0,
+        "code": 0,
+        "images": 13,
+        "other": 0,
+        "lessons": 7
+      },
+      "files": [{ "name": "Intro M5", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 20,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 13,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Moduli per l’accesso ai dati e gestione della memoria",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Organizzazione di file - Strutture sequenziali",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Organizzazione di file -Strutture hash-based",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Organizzazione di file - Gestione delle tuple nelle pagine",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L5 - Organizzazione di file - Strutture ad albero (B e B+)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L6 - Progettazione fisica e gestione delle interrogazioni",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 13,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 13,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M06_Gestione_Transazioni",
+      "kind": "module",
+      "counts": {
+        "files": 62,
+        "notes": 17,
+        "pdfs": 0,
+        "code": 0,
+        "images": 45,
+        "other": 0,
+        "lessons": 15
+      },
+      "files": [{ "name": "Intro M6", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 2,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Transazioni", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 2,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 19,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 14,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Gestore dell’affidabilità e organizzazione del log",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Esecuzione di transazioni e scritture del log",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Gestione dei guasti", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "esercizi",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 1,
+                "pdfs": 0,
+                "code": 0,
+                "images": 6,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "E1 - domande ed esercizi", "ext": ".md", "lesson": false }],
+              "children": [
+                {
+                  "name": "imgs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 6,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 6,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 8,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 8,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 38,
+            "notes": 9,
+            "pdfs": 0,
+            "code": 0,
+            "images": 29,
+            "other": 0,
+            "lessons": 9
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - Anomalie delle transazioni concorrenti", "ext": ".md", "lesson": true },
+            { "name": "L2 - Schedule e serializzabilità", "ext": ".md", "lesson": true },
+            { "name": "L3 - View-serializzabilità", "ext": ".md", "lesson": true },
+            { "name": "L4 - Conflict-serializzabilità", "ext": ".md", "lesson": true },
+            { "name": "L5 - Locking a due fasi (2PL)", "ext": ".md", "lesson": true },
+            { "name": "L6 - Timestamp", "ext": ".md", "lesson": true },
+            { "name": "L7 - Meccanismi per la gestione dei lock", "ext": ".md", "lesson": true },
+            { "name": "L8 - Deadlock", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 29,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 29,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M07_Architetture_Distribuite",
+      "kind": "module",
+      "counts": {
+        "files": 24,
+        "notes": 12,
+        "pdfs": 0,
+        "code": 0,
+        "images": 12,
+        "other": 0,
+        "lessons": 9
+      },
+      "files": [{ "name": "Intro M7", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 1,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Architettura Client-Server", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 3,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Introduzione alle basi di dati distribuite",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 -  Frammentazione e allocazione dei dati", "ext": ".md", "lesson": true },
+            { "name": "L3 - Accesso ai dati distribuiti", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 3,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 13,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 8,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Ottimizzazione, concorrenza e atomicità",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Controllo di concorrenza", "ext": ".md", "lesson": true },
+            { "name": "L3_1 - Protocollo di commit a due fasi", "ext": ".md", "lesson": false },
+            {
+              "name": "L3_2 - Protocollo di commit a due fasi – Gestione dei guasti e ottimizzazioni",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 8,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 8,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M08_Dati_SemiStrutturati",
+      "kind": "module",
+      "counts": {
+        "files": 8,
+        "notes": 5,
+        "pdfs": 0,
+        "code": 0,
+        "images": 3,
+        "other": 0,
+        "lessons": 4
+      },
+      "files": [{ "name": "Intro M8", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 3,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Introduzione a XML", "ext": ".md", "lesson": true },
+            { "name": "L2 - DTD e XML Schema", "ext": ".md", "lesson": true },
+            { "name": "L3 - XQuery", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 3,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M09_Basi_di_Dati_Attive",
+      "kind": "module",
+      "counts": {
+        "files": 10,
+        "notes": 6,
+        "pdfs": 0,
+        "code": 0,
+        "images": 4,
+        "other": 0,
+        "lessons": 5
+      },
+      "files": [{ "name": "Intro M9", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 9,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 4,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Basi di dati attive e trigger", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Caratteristiche evolute delle regole attive",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Proprietà delle regole attive", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - Applicazioni ed esempi delle regole attive",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 4,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M10_Basi_di_Dati_per_supporto_decisioni",
+      "kind": "module",
+      "counts": {
+        "files": 29,
+        "notes": 7,
+        "pdfs": 2,
+        "code": 0,
+        "images": 20,
+        "other": 0,
+        "lessons": 6
+      },
+      "files": [{ "name": "Intro M10", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 28,
+            "notes": 6,
+            "pdfs": 2,
+            "code": 0,
+            "images": 20,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - OLTP vs OLAP", "ext": ".md", "lesson": true },
+            { "name": "L2 - Il Data Warehouse", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Rappresentazione multidimensionale dei dati",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L4 - Realizzazione di un Data Warehouse", "ext": ".md", "lesson": true },
+            { "name": "L5 - Data Mining", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "eserciziario",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "Eserciziario_Complementi", "ext": ".pdf", "lesson": false }],
+              "children": []
+            },
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 21,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 20,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "Eserciziario_Complementi", "ext": ".pdf", "lesson": false }],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M11_Esami_passati",
+      "kind": "module",
+      "counts": {
+        "files": 13,
+        "notes": 7,
+        "pdfs": 0,
+        "code": 0,
+        "images": 6,
+        "other": 0,
+        "lessons": 4
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "Approfondimenti_per_Esame",
+          "kind": "section",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Audit di copertura degli appelli 2026", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Cardinalita minima e massima di espressioni relazionali",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Conteggio degli schedule seriali equivalenti",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Limiti per supporto e confidenza nelle regole di associazione",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "esame_3_luglio_2026",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 2,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "Soluzione_Appello_03_07_2026", "ext": ".md", "lesson": false }],
+          "children": []
+        },
+        {
+          "name": "esame_8_maggio_2026",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 2,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "Soluzione_Appello_08_05_2026", "ext": ".md", "lesson": false }],
+          "children": []
+        },
+        {
+          "name": "esame_23_maggio_2026",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 2,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "Soluzione_Appello_23_05_2026", "ext": ".md", "lesson": false }],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

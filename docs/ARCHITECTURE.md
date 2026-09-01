@@ -115,6 +115,61 @@ The seam already exists: `Project.githubMetrics` is typed
 (`stars`, `primaryLanguage`, `lastUpdated`, `topics`) and set to `null`
 everywhere. Populating it requires no type or component changes.
 
+## Internationalisation
+
+Custom, not a library. English, Italian, German.
+
+`react-i18next` and friends solve interpolation, pluralisation, lazy namespace
+loading and ICU message syntax. This site needs none of those: a few dozen
+strings, no plural-sensitive counts in prose, and content already centralised in
+`src/data/**`. The whole implementation is ~150 lines — a provider, a context, a
+hook and three dictionaries — against roughly 40 kB of dependency.
+
+What makes it safe rather than merely small:
+
+- `en.ts` is the source of truth. `type Dictionary` is derived from it (with
+  literal types widened back to `string`), so `it.ts` and `de.ts` are
+  **typechecked for completeness**. A missing or misspelt key fails the build.
+- Locale resolution is synchronous in the state initialiser — stored choice,
+  then `navigator.languages`, then English — so the first paint is already in
+  the right language instead of flashing English.
+- `<html lang>` is kept in sync; it drives screen-reader pronunciation and
+  hyphenation.
+- Every `localStorage` access is wrapped: private windows and blocked site data
+  make it _throw_, not merely return null.
+
+All three dictionaries ship in the main bundle (~12 kB combined). Lazy-loading
+them would trade that for a flash of the wrong language — a bad trade at this
+size. Revisit if a locale grows large or a fourth language lands.
+
+**Not done:** locale-prefixed URLs (`/it/progetti`) and `hreflang`. Those need
+per-locale HTML at crawl time, which means pre-rendering — see § SEO. Today the
+language is a client-side preference, which is right for humans and invisible to
+crawlers.
+
+## Generated data
+
+The curriculum under `/knowledge` is generated, never hand-written:
+
+```
+archive manifest.json → scripts/sync-archive.mjs → src/data/generated/
+```
+
+This is the build-time sync path that § GitHub describes, arriving earlier than
+planned because the archive already publishes its own manifest — so no GitHub
+API calls, no rate limits, no auth.
+
+Output is **committed**. That keeps `npm run build` offline, reproducible and
+independent of GitHub being up, at the cost of the data being as fresh as the
+last `npm run sync:archive`. For material that changes a few times a semester,
+that is the right side of the trade.
+
+Per-subject trees are separate files loaded through `import.meta.glob` without
+`eager`, so Vite emits one chunk per subject. Opening one subject downloads
+~2–8 kB gzip rather than the ~1 MB the combined tree would cost.
+
+The script has no dependencies — Node's built-in `fetch` and `fs`.
+
 ## SEO
 
 Crawler-facing metadata (`title`, `description`, OpenGraph, Twitter) is static

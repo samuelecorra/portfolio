@@ -1,0 +1,273 @@
+{
+  "slug": "anno3-gestione-della-sicurezza-nei-sistemi-informativi",
+  "files": [{ "name": "SchedaInsegnamentoGSS (1)", "ext": ".pdf", "lesson": false }],
+  "children": [
+    {
+      "name": "M1",
+      "kind": "section",
+      "counts": {
+        "files": 18,
+        "notes": 18,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 18
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Gli attori del processo penale", "ext": ".md", "lesson": true },
+            { "name": "L2 - Le fasi del processo penale", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - I mezzi di ricerca delle prove nel processo penale",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Gli accertamenti tecnici nel processo penale",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L1 - Le parti del processo civile", "ext": ".md", "lesson": true },
+            { "name": "L2 - Le diverse tipologie di procedimenti", "ext": ".md", "lesson": true },
+            { "name": "L3 - Le fasi del procedimento civile", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - I mezzi di raccolta delle prove nel procedimento civile",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L5 - Gli accertamenti tecnici nel procedimento civile",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Definizione di documento informatico", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Firme elettroniche — aspetti tecnici e giuridici",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Il valore probatorio del documento informatico",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L1 - La normativa privacy", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 -  La responsabilità penale degli enti e il D.Lgs. 231 2001",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Aspetti rilevanti sulla gestione dei sistemi informativi rispetto al D.Lgs. 231 2001",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Jobs Act, controllo a distanza dei lavoratori e videosorveglianza",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L5 - Jobs Act e controllo dei lavoratori tramite GPS e dispositivi mobili",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L6 - Proprietà intellettuale, segreto industriale e diritto d’autore",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M2",
+      "kind": "section",
+      "counts": {
+        "files": 7,
+        "notes": 7,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 7
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 -  ISO IEC 27037", "ext": ".md", "lesson": true },
+            { "name": "L2 -  ISO IEC 27035", "ext": ".md", "lesson": true },
+            { "name": "L3 - ISO IEC 27043", "ext": ".md", "lesson": true },
+            { "name": "L4 - ISO IEC 19011", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - La valutazione del rischio", "ext": ".md", "lesson": true },
+            { "name": "L2 - Incident response", "ext": ".md", "lesson": true },
+            { "name": "L3 - Forensic Readiness Plan", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M3",
+      "kind": "section",
+      "counts": {
+        "files": 6,
+        "notes": 6,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 6
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            {
+              "name": "L1 - Gestione dei sistemi informativi in ambito aziendale per tutela della proprietà industriale",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - Gestione dei sistemi informativi in ambito aziendale per controllo del personale",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Gestione dei sistemi informativi in ambito sanitario",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Misure tecniche per certificazione di processi e software",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Valutazione del rischio – Simulazione", "ext": ".md", "lesson": true },
+            { "name": "L2 - Risposta all’incidente – Simulazione", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

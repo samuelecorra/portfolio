@@ -5,8 +5,10 @@ import { ActionLink } from '@/components/ui/ActionLink';
 import { Icon } from '@/components/ui/Icon';
 import { site } from '@/data/site';
 import { socials } from '@/data/socials';
+import { localize, useI18n } from '@/i18n';
 
 export function Hero(): JSX.Element {
+  const { t, locale } = useI18n();
   const github = socials.find((social) => social.id === 'github');
 
   return (
@@ -26,7 +28,7 @@ export function Hero(): JSX.Element {
 
       <Container>
         <p className="font-mono text-xs tracking-[0.22em] text-accent uppercase sm:text-sm">
-          {site.role}
+          {localize(site.role, locale)}
         </p>
 
         {/* The page's only h1. */}
@@ -38,22 +40,19 @@ export function Hero(): JSX.Element {
         </h1>
 
         <p className="mt-8 max-w-2xl text-xl leading-relaxed text-ink sm:text-2xl">
-          {site.tagline}
+          {localize(site.tagline, locale)}
         </p>
 
-        <p className="mt-5 max-w-xl text-ink-muted">
-          A technical hub rather than a CV: what I build, what I study, and the material behind
-          both. Every claim here links to something you can read.
-        </p>
+        <p className="mt-5 max-w-xl text-ink-muted">{t.hero.intro}</p>
 
         <div className="mt-10 flex flex-wrap gap-3">
           <ActionLink href="/projects" emphasis="primary">
-            Explore my work
+            {t.hero.ctaWork}
           </ActionLink>
           {github?.url ? (
             <ActionLink href={github.url} emphasis="secondary">
               <Icon name="github" className="h-4 w-4" />
-              GitHub
+              {t.hero.ctaGithub}
             </ActionLink>
           ) : null}
         </div>

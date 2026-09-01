@@ -132,45 +132,80 @@ The knowledge archive uses both, deliberately:
 `getProjectBySlug()`, `getProjectsByIds()`. Components use these rather than
 sorting or filtering inline, so ordering rules live in one place.
 
-## Knowledge
+## Language
 
-The deliberate anti-pattern here is the skill bar. `JavaScript 90%` is
-unfalsifiable and means nothing. This model replaces it with two things a reader
-can actually evaluate: **concrete topics** and **a link to the material**.
+Three locales: English (source and fallback), Italian, German.
 
-```ts
-interface KnowledgeArea {
-  id;
-  slug;
-  title;
-  description;
-  topics; // the honest replacement for a percentage
-  relatedProjectIds; // must resolve to real Project ids (tested)
-  evidence; // EvidenceLink[] — at least one (tested)
-  tags;
-  icon;
-  order;
-}
+Two kinds of text, treated differently:
 
-interface EvidenceLink {
-  label;
-  href;
-  kind; // 'repository' | 'notes' | 'project' | 'external'
-  repositoryPath; // Unconfirmed<string>
-}
+**Editorial copy** — hero, project summaries, principles, UI chrome — is
+translated. In data it uses `LocalizedText` / `LocalizedList`
+(`Record<Locale, string>`), and UI strings live in `src/i18n/{en,it,de}.ts`.
+`en.ts` defines the `Dictionary` type, so a missing key in another locale is a
+typecheck failure rather than a blank string in production.
+
+**Source artefacts** — archive folder names, module and lesson titles — are
+NOT translated. They are the actual names of files in the repository, written in
+Italian. Translating them would mean the label on screen no longer matches what
+the reader finds when they follow the link. Subject names are the one exception:
+they carry curated English and German names, and the Italian original is shown
+underneath so the connection to the folder stays visible.
+
+Tests assert that all three dictionaries have identical key sets, that none
+contains an empty string, and that Italian and German actually differ from
+English — which catches a locale file copy-pasted and never translated.
+
+## Curriculum
+
+`/knowledge` is the site's strongest claim, so none of it is hand-written.
+
+```
+archive manifest.json  →  scripts/sync-archive.mjs  →  src/data/generated/
 ```
 
-`repositoryPath` is separate from `href` on purpose. Today every area links to
-the archive repository root and the path is `null`, because the archive's folder
-layout has not been mapped — a deep link would be a guess. Filling these in
-upgrades each card from "here is the repo" to "here is the exact folder", and
-lets a future script verify the path still exists instead of shipping a dead
-link.
+`npm run sync:archive` fetches the archive's own generated manifest, walks the
+6,110-file tree and writes:
 
-Every area's evidence currently resolves to `ARCHIVE_REPOSITORY_URL`, exported
-from `projects.ts` so the two data files cannot drift apart.
+- **`generated/archive.json`** — years, subjects and counts. Small, bundled.
+- **`generated/subjects/<slug>.json`** — one file per subject holding the full
+  module → unit → lesson tree. Loaded lazily via `import.meta.glob`, so opening
+  Cryptography downloads Cryptography, not all 24 subjects.
 
-**If an area cannot point at evidence, it does not belong here.**
+Output is committed so builds stay offline and reproducible.
+
+### Why generated
+
+The archive holds three years of material: 24 subjects, 167 modules, 287
+didactic units, 1,558 lessons, 2,012 notes, 364 PDFs, 6,110 files. Numbers that
+size, typed by hand, are wrong by the next commit to the archive — and a site
+whose whole premise is "evidence over assertions" cannot ship figures nobody can
+reproduce. Re-running the script is the only way these change.
+
+### Structure is not uniform
+
+Subjects file their material differently. Most use `M01_Module/UD1 - Unit/L1 -
+Lesson.md`; some nest a course level first; a few store loose files with no
+module structure at all. The generator therefore builds a **generic tree** and
+classifies nodes by naming pattern where one exists, rather than assuming a
+fixed depth — an assumption would silently drop the subjects that do not match.
+
+Consequently the UI only renders metrics a subject actually has. A zero would
+read as "no work here" when it really means "filed differently".
+
+Images are excluded from the per-subject trees: 2,725 screenshots and diagrams
+are supporting assets, not material anyone browses by name, and including them
+would triple the lazy chunk for no informational gain.
+
+### Deep links
+
+Each subject carries two URLs, both generated and both verified to resolve:
+
+- `viewerUrl` — the archive's own deployed viewer, using its hash-routing
+  scheme (`#/anno2/6_Crittografia`).
+- `githubUrl` — the repository tree.
+
+The tree component builds per-node URLs from the ancestor path, so an individual
+lesson links to that lesson.
 
 ## Icons
 

@@ -1,0 +1,1526 @@
+{
+  "slug": "anno2-crittografia",
+  "files": [
+    { "name": "LEZIONE 0 - Intro all'insegnamento", "ext": ".md", "lesson": true },
+    { "name": "REPORT_COPERTURA_ESAMI", "ext": ".md", "lesson": false }
+  ],
+  "children": [
+    {
+      "name": "M1_Crittografia_Classica",
+      "kind": "module",
+      "counts": {
+        "files": 104,
+        "notes": 44,
+        "pdfs": 0,
+        "code": 0,
+        "images": 58,
+        "other": 2,
+        "lessons": 19
+      },
+      "files": [{ "name": "Intro M1", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 21,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 16,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Crittografia – Note storiche", "ext": ".md", "lesson": true },
+            { "name": "L2 - Protocolli e scenari", "ext": ".md", "lesson": true },
+            { "name": "L3 - Primitive Crittografiche", "ext": ".md", "lesson": true },
+            { "name": "L4 - Proprietà di Sicurezza", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 16,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 16,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 24,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 16,
+            "other": 2,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Crittografia e Stenografia", "ext": ".md", "lesson": true },
+            { "name": "L2 - Metodi di cifratura simmetrica", "ext": ".md", "lesson": true },
+            { "name": "L3 - Cifrari a sostituzione", "ext": ".md", "lesson": true },
+            { "name": "L4 - Sicurezza dei cifrari e crittoanalisi", "ext": ".md", "lesson": true },
+            {
+              "name": "L5 - Crittoanalisi dei cifrari a sostituzione",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 18,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 16,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "Encrypting-using-Rail-Fence-Cipher5", "ext": ".ppm", "lesson": false },
+                { "name": "railfence", "ext": ".ppm", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 33,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 26,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Cifrature multilettera e polialfabetica",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Il Cifrario di Hill", "ext": ".md", "lesson": true },
+            { "name": "L3 - Il Cifrario di Vigenère", "ext": ".md", "lesson": true },
+            { "name": "L4 - Cifrari a rotazione - Enigma", "ext": ".md", "lesson": true },
+            {
+              "name": "L5_1 - Crittoanalisi del Cifrario di Vigenère",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "L5_2 - Crittoanalisi del Cifrario di Vigenère",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 26,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 26,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4_Approfondimenti_Esame",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Cifrari a sostituzione su parole binarie di n bit",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Composizione di cifrari a permutazione", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD5_Esercizi_Appelli",
+          "kind": "unit",
+          "counts": {
+            "files": 22,
+            "notes": 22,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "00 - Intro", "ext": ".md", "lesson": false },
+            {
+              "name": "01 - [24-01-2023] Cifrari classici attacchi e resistenza",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "02 - [16-02-2023] Vigenere IC e MIC", "ext": ".md", "lesson": false },
+            {
+              "name": "03 - [22-06-2023] Cifrario affine e doppia cifratura",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "04 - [07-07-2023] Cifrari classici attacchi e resistenza",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "05 - [12-07-2023] Hill", "ext": ".md", "lesson": false },
+            { "name": "06 - [07-09-2023] Playfair", "ext": ".md", "lesson": false },
+            { "name": "07 - [22-09-2023] Hill", "ext": ".md", "lesson": false },
+            {
+              "name": "08 - [17-01-2024] Sostituzione su blocchi binari",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "09 - [20-02-2024] Playfair", "ext": ".md", "lesson": false },
+            {
+              "name": "10 - [24-06-2024] Sicurezza e cifrario affine composto",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "11 - [05-07-2024] Sicurezza e cifrario affine composto",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "12 - [06-09-2024] Cifrari a permutazione e composizione",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "13 - [20-09-2024] Hill", "ext": ".md", "lesson": false },
+            { "name": "14 - [10-02-2025] Vigenere", "ext": ".md", "lesson": false },
+            { "name": "15 - [04-07-2025] Hill", "ext": ".md", "lesson": false },
+            {
+              "name": "16 - [15-07-2025] Sostituzione su parole binarie",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "17 - [05-09-2025] Cifrario affine", "ext": ".md", "lesson": false },
+            {
+              "name": "18 - [19-09-2025] Cifrari classici attacchi e resistenza",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "19 - [08-01-2026] Vigenere IC e MIC", "ext": ".md", "lesson": false },
+            {
+              "name": "20 - [24-02-2026] Sostituzione binaria con XOR",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "21 - [21-03-2026] Sostituzione a blocchi e cifrario ottale",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M2_Cifrature_Simmetriche_Moderne",
+      "kind": "module",
+      "counts": {
+        "files": 158,
+        "notes": 47,
+        "pdfs": 0,
+        "code": 0,
+        "images": 111,
+        "other": 0,
+        "lessons": 23
+      },
+      "files": [{ "name": "Intro M2", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 10,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 7,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Cifrature a blocchi – introduzione", "ext": ".md", "lesson": true },
+            { "name": "L2 - Cifrari di Feistel", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 7,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 66,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 59,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 -  Struttura del DES", "ext": ".md", "lesson": true },
+            { "name": "L2 - Modalità operative del DES", "ext": ".md", "lesson": true },
+            { "name": "L3 - Attacchi al DES", "ext": ".md", "lesson": true },
+            { "name": "L4 - Crittoanalisi lineare e differenziale", "ext": ".md", "lesson": true },
+            { "name": "L5 - Double DES", "ext": ".md", "lesson": true },
+            { "name": "L6 - Triple DES (3DES)", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 59,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 59,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 36,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 31,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - AES (Advanced Encryption Standard)", "ext": ".md", "lesson": true },
+            { "name": "L2 - Struttura della cifratura AES", "ext": ".md", "lesson": true },
+            { "name": "L3 - Trasformazioni di cifratura dell'AES", "ext": ".md", "lesson": true },
+            { "name": "L4 - Decifratura dell’AES", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 31,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 31,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 18,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 14,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            { "name": "L1 - BlowFish", "ext": ".md", "lesson": true },
+            { "name": "L2 - RC5", "ext": ".md", "lesson": true },
+            { "name": "L3 - RC4", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 14,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 14,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD5_Approfondimenti_Esame",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD5", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Cifrari non-standard XOR+hash - decifratura e CPA attack",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - AES-X - key whitening e analisi sicurezza KPT",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Modalità OFB personalizzata - deduzione formale del keystream",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD6_Esercizi_Appelli",
+          "kind": "unit",
+          "counts": {
+            "files": 23,
+            "notes": 23,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "00 - Intro", "ext": ".md", "lesson": false },
+            {
+              "name": "01 - [16-02-2023] Cifrario a blocchi hash e XOR",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "02 - [16-02-2023] Modalita operative del DES",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "03 - [22-06-2023] Modalita operative del DES",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "04 - [07-07-2023] Cifrario a blocchi hash e XOR",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "05 - [12-07-2023] Feistel a 2 round", "ext": ".md", "lesson": false },
+            {
+              "name": "06 - [07-09-2023] Modalita OFB con keystream riusato",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "07 - [22-09-2023] Meet-in-the-middle e AES-X",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "08 - [17-01-2024] AES", "ext": ".md", "lesson": false },
+            {
+              "name": "09 - [20-02-2024] DES simmetria cifratura-decifratura",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "10 - [24-06-2024] Feistel 2 round con funzione aritmetica",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "11 - [05-07-2024] Feistel 2 round con funzione XOR",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "12 - [08-07-2024] Cifratura a blocchi KOSTI",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "13 - [08-07-2024] Modalita operative del DES",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "14 - [20-09-2024] Feistel 2 round mod 15", "ext": ".md", "lesson": false },
+            {
+              "name": "15 - [20-01-2025] Cifratura simmetrica a blocchi XOR e somma",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "16 - [20-01-2025] DES simmetria cifratura-decifratura",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "17 - [10-02-2025] Cifrario a blocchi XOR e hash",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "18 - [04-07-2025] Blowfish", "ext": ".md", "lesson": false },
+            {
+              "name": "19 - [05-09-2025] Double DES e meet-in-the-middle",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "20 - [19-09-2025] DES doppio e AES-X", "ext": ".md", "lesson": false },
+            {
+              "name": "21 - [08-01-2026] Cifrario a blocchi XOR e hash",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "22 - [21-03-2026] Feistel 2 round con complemento",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M3_Cifrature_Asimmetriche",
+      "kind": "module",
+      "counts": {
+        "files": 48,
+        "notes": 33,
+        "pdfs": 0,
+        "code": 0,
+        "images": 15,
+        "other": 0,
+        "lessons": 15
+      },
+      "files": [{ "name": "Intro M3", "ext": ".md", "lesson": false }],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 1,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Scenario e applicazioni", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 16,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 9,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Algoritmo RSA", "ext": ".md", "lesson": true },
+            { "name": "L2 - Aritmetica modulare e numeri primi", "ext": ".md", "lesson": true },
+            { "name": "L3 - Fattorizzazione e test di primalità", "ext": ".md", "lesson": true },
+            { "name": "L4_1 - Computazioni in RSA", "ext": ".md", "lesson": false },
+            { "name": "L4_2 - Computazioni in RSA (parte 2)", "ext": ".md", "lesson": false },
+            { "name": "L5 - Sicurezza di RSA", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 9,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 9,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - Il problema del logaritmo discreto", "ext": ".md", "lesson": true },
+            { "name": "L2 - Crittosistema di El-Gamal", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 5,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            { "name": "L1 - Aritmetica su curve ellittiche", "ext": ".md", "lesson": true },
+            { "name": "L2 - Crittosistemi su curve ellittiche", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 5,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD5_Approfondimenti_Esame",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD5", "ext": ".md", "lesson": true },
+            { "name": "L1 - Double-RSA - analisi di sicurezza", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD6_Esercizi_Appelli",
+          "kind": "unit",
+          "counts": {
+            "files": 15,
+            "notes": 15,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "00 - Intro", "ext": ".md", "lesson": false },
+            { "name": "01 - [16-02-2023] El-Gamal", "ext": ".md", "lesson": false },
+            {
+              "name": "02 - [22-06-2023] RSA correttezza e fattorizzazione da phi",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "03 - [07-07-2023] El-Gamal", "ext": ".md", "lesson": false },
+            {
+              "name": "04 - [12-07-2023] Parametri RSA e cenni ECC",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "05 - [22-09-2023] RSA vs fattorizzazione e ottimizzazioni",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "06 - [17-01-2024] El-Gamal", "ext": ".md", "lesson": false },
+            { "name": "07 - [24-06-2024] RSA", "ext": ".md", "lesson": false },
+            { "name": "08 - [05-07-2024] RSA", "ext": ".md", "lesson": false },
+            { "name": "09 - [08-07-2024] RSA sicurezza", "ext": ".md", "lesson": false },
+            {
+              "name": "10 - [06-09-2024] RSA equivalenza con fattorizzazione",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "11 - [20-09-2024] RSA completo", "ext": ".md", "lesson": false },
+            { "name": "12 - [20-01-2025] El-Gamal", "ext": ".md", "lesson": false },
+            { "name": "13 - [15-07-2025] RSA e Double-RSA", "ext": ".md", "lesson": false },
+            { "name": "14 - [24-02-2026] El-Gamal", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M4_Funzioni_Hash_e_Mac",
+      "kind": "module",
+      "counts": {
+        "files": 33,
+        "notes": 30,
+        "pdfs": 0,
+        "code": 0,
+        "images": 3,
+        "other": 0,
+        "lessons": 16
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Scenario e applicazioni", "ext": ".md", "lesson": true },
+            { "name": "L2 - Proprietà", "ext": ".md", "lesson": true },
+            { "name": "L3 - Sicurezza e attacchi", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 3,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Costruzione di funzioni hash", "ext": ".md", "lesson": true },
+            { "name": "L2 - MD4 e MD5", "ext": ".md", "lesson": true },
+            { "name": "L3 - SHA-1", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - Applicazione delle funzioni hash – Notaio digitale",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 3,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - Codici MAC", "ext": ".md", "lesson": true },
+            { "name": "L2 - Costruzione di MAC", "ext": ".md", "lesson": true },
+            { "name": "L3 - HMAC", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4_Approfondimenti_Esame",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            { "name": "L1 - H(x)=DES_k(x) - analisi one-wayness", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - MAC personalizzato AES+hash - attacco per collisione",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD5_Esercizi_Appelli",
+          "kind": "unit",
+          "counts": {
+            "files": 14,
+            "notes": 14,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "00 - Intro", "ext": ".md", "lesson": false },
+            {
+              "name": "01 - [24-01-2023] MAC AES-hash con attacco di collisione",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "02 - [07-09-2023] MAC e HMAC", "ext": ".md", "lesson": false },
+            { "name": "03 - [17-01-2024] Funzioni hash", "ext": ".md", "lesson": false },
+            { "name": "04 - [20-02-2024] MAC e HMAC", "ext": ".md", "lesson": false },
+            { "name": "05 - [06-09-2024] MAC e HMAC", "ext": ".md", "lesson": false },
+            {
+              "name": "06 - [20-09-2024] Hash identita e paradosso del compleanno",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "07 - [20-01-2025] Funzioni hash", "ext": ".md", "lesson": false },
+            { "name": "08 - [10-02-2025] Funzione hash identita", "ext": ".md", "lesson": false },
+            {
+              "name": "09 - [04-07-2025] Hash compleanno e one-wayness di H(x)=DESk(x)",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "10 - [15-07-2025] Funzioni hash", "ext": ".md", "lesson": false },
+            { "name": "11 - [05-09-2025] Funzioni MAC", "ext": ".md", "lesson": false },
+            {
+              "name": "12 - [24-02-2026] Funzioni hash one-wayness AES",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "13 - [21-03-2026] Funzioni hash one-wayness DES",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M5_Firme_Digitali",
+      "kind": "module",
+      "counts": {
+        "files": 19,
+        "notes": 18,
+        "pdfs": 0,
+        "code": 0,
+        "images": 1,
+        "other": 0,
+        "lessons": 11
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Scenario e applicazioni", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Schema RSA", "ext": ".md", "lesson": true },
+            { "name": "L2 - Sicurezza di RSA", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 1,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Schema DSS (Digital Signature Standard)",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Parametri dello schema DSS", "ext": ".md", "lesson": true },
+            { "name": "L3 - Sicurezza dello schema DSS", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4_Approfondimenti_Esame",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            { "name": "L1 - DSA - firma (a,0) e caso delta=0", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD5_Esercizi_Appelli",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "00 - Intro", "ext": ".md", "lesson": false },
+            { "name": "01 - [24-01-2023] Firma DSS", "ext": ".md", "lesson": false },
+            { "name": "02 - [22-06-2023] Firma DSS e caso (a0)", "ext": ".md", "lesson": false },
+            { "name": "03 - [20-02-2024] Firma digitale DSS", "ext": ".md", "lesson": false },
+            { "name": "04 - [24-06-2024] Firma digitale DSS", "ext": ".md", "lesson": false },
+            { "name": "05 - [19-09-2025] Firma DSS", "ext": ".md", "lesson": false },
+            { "name": "06 - [08-01-2026] Firma DSS", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M6_Applicazioni_Crittografiche",
+      "kind": "module",
+      "counts": {
+        "files": 35,
+        "notes": 35,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 18
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Protocollo Diffie-Hellman", "ext": ".md", "lesson": true },
+            { "name": "L2 - Scelta dei parametri", "ext": ".md", "lesson": true },
+            { "name": "L3 - Puzzle di Merkle", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Distribuzione di chiavi pubbliche", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Certificati – Creazione, scambio e revoca",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L3 - Standard X.509", "ext": ".md", "lesson": true },
+            { "name": "L4 - Autorità di certificazione", "ext": ".md", "lesson": true },
+            { "name": "L5 - Autenticazione in X.509", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - Scenari e applicazioni", "ext": ".md", "lesson": true },
+            { "name": "L2 - Schema di Shamir", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Condivisione di un segreto tramite immagini",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Schema di Naor e Pinkas", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD5_Approfondimenti_Esame",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L0 - Intro UD5", "ext": ".md", "lesson": true },
+            { "name": "L1 - Verifica numerica radice primitiva", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD6_Esercizi_Appelli",
+          "kind": "unit",
+          "counts": {
+            "files": 17,
+            "notes": 17,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "00 - Intro", "ext": ".md", "lesson": false },
+            { "name": "01 - [24-01-2023] Secret Sharing", "ext": ".md", "lesson": false },
+            { "name": "02 - [07-07-2023] Certificati digitali", "ext": ".md", "lesson": false },
+            { "name": "03 - [12-07-2023] Diffie-Hellman", "ext": ".md", "lesson": false },
+            { "name": "04 - [07-09-2023] Secret Sharing", "ext": ".md", "lesson": false },
+            { "name": "05 - [22-09-2023] Diffie-Hellman", "ext": ".md", "lesson": false },
+            { "name": "06 - [05-07-2024] Secret Sharing", "ext": ".md", "lesson": false },
+            { "name": "07 - [08-07-2024] Secret Sharing numerico", "ext": ".md", "lesson": false },
+            { "name": "08 - [06-09-2024] Secret Sharing numerico", "ext": ".md", "lesson": false },
+            { "name": "09 - [10-02-2025] Secret Sharing", "ext": ".md", "lesson": false },
+            { "name": "10 - [04-07-2025] Secret Sharing", "ext": ".md", "lesson": false },
+            { "name": "11 - [15-07-2025] Secret Sharing", "ext": ".md", "lesson": false },
+            { "name": "12 - [05-09-2025] Secret Sharing", "ext": ".md", "lesson": false },
+            { "name": "13 - [19-09-2025] Secret Sharing", "ext": ".md", "lesson": false },
+            { "name": "14 - [08-01-2026] Secret Sharing", "ext": ".md", "lesson": false },
+            { "name": "15 - [24-02-2026] Secret Sharing", "ext": ".md", "lesson": false },
+            { "name": "16 - [21-03-2026] Secret Sharing", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M7_Appelli_Svolti",
+      "kind": "module",
+      "counts": {
+        "files": 28,
+        "notes": 28,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 28
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1_Anno_2023",
+          "kind": "unit",
+          "counts": {
+            "files": 9,
+            "notes": 9,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 9
+          },
+          "files": [
+            { "name": "L0 - Intro UD1", "ext": ".md", "lesson": true },
+            { "name": "L1 - Appello 24 gennaio 2023", "ext": ".md", "lesson": true },
+            { "name": "L2 - Appello 16 febbraio 2023", "ext": ".md", "lesson": true },
+            { "name": "L3 - Appello 22 giugno 2023", "ext": ".md", "lesson": true },
+            { "name": "L4 - Appello 7 luglio 2023", "ext": ".md", "lesson": true },
+            { "name": "L5 - Appello 12 luglio 2023", "ext": ".md", "lesson": true },
+            { "name": "L6 - Appello 7 settembre 2023", "ext": ".md", "lesson": true },
+            { "name": "L7 - Appello 8 settembre 2023", "ext": ".md", "lesson": true },
+            { "name": "L8 - Appello 22 settembre 2023", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2_Anno_2024",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 8
+          },
+          "files": [
+            { "name": "L0 - Intro UD2", "ext": ".md", "lesson": true },
+            { "name": "L1 - Appello 17 gennaio 2024", "ext": ".md", "lesson": true },
+            { "name": "L2 - Appello 20 febbraio 2024", "ext": ".md", "lesson": true },
+            { "name": "L3 - Appello 24 giugno 2024", "ext": ".md", "lesson": true },
+            { "name": "L4 - Appello 5 luglio 2024", "ext": ".md", "lesson": true },
+            { "name": "L5 - Appello 8 luglio 2024", "ext": ".md", "lesson": true },
+            { "name": "L6 - Appello 6 settembre 2024", "ext": ".md", "lesson": true },
+            { "name": "L7 - Appello 20 settembre 2024", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3_Anno_2025",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L0 - Intro UD3", "ext": ".md", "lesson": true },
+            { "name": "L1 - Appello 20 gennaio 2025", "ext": ".md", "lesson": true },
+            { "name": "L2 - Appello 10 febbraio 2025", "ext": ".md", "lesson": true },
+            { "name": "L3 - Appello 4 luglio 2025", "ext": ".md", "lesson": true },
+            { "name": "L4 - Appello 15 luglio 2025", "ext": ".md", "lesson": true },
+            { "name": "L5 - Appello 5 settembre 2025", "ext": ".md", "lesson": true },
+            { "name": "L6 - Appello 19 settembre 2025", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4_Anno_2026",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L0 - Intro UD4", "ext": ".md", "lesson": true },
+            { "name": "L1 - Appello 8 gennaio 2026", "ext": ".md", "lesson": true },
+            { "name": "L2 - Appello 24 febbraio 2026", "ext": ".md", "lesson": true },
+            { "name": "L3 - Appello 21 marzo 2026", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Temi d'esame",
+      "kind": "section",
+      "counts": {
+        "files": 170,
+        "notes": 0,
+        "pdfs": 170,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [
+        { "name": "Appello-050621", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-050712", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-050908", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-051109", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-060118", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-060216", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-060420", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-060622", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-060712", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-060914", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-061031", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-070116", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-070208", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-070412", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-070621", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-070712", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-070908", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-070913", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-070928", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-071107", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-080115", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-080214", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-080410", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-080626", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-080717", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-080719", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-080911", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-090120", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-090416", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-090610", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-090708", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-090711", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-090912", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-090915", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-090925", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-100119", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-100209", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-100617", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-100702", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-100710", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-100910", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-100914", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-100925", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-101104", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-110120", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-110215", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-110623", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-110709", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-110714", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-110909", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-110920", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-110923", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-111103", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-120117", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-120206", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-120619", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-120706", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-120713", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-120908", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-120917", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-120921", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-121030", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-130121", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-130211", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-130620", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-130706", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-130711", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-130906", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-130918", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-130920", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-131105", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-140116", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-140206", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-140619", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-140705", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-140714", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-140906", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-140919 (1)", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-140919", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-141103", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-150122", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-150210", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-150617", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-150703", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-150709", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-150914", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-150918", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-151102", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-160115", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-160215", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-160620", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-160702", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-160713", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-160902", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-160912", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-160916", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-161108", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-170118", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-170210", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-170622", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-170625", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-170701", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-170713", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-170901", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-170907", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-170915", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-171102", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-180129", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-180212", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-180618", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-180707", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-180712", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-180907", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-180913", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-180921", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-181030", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-190123", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-190219", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-190613", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-190713", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-190912", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-190913", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-190927", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-191031", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-200114", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-200213", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-200616", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-200711", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-200714n", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-200911", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-200925", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-210125", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-210216 (1)", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-210621", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-210710", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-210716", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-210910", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-210924", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-220125", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-220217", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-220623", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-220708", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-220711", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-220908", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-220909", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-220922", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-230124", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-230216", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-230622", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-230707", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-230712", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-230907", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-230908", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-230922", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-240117", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-240220", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-240624", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-240705", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-240708", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-240906", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-240920", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-250120", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-250210", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-250704", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-250715", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-250905", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-250919", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-260108", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-260224", "ext": ".pdf", "lesson": false },
+        { "name": "Appello-260321", "ext": ".pdf", "lesson": false }
+      ],
+      "children": []
+    }
+  ]
+}

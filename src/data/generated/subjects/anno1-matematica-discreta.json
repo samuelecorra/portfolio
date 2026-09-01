@@ -1,0 +1,352 @@
+{
+  "slug": "anno1-matematica-discreta",
+  "files": [],
+  "children": [
+    {
+      "name": "M1_Insiemi_numerici",
+      "kind": "module",
+      "counts": {
+        "files": 15,
+        "notes": 15,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 15
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1_Numeri_naturali",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            {
+              "name": "L1 - Operazioni in N e proprietà fondamentali",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Il principio di induzione matematica", "ext": ".md", "lesson": true },
+            { "name": "L3 - Definizioni ricorsive", "ext": ".md", "lesson": true },
+            { "name": "L4 - Divisione e numeri primi", "ext": ".md", "lesson": true },
+            {
+              "name": "L5 - Numero di divisori e crivello di Eratostene",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L6 - MCD, algoritmo euclideo e mcm", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2_Relazioni_di_equivalenza",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Relazioni e loro proprietà", "ext": ".md", "lesson": true },
+            { "name": "L2 - Relazioni di equivalenza e d'ordine", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3_Congruenze_e_criteri_divisibilita",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 7,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L1 - Congruenza modulo n", "ext": ".md", "lesson": true },
+            { "name": "L2 - L'insieme Zn e le operazioni", "ext": ".md", "lesson": true },
+            { "name": "L3 - Congruenze lineari", "ext": ".md", "lesson": true },
+            { "name": "L4 - Il teorema cinese del resto", "ext": ".md", "lesson": true },
+            { "name": "L5 - Criteri di divisibilità", "ext": ".md", "lesson": true },
+            {
+              "name": "L6 - Teoremi di Wilson, Fermat e Eulero-Fermat",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L7 - Esercizi sulle congruenze", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M2_Gruppi_Anelli_Campi",
+      "kind": "module",
+      "counts": {
+        "files": 9,
+        "notes": 9,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 9
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1_Gruppi",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            {
+              "name": "L1 - Proprietà delle operazioni e strutture algebriche",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Gruppi e loro proprietà", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Gruppi di classi di resto e gruppi ciclici",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L4 - Il gruppo simmetrico", "ext": ".md", "lesson": true },
+            { "name": "L5 - Omomorfismi di gruppi", "ext": ".md", "lesson": true },
+            { "name": "L6 - Teorema di Lagrange", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2_Campi_e_anelli",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Campi e anelli", "ext": ".md", "lesson": true },
+            { "name": "L2 - Anelli di polinomi", "ext": ".md", "lesson": true },
+            { "name": "L3 - Anello delle matrici", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M3_Vettori_e_geometria",
+      "kind": "module",
+      "counts": {
+        "files": 14,
+        "notes": 14,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 14
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1_I_vettori",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Segmenti orientati e vettori", "ext": ".md", "lesson": true },
+            { "name": "L2 - Componenti di un vettore", "ext": ".md", "lesson": true },
+            { "name": "L3 - Prodotto scalare", "ext": ".md", "lesson": true },
+            { "name": "L4 - Norma e prodotto vettoriale", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2_Sistemi_lineari",
+          "kind": "unit",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Sistemi lineari", "ext": ".md", "lesson": true },
+            { "name": "L2 - Matrice inversa", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3_La_geometria_nel_piano",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Le rette in R2", "ext": ".md", "lesson": true },
+            { "name": "L2 - Mutue posizioni di rette in R2", "ext": ".md", "lesson": true },
+            { "name": "L3 - Esercitazione", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4_La_geometria_lineare_dello_spazio",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L1 - Le rette in R3", "ext": ".md", "lesson": true },
+            { "name": "L2 - I piani in R3", "ext": ".md", "lesson": true },
+            { "name": "L3 - Piani e rette in R3", "ext": ".md", "lesson": true },
+            { "name": "L4 - Distanze in R3", "ext": ".md", "lesson": true },
+            { "name": "L5 - Esercitazione", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M4_Spazi_vettoriali_e_omomorfismi",
+      "kind": "module",
+      "counts": {
+        "files": 18,
+        "notes": 18,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 18
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1_Spazi_vettoriali",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Spazi vettoriali", "ext": ".md", "lesson": true },
+            { "name": "L2 - Sistemi generatori", "ext": ".md", "lesson": true },
+            { "name": "L3 - Basi", "ext": ".md", "lesson": true },
+            { "name": "L4 - Formula di Grassmann", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2_Omomorfismi_di_spazi_vettoriali",
+          "kind": "unit",
+          "counts": {
+            "files": 9,
+            "notes": 9,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 9
+          },
+          "files": [
+            { "name": "L1 - Omomorfismi", "ext": ".md", "lesson": true },
+            { "name": "L2 - Nucleo e immagine", "ext": ".md", "lesson": true },
+            { "name": "L3 - Omomorfismi particolari", "ext": ".md", "lesson": true },
+            { "name": "L4 - Omomorfismi e matrici", "ext": ".md", "lesson": true },
+            { "name": "L5 - Proprietà degli omomorfismi", "ext": ".md", "lesson": true },
+            { "name": "L6 - Esercizi", "ext": ".md", "lesson": true },
+            { "name": "L7 - Determinanti", "ext": ".md", "lesson": true },
+            { "name": "L8 - Rango di una matrice", "ext": ".md", "lesson": true },
+            { "name": "L9 - Sistemi e matrici", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD3_Autovalori_e_autovettori",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Autovalori e autovettori", "ext": ".md", "lesson": true },
+            { "name": "L2 - Ricerca di autovalori e autovettori", "ext": ".md", "lesson": true },
+            { "name": "L3 - Matrici diagonalizzabili", "ext": ".md", "lesson": true },
+            { "name": "L4 - Esercizi", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD4_Esercitazioni",
+          "kind": "unit",
+          "counts": {
+            "files": 1,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [{ "name": "L1 - Esercitazione didattica", "ext": ".md", "lesson": true }],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

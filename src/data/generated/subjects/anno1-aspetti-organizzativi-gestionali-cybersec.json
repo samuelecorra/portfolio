@@ -1,0 +1,459 @@
+{
+  "slug": "anno1-aspetti-organizzativi-gestionali-cybersec",
+  "files": [],
+  "children": [
+    {
+      "name": "esami",
+      "kind": "section",
+      "counts": {
+        "files": 2,
+        "notes": 2,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [
+        { "name": "1_5sett2025", "ext": ".md", "lesson": false },
+        { "name": "2_21febb2025", "ext": ".md", "lesson": false }
+      ],
+      "children": []
+    },
+    {
+      "name": "imgs",
+      "kind": "section",
+      "counts": {
+        "files": 317,
+        "notes": 0,
+        "pdfs": 13,
+        "code": 0,
+        "images": 304,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [
+        { "name": "Correzione Test 21 Febbraio 2025", "ext": ".pdf", "lesson": false },
+        { "name": "ENISA_EUCyberSecurityCertificationFramework", "ext": ".pdf", "lesson": false },
+        { "name": "Information Management_ A Proposal 1", "ext": ".pdf", "lesson": false },
+        { "name": "Information Management_ A Proposal", "ext": ".pdf", "lesson": false },
+        { "name": "La-NIS-in-pillole", "ext": ".pdf", "lesson": false },
+        { "name": "Regolamento UE 2016 679", "ext": ".pdf", "lesson": false },
+        {
+          "name": "Scheda_InformativaRegolamentoSullaCybersicurezza",
+          "ext": ".pdf",
+          "lesson": false
+        },
+        { "name": "SO2_M4_U1_L1", "ext": ".pdf", "lesson": false },
+        { "name": "SO2_M4_U3_L3_D", "ext": ".pdf", "lesson": false },
+        { "name": "SO2_M4_U3_L3", "ext": ".pdf", "lesson": false },
+        { "name": "SO2_M4_U3_L7_D 1", "ext": ".pdf", "lesson": false },
+        { "name": "SO2_M4_U3_L7_D", "ext": ".pdf", "lesson": false },
+        { "name": "Soluzioni appello 5 Settembre 2025", "ext": ".pdf", "lesson": false }
+      ],
+      "children": []
+    },
+    {
+      "name": "M1 - Introduzione alla Cyber Security",
+      "kind": "module",
+      "counts": {
+        "files": 17,
+        "notes": 17,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "U1 - Cenni Storici",
+          "kind": "section",
+          "counts": {
+            "files": 8,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            {
+              "name": "1_Lo Sviluppo delle Reti di Telecomunicazione - Parte 1",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "2_Lo Sviluppo delle Reti di Telecomunicazione - Parte 2",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "3_La nascita di Internet - Parte 1", "ext": ".md", "lesson": false },
+            { "name": "4_La nascita di Internet - Parte 2", "ext": ".md", "lesson": false },
+            { "name": "5_Primi Incidenti e Attacchi", "ext": ".md", "lesson": false },
+            { "name": "6_Primi Incidenti e Attacchi - Parte 2", "ext": ".md", "lesson": false },
+            { "name": "7_La Criminalità Digitale", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "Documentazione",
+              "kind": "section",
+              "counts": {
+                "files": 1,
+                "notes": 1,
+                "pdfs": 0,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "Documento di Tim Berners-Lee", "ext": ".md", "lesson": false }],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "U2 - Alla Radice della Minaccia",
+          "kind": "section",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "1_Le Ragioni della Minaccia", "ext": ".md", "lesson": false },
+            { "name": "2_La tipologia degli attaccanti", "ext": ".md", "lesson": false },
+            { "name": "3_La tipologia delle vittime (target)", "ext": ".md", "lesson": false },
+            { "name": "4_Le principali tecniche di attacco", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "U3 - Tecnologia",
+          "kind": "section",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "1_Il modello ISO - OSI", "ext": ".md", "lesson": false },
+            { "name": "2_Protocolli di comunicazione", "ext": ".md", "lesson": false },
+            { "name": "2.2_Modelli di comunicazione e subnetting", "ext": ".md", "lesson": false },
+            { "name": "3_Dispositivi di Rete", "ext": ".md", "lesson": false },
+            { "name": "4_Architetture di Rete", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M2 - Le Aziende e la Cyber Security",
+      "kind": "module",
+      "counts": {
+        "files": 7,
+        "notes": 7,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "U1 - Cenni di Economia Aziendale",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "1_Cos'è un'azienda", "ext": ".md", "lesson": false },
+            { "name": "2_Classificazione delle Aziende", "ext": ".md", "lesson": false },
+            { "name": "3_Le tipologie di attività", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "U2 - Identificazione del valore",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            {
+              "name": "1_Asset aziendali e la definizione del loro valore",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "2_Quali asset posso essere esposti alle minacce informatiche",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "U3 - Gestione e Organizzazione",
+          "kind": "section",
+          "counts": {
+            "files": 2,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "1_Cos’è la Gestione Aziendale", "ext": ".md", "lesson": false },
+            { "name": "2_Cos'è l’organizzazione aziendale", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M3 - Aspetti gestionali della Cyber Security",
+      "kind": "module",
+      "counts": {
+        "files": 28,
+        "notes": 28,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "U1 - La gestione aziendale",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "1_Cos'è un processo aziendale", "ext": ".md", "lesson": false },
+            { "name": "2_Modellizzare i Processi", "ext": ".md", "lesson": false },
+            { "name": "3_Standardizzare le Procedure", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "U2 - Gli Standard Internazionali",
+          "kind": "section",
+          "counts": {
+            "files": 8,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "1_ISO-IEC 27000 series", "ext": ".md", "lesson": false },
+            { "name": "1bis_1 bis – ISO-IEC 27001-2 2022", "ext": ".md", "lesson": false },
+            { "name": "1tris_ISO-IEC 27001 Rev. 2022 Requisiti", "ext": ".md", "lesson": false },
+            { "name": "2_ISO-IEC 27001 Annex A - Elenco Controlli", "ext": ".md", "lesson": false },
+            { "name": "3_NIST Cybersecurity Framework", "ext": ".md", "lesson": false },
+            { "name": "4_NIST Special Publications", "ext": ".md", "lesson": false },
+            { "name": "5_ISO 27001 vs. NIST CSF", "ext": ".md", "lesson": false },
+            { "name": "6_IEC 62443 series", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "U3 - Aspetti sociali, legali e normative di riferimento",
+          "kind": "section",
+          "counts": {
+            "files": 12,
+            "notes": 12,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "1_Diritto alla Privacy", "ext": ".md", "lesson": false },
+            { "name": "2_Patent Infringement", "ext": ".md", "lesson": false },
+            { "name": "3_ Company and Brand reputation", "ext": ".md", "lesson": false },
+            { "name": "4_Informatica Forense (Forensics)", "ext": ".md", "lesson": false },
+            {
+              "name": "5_Directive -EU- 2016-1148 (Network and Information Security)",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "5.1_NIS in pillole", "ext": ".md", "lesson": false },
+            { "name": "5.2_Direttiva 2022-2555 - NIS 2", "ext": ".md", "lesson": false },
+            {
+              "name": "6_Regulation (EU) 2016-679 (General Data Protection Regulation)",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "6.1_Regolamento", "ext": ".md", "lesson": false },
+            {
+              "name": "7_Regulation (EU) 2019-881 (Cybersecurity Act) – ENISA",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "7.1_TITOLO III DEL REGOLAMENTO (UE) 2019-881",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "7.2_ENISA in the EU Cybersecurity Certification Framework",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "U4 -  Definizione di un Sistema di Gestione",
+          "kind": "section",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            {
+              "name": "1_Cos’è un Sistema di Gestione della sicurezza (caso applicativo)",
+              "ext": ".md",
+              "lesson": false
+            },
+            {
+              "name": "2_Il Sistema di Gestione nei principali Framework",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "3_La gestione del rischio", "ext": ".md", "lesson": false },
+            { "name": "4_I Paradigmi della Cybersecurity", "ext": ".md", "lesson": false },
+            {
+              "name": "5_Tecnologie di supporto ai sistemi di gestione",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M4 - Aspetti organizzativi della Cyber Security",
+      "kind": "module",
+      "counts": {
+        "files": 9,
+        "notes": 9,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "U1 - La Cyber Security nella struttura organizzativa aziendale",
+          "kind": "section",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            {
+              "name": "1_L'organizzazione all'interno di un'azienda",
+              "ext": ".md",
+              "lesson": false
+            },
+            { "name": "2_L'IT nella struttura organizzativa", "ext": ".md", "lesson": false },
+            { "name": "3_La CS nell’organizzazione - CIO e CISO", "ext": ".md", "lesson": false },
+            { "name": "4_La Digitalizzazione", "ext": ".md", "lesson": false },
+            {
+              "name": "5_Le competenze per la gestione della cybersecurity",
+              "ext": ".md",
+              "lesson": false
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "U2 - Definizione di un modello organizzativo adeguato",
+          "kind": "section",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "1_Relazioni all’attività dell’azienda", "ext": ".md", "lesson": false },
+            { "name": "2_Diffondere_cultura_cybersec", "ext": ".md", "lesson": false },
+            { "name": "3_Insourcing vs. Outsourcing", "ext": ".md", "lesson": false }
+          ],
+          "children": []
+        },
+        {
+          "name": "U3 - Analisi di alcuni modelli organizzativi",
+          "kind": "section",
+          "counts": {
+            "files": 1,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

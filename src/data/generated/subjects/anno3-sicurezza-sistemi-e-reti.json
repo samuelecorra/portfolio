@@ -1,0 +1,1011 @@
+{
+  "slug": "anno3-sicurezza-sistemi-e-reti",
+  "files": [
+    {
+      "name": "Lezione 0 - Introduzione a Sicurezza dei Sistemi e delle Reti",
+      "ext": ".md",
+      "lesson": true
+    },
+    { "name": "roadmap", "ext": ".md", "lesson": false }
+  ],
+  "children": [
+    {
+      "name": "M1",
+      "kind": "section",
+      "counts": {
+        "files": 4,
+        "notes": 4,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 4
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1 - Introduzione", "ext": ".md", "lesson": true },
+            { "name": "L2 - La sicurezza informatica", "ext": ".md", "lesson": true },
+            { "name": "L3 - Il contesto", "ext": ".md", "lesson": true },
+            { "name": "L4 - Il mercato della sicurezza", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M2",
+      "kind": "section",
+      "counts": {
+        "files": 10,
+        "notes": 10,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 10
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L1 - Standard di sicurezza", "ext": ".md", "lesson": true },
+            { "name": "L2 - Proprietà di sicurezza", "ext": ".md", "lesson": true },
+            { "name": "L3 - Minacce, risorse e attacchi", "ext": ".md", "lesson": true },
+            { "name": "L4 - Principi di sicurezza", "ext": ".md", "lesson": true },
+            { "name": "L5 - Attacchi e modelli di trust", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 5,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L1 - Tipi di malware", "ext": ".md", "lesson": true },
+            { "name": "L2 - Tipi di virus e propagazione", "ext": ".md", "lesson": true },
+            { "name": "L3 - Worm", "ext": ".md", "lesson": true },
+            { "name": "L4 - Payload – Stealthing", "ext": ".md", "lesson": true },
+            { "name": "L5 - Contromisure", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M3",
+      "kind": "section",
+      "counts": {
+        "files": 39,
+        "notes": 18,
+        "pdfs": 9,
+        "code": 0,
+        "images": 12,
+        "other": 0,
+        "lessons": 18
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Principi dell’autenticazione", "ext": ".md", "lesson": true },
+            { "name": "L2 - Metodi di autenticazione", "ext": ".md", "lesson": true },
+            { "name": "L3 - Protocolli di autenticazione e attacchi", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 10,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 7,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Principi di controllo degli accessi", "ext": ".md", "lesson": true },
+            {
+              "name": "L2 - Politiche di controllo degli accessi – MAC",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Politiche di controllo degli accessi – DAC",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 7,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 7,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 7,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 5,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1 - Controllo degli accessi in Windows", "ext": ".md", "lesson": true },
+            { "name": "L2 - Controllo degli accessi in Linux", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 5,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4_Approfondimenti_Esame",
+          "kind": "unit",
+          "counts": {
+            "files": 19,
+            "notes": 10,
+            "pdfs": 9,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 10
+          },
+          "files": [
+            { "name": "L0 - Setup moderno del laboratorio VM", "ext": ".md", "lesson": true },
+            { "name": "L0.1 - Fondamenti di Linux e terminale", "ext": ".md", "lesson": true },
+            {
+              "name": "L1 - Controllo degli accessi in Linux - laboratorio",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Programmi privilegiati e Set-UID", "ext": ".md", "lesson": true },
+            { "name": "L3 - Variabili d'ambiente nei processi Unix", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - Attacchi a programmi Set-UID tramite ambiente e PATH",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L5 - Dynamic linker, LD_PRELOAD e capability leaking",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L6 - Attacchi tramite programma esterno", "ext": ".md", "lesson": true },
+            {
+              "name": "L7 - Laboratorio SEED Environment Variable and Set-UID",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L8 - Shellshock e ambiente non fidato", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "pdf_originali",
+              "kind": "section",
+              "counts": {
+                "files": 9,
+                "notes": 0,
+                "pdfs": 9,
+                "code": 0,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "Environment_Variable_and_SetUID", "ext": ".pdf", "lesson": false },
+                { "name": "istruzioniVMSetup-MAC_ARM", "ext": ".pdf", "lesson": false },
+                { "name": "istruzioniVMSetup", "ext": ".pdf", "lesson": false },
+                { "name": "Lab1", "ext": ".pdf", "lesson": false },
+                { "name": "Lab2", "ext": ".pdf", "lesson": false },
+                { "name": "Lab3", "ext": ".pdf", "lesson": false },
+                { "name": "Lab4", "ext": ".pdf", "lesson": false },
+                { "name": "Lab5", "ext": ".pdf", "lesson": false },
+                { "name": "Lab6", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M4",
+      "kind": "section",
+      "counts": {
+        "files": 146,
+        "notes": 34,
+        "pdfs": 8,
+        "code": 0,
+        "images": 98,
+        "other": 6,
+        "lessons": 34
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 8,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 5,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Modello ISO OSI", "ext": ".md", "lesson": true },
+            { "name": "L2 - Il livello di trasporto", "ext": ".md", "lesson": true },
+            { "name": "L3 - MAC Flooding e ARP Spoofing", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 5,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 47,
+            "notes": 13,
+            "pdfs": 5,
+            "code": 0,
+            "images": 24,
+            "other": 5,
+            "lessons": 13
+          },
+          "files": [
+            { "name": "L1 - Vulnerabilità di TCP IP", "ext": ".md", "lesson": true },
+            { "name": "L2 - MAC Flooding e ARP Spoofing", "ext": ".md", "lesson": true },
+            { "name": "L3 - IP Spoofing", "ext": ".md", "lesson": true },
+            { "name": "L4 - Attacchi TCP – ACK Storm", "ext": ".md", "lesson": true },
+            { "name": "L5 - Attacchi TCP – SYN flooding", "ext": ".md", "lesson": true },
+            { "name": "L6 - Altri attacchi TCP", "ext": ".md", "lesson": true },
+            { "name": "L7 - Altri Attacchi – IP", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 24,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 24,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            },
+            {
+              "name": "L8 - Esercizi di laboratorio",
+              "kind": "section",
+              "counts": {
+                "files": 16,
+                "notes": 6,
+                "pdfs": 5,
+                "code": 0,
+                "images": 0,
+                "other": 5,
+                "lessons": 6
+              },
+              "files": [
+                { "name": "descrizione", "ext": ".txt", "lesson": false },
+                { "name": "Esercitazione1", "ext": ".pdf", "lesson": false },
+                { "name": "Esercitazione2", "ext": ".pdf", "lesson": false },
+                { "name": "Esercitazione3", "ext": ".pdf", "lesson": false },
+                {
+                  "name": "L0 - Setup moderno del laboratorio Docker SEED",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                {
+                  "name": "L1 - Docker essenziale per i laboratori SEED",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                {
+                  "name": "L2 - Packet sniffing e spoofing con Scapy",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                {
+                  "name": "L3 - Sniffing e spoofing in C con libpcap e raw socket",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                {
+                  "name": "L4 - Netcat, bind shell, reverse shell e trasferimento file",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                {
+                  "name": "L5 - Attacchi TCP in laboratorio SYN flood RST hijacking",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                { "name": "Labsetup-arm-tcpattack", "ext": ".zip", "lesson": false },
+                { "name": "Labsetup-arm-tcpspoofing", "ext": ".zip", "lesson": false },
+                { "name": "Labsetup-tcpattack", "ext": ".zip", "lesson": false },
+                { "name": "Labsetup-tcpspoofing", "ext": ".zip", "lesson": false },
+                { "name": "Sniffing_Spoofing2", "ext": ".pdf", "lesson": false },
+                { "name": "TCP_Attacks2", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 34,
+            "notes": 10,
+            "pdfs": 2,
+            "code": 0,
+            "images": 21,
+            "other": 1,
+            "lessons": 10
+          },
+          "files": [
+            { "name": "L1 - Tipi e Approcci di Scansione", "ext": ".md", "lesson": true },
+            { "name": "L2 - Tecniche di scansione", "ext": ".md", "lesson": true },
+            { "name": "L3 - Tecniche di scansione stealth", "ext": ".md", "lesson": true },
+            {
+              "name": "L4 - Altre tecniche di scansione e contromisure",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 21,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 21,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            },
+            {
+              "name": "L5 - Esercizi di lab",
+              "kind": "section",
+              "counts": {
+                "files": 9,
+                "notes": 6,
+                "pdfs": 2,
+                "code": 0,
+                "images": 0,
+                "other": 1,
+                "lessons": 6
+              },
+              "files": [
+                { "name": "Esercitazione1 (1)", "ext": ".pdf", "lesson": false },
+                {
+                  "name": "L0 - Setup e mappa delle tracce Wireshark",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                {
+                  "name": "L1 - Introduzione a Wireshark e prima cattura HTTP",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                {
+                  "name": "L2 - Ethernet ARP ICMP e IP nelle tracce",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                {
+                  "name": "L3 - HTTP TCP e DNS nelle tracce Wireshark",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                {
+                  "name": "L4 - DHCP NAT TLS e 80211 nelle tracce Wireshark",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                {
+                  "name": "L5 - Checklist operativa per esercizi Wireshark",
+                  "ext": ".md",
+                  "lesson": true
+                },
+                { "name": "Wireshark_Intro_v8.0", "ext": ".pdf", "lesson": false },
+                { "name": "wireshark-traces", "ext": ".zip", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD4",
+          "kind": "unit",
+          "counts": {
+            "files": 56,
+            "notes": 7,
+            "pdfs": 1,
+            "code": 0,
+            "images": 48,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L1 - Evoluzione SSL e TLS", "ext": ".md", "lesson": true },
+            { "name": "L2 - Architettura SSL e TLS", "ext": ".md", "lesson": true },
+            { "name": "L3 - Protocolli in SSL TLS", "ext": ".md", "lesson": true },
+            { "name": "L4 - Attacchi a SSL e TLS", "ext": ".md", "lesson": true },
+            { "name": "L5 - Altri attacchi a SSL TLS", "ext": ".md", "lesson": true },
+            { "name": "L6 - Attacchi sui Certificati SSL TLS", "ext": ".md", "lesson": true },
+            { "name": "L7 - Attacchi Heartbleed e BEAST", "ext": ".md", "lesson": true },
+            { "name": "SSR_M4_U4_L5", "ext": ".pdf", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 48,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 48,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD5_Approfondimenti_Esame",
+          "kind": "unit",
+          "counts": {
+            "files": 1,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 1
+          },
+          "files": [
+            { "name": "L1 - TCP Session Hijacking e Reset Attack", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M5",
+      "kind": "section",
+      "counts": {
+        "files": 85,
+        "notes": 14,
+        "pdfs": 0,
+        "code": 0,
+        "images": 71,
+        "other": 0,
+        "lessons": 14
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1",
+          "kind": "unit",
+          "counts": {
+            "files": 31,
+            "notes": 5,
+            "pdfs": 0,
+            "code": 0,
+            "images": 26,
+            "other": 0,
+            "lessons": 5
+          },
+          "files": [
+            { "name": "L1 - Sicurezza nelle reti", "ext": ".md", "lesson": true },
+            { "name": "L2 - Introduzione ai Firewall", "ext": ".md", "lesson": true },
+            { "name": "L3 - Packet Filtering", "ext": ".md", "lesson": true },
+            { "name": "L4 - Access Control List (ACL)", "ext": ".md", "lesson": true },
+            { "name": "L5 - ACL e protocolli applicativi", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 26,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 26,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2",
+          "kind": "unit",
+          "counts": {
+            "files": 41,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 35,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L1 - Packet Filtering Avanzati", "ext": ".md", "lesson": true },
+            { "name": "L2 - New Generation Packet Filtering", "ext": ".md", "lesson": true },
+            { "name": "L3 - Proxy", "ext": ".md", "lesson": true },
+            { "name": "L4 - Architetture e Scenari", "ext": ".md", "lesson": true },
+            { "name": "L5 - Netfilter e IPTables", "ext": ".md", "lesson": true },
+            { "name": "L6 - Esercitazioni con IPTables", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 35,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 35,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3",
+          "kind": "unit",
+          "counts": {
+            "files": 13,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 10,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1 - Intrusion Detection System (IDS)", "ext": ".md", "lesson": true },
+            { "name": "L2 - Network IDS (NIDS)", "ext": ".md", "lesson": true },
+            { "name": "L3 - IPS e strumenti avanzati", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 10,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 10,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M6_Esami_Passati",
+      "kind": "module",
+      "counts": {
+        "files": 30,
+        "notes": 11,
+        "pdfs": 8,
+        "code": 0,
+        "images": 7,
+        "other": 4,
+        "lessons": 0
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "1_prima_parte_teoria",
+          "kind": "section",
+          "counts": {
+            "files": 11,
+            "notes": 4,
+            "pdfs": 4,
+            "code": 0,
+            "images": 3,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "Appello-250221", "ext": ".pdf", "lesson": false },
+            { "name": "Appello-250613new", "ext": ".pdf", "lesson": false },
+            { "name": "Appello-250702", "ext": ".pdf", "lesson": false },
+            { "name": "Appello-250912", "ext": ".pdf", "lesson": false },
+            { "name": "Soluzione_Appello_02_07_2025", "ext": ".md", "lesson": false },
+            { "name": "Soluzione_Appello_12_09_2025", "ext": ".md", "lesson": false },
+            { "name": "Soluzione_Appello_13_06_2025", "ext": ".md", "lesson": false },
+            { "name": "Soluzione_Appello_21_02_2025", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 3,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "2_seconda_parte_lab",
+          "kind": "section",
+          "counts": {
+            "files": 19,
+            "notes": 7,
+            "pdfs": 4,
+            "code": 0,
+            "images": 4,
+            "other": 4,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "cheat_sheet_firewall_tabella", "ext": ".md", "lesson": false },
+            { "name": "cheat_sheet_iptables", "ext": ".md", "lesson": false },
+            { "name": "cheat_sheet_wireshark_analysis", "ext": ".md", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "lab_2_luglio_2025",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 1,
+                "pdfs": 1,
+                "code": 0,
+                "images": 1,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "Appello-250702-Lab", "ext": ".pdf", "lesson": false },
+                { "name": "esame-2lug", "ext": ".pcap", "lesson": false },
+                { "name": "Soluzione_Lab_02_07_2025", "ext": ".md", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "imgs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 1,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "lab_12_settembre_2025",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 1,
+                "pdfs": 1,
+                "code": 0,
+                "images": 1,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "Appello-250912-Lab", "ext": ".pdf", "lesson": false },
+                { "name": "esame12set", "ext": ".pcap", "lesson": false },
+                { "name": "Soluzione_Lab_12_09_2025", "ext": ".md", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "imgs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 1,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "lab_13_giugno_2025",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 1,
+                "pdfs": 1,
+                "code": 0,
+                "images": 1,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "Appello-250613-Lab", "ext": ".pdf", "lesson": false },
+                { "name": "esame-13giu25", "ext": ".pcap", "lesson": false },
+                { "name": "Soluzione_Lab_13_06_2025", "ext": ".md", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "imgs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 1,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "lab_21_febbraio_2025",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 1,
+                "pdfs": 1,
+                "code": 0,
+                "images": 1,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "Appello-250221-Lab", "ext": ".pdf", "lesson": false },
+                { "name": "eame21feb25", "ext": ".pcapng", "lesson": false },
+                { "name": "Soluzione_Lab_21_02_2025", "ext": ".md", "lesson": false }
+              ],
+              "children": [
+                {
+                  "name": "imgs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 0,
+                    "images": 1,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M7_Laboratorio_Wireshark_e_Firewall",
+      "kind": "module",
+      "counts": {
+        "files": 10,
+        "notes": 10,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 10
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1_Wireshark",
+          "kind": "unit",
+          "counts": {
+            "files": 6,
+            "notes": 6,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            {
+              "name": "L1 - Interfaccia, cattura e anatomia di una traccia",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L2 - Filtri di cattura e di visualizzazione", "ext": ".md", "lesson": true },
+            {
+              "name": "L3 - Statistiche, Conversations, Follow Stream ed Expert Info",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - Analisi per protocollo (ARP, DNS, TCP, TLS, HTTP, FTP)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L5 - Estrazione di file, credenziali e individuazione di phishing",
+              "ext": ".md",
+              "lesson": true
+            },
+            { "name": "L6 - Cheat-sheet operativa d'esame", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        },
+        {
+          "name": "UD2_Configurazione_Firewall",
+          "kind": "unit",
+          "counts": {
+            "files": 4,
+            "notes": 4,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            {
+              "name": "L1 - Metodologia della tabella di filtraggio (le 8 colonne e il flag ACK)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L2 - DMZ ed esposizione di servizi verso Internet",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L3 - Servizi multi-connessione (FTP attivo-passivo, RPC, SMTP)",
+              "ext": ".md",
+              "lesson": true
+            },
+            {
+              "name": "L4 - NAT, bridge, port forwarding e dual-stack IPv4-IPv6",
+              "ext": ".md",
+              "lesson": true
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

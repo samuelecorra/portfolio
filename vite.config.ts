@@ -14,11 +14,14 @@ export default defineConfig({
   },
   build: {
     /*
-     * Baseline at bootstrap is ~260 kB raw / ~83 kB gzip (React + Router).
-     * The limit sits just above it so the warning means "you regressed",
-     * not "this is a normal build" — a warning that always fires is ignored.
+     * Baseline is ~300 kB raw / ~95 kB gzip: React, Router, three i18n
+     * dictionaries and the archive summary. Per-subject curriculum trees are
+     * separate lazy chunks and do not count against this.
+     * The limit sits just above the baseline so the warning means "you
+     * regressed", not "this is a normal build" — one that always fires is
+     * ignored.
      */
-    chunkSizeWarningLimit: 300,
+    chunkSizeWarningLimit: 330,
   },
   test: {
     environment: 'jsdom',

@@ -1,0 +1,4388 @@
+{
+  "slug": "anno1-programmazione",
+  "files": [],
+  "children": [
+    {
+      "name": "c",
+      "kind": "section",
+      "counts": {
+        "files": 149,
+        "notes": 10,
+        "pdfs": 1,
+        "code": 108,
+        "images": 3,
+        "other": 27,
+        "lessons": 0
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "teoria-c",
+          "kind": "section",
+          "counts": {
+            "files": 80,
+            "notes": 1,
+            "pdfs": 0,
+            "code": 75,
+            "images": 1,
+            "other": 3,
+            "lessons": 0
+          },
+          "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+          "children": [
+            {
+              "name": "M01_Fondamenti",
+              "kind": "module",
+              "counts": {
+                "files": 13,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 12,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "1_Struttura_programma_C",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "2_variabili",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "3_printf",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "4_specificatori_formato",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "5_aritmetica",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "5.1_conversioni_overflow",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "5.2_operatori_bitwise",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "6_variabili_non_inizializzate",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "7_pulire_variabili",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "8_user_input_scanf",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "9_ShoppingCart",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "10_Mad_Libs_Game",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 1,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M02_Matematica",
+              "kind": "module",
+              "counts": {
+                "files": 6,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 6,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "1_funzioni_matematiche",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "2_geometria_con_mat.h",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "3_simple_interest",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "4_compound_interest",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "5_compound_interest_periodic",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "6_random_nums",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M03_Condizioni_&_Logica",
+              "kind": "module",
+              "counts": {
+                "files": 8,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 8,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "1_if_statements",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "1.1_condizioni_con_stringhe",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "2_ConvertiPeso",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "3_ConvertiTemperatura",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "4_switches",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "5_nested_ifs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "6_Calcolatore",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "7_operatori_logici",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M04_Funzioni",
+              "kind": "module",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 5,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "1_intro_funzioni",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "2_return",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "3_scope_variabili",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "4_passaggio_per_valore",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "5_ricorsione",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M05_Cicli",
+              "kind": "module",
+              "counts": {
+                "files": 7,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 7,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "1_while_loop",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "2_for_loop",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "3_break_e_continue",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "4_nested_loops",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "5_NumberGuessGame",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "6_CartaForbiceSasso",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "7_Bank_Program",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M06_Arrays",
+              "kind": "module",
+              "counts": {
+                "files": 8,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 8,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "1_intro_array",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "2_array_char_vs_stringhe",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "3_array_e_user_input",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "4_array_bidimensionali",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "5_array_di_stringhe",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "6_user_input_array_string",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "7_QuizGame",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "8_array_come_parametri",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M07_C_avanzato",
+              "kind": "module",
+              "counts": {
+                "files": 8,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 8,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "1_ternary_operator",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "2_typedef",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "3_enums",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "4_combinare_typedef+enum",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "5_qualificatore_const",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "6_durata_e_visibilita",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "7_preprocessore_e_macro",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "config", "ext": ".h", "lesson": false },
+                    { "name": "main", "ext": ".c", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M08_Strutture",
+              "kind": "module",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 5,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "1_structs_in_C",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "2_fields_filling",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "3_passare_struct_a_funzioni",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "4_array_di_struct",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "5_union_e_campi_designati",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M09_Puntatori",
+              "kind": "module",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 5,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "1_intro_pointers",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "2_usare_puntatori",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "3_puntatori_e_array",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "4_aritmetica_puntatori",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "5_puntatori_multipli",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M10_File_Handling",
+              "kind": "module",
+              "counts": {
+                "files": 7,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 4,
+                "images": 0,
+                "other": 3,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "1_intro_file",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "filefolder",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 0,
+                        "images": 0,
+                        "other": 1,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "esempio", "ext": ".txt", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "2_scrivere_file",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "filefolder",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 0,
+                        "images": 0,
+                        "other": 1,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "output", "ext": ".txt", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "3_leggere_file",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "filefolder",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 0,
+                        "images": 0,
+                        "other": 1,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "input", "ext": ".txt", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "4_file_binari_e_posizionamento",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M11_Allocazione_Dinamica",
+              "kind": "module",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 5,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "1_malloc_in_C",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "2_calloc_in_C",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "3_realloc_in_C",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "4_Digital_Clock_in_C",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "5_ownership_e_cleanup",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M12_IMPORTANTE",
+              "kind": "module",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 2,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "1_Puntatori_a_funzione",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "2_Liste_dinamiche",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "main", "ext": ".c", "lesson": false }],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tracce-c",
+          "kind": "section",
+          "counts": {
+            "files": 69,
+            "notes": 9,
+            "pdfs": 1,
+            "code": 33,
+            "images": 2,
+            "other": 24,
+            "lessons": 0
+          },
+          "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+          "children": [
+            {
+              "name": "0-eightQueenProblemHARD",
+              "kind": "section",
+              "counts": {
+                "files": 17,
+                "notes": 7,
+                "pdfs": 1,
+                "code": 6,
+                "images": 2,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+              "children": [
+                {
+                  "name": "src",
+                  "kind": "section",
+                  "counts": {
+                    "files": 16,
+                    "notes": 6,
+                    "pdfs": 1,
+                    "code": 6,
+                    "images": 2,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": [
+                    {
+                      "name": "0-imgs-and-pdf",
+                      "kind": "section",
+                      "counts": {
+                        "files": 3,
+                        "notes": 0,
+                        "pdfs": 1,
+                        "code": 0,
+                        "images": 2,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "traccia-e-soluzione", "ext": ".pdf", "lesson": false }],
+                      "children": []
+                    },
+                    {
+                      "name": "1-stampaConfig",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 1,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "README", "ext": ".md", "lesson": false },
+                        { "name": "stampaConfig", "ext": ".c", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "2-verificaConfig",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 1,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "README", "ext": ".md", "lesson": false },
+                        { "name": "verificaConfig", "ext": ".c", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "3-euristica",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 1,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "euristica", "ext": ".c", "lesson": false },
+                        { "name": "README", "ext": ".md", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "4-caricaConfig",
+                      "kind": "section",
+                      "counts": {
+                        "files": 3,
+                        "notes": 1,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 1,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "caricaConfig", "ext": ".c", "lesson": false },
+                        { "name": "config", "ext": ".txt", "lesson": false },
+                        { "name": "README", "ext": ".md", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "5-cerca",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 1,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "cerca", "ext": ".c", "lesson": false },
+                        { "name": "README", "ext": ".md", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "6-main",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 1,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "mainV1", "ext": ".c", "lesson": false },
+                        { "name": "README", "ext": ".md", "lesson": false }
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "1-esercizi-stringhe",
+              "kind": "section",
+              "counts": {
+                "files": 12,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 7,
+                "images": 0,
+                "other": 5,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "anagrammaSens",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "anagrammaUnsens",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "da-Stringa-a-ListeAlfa-NonAlfa",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "mainV2", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "subAnagrammaSens",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "subAnagrammaUnsens",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "mainV2", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "2-esercizi-matrici",
+              "kind": "section",
+              "counts": {
+                "files": 14,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 9,
+                "images": 0,
+                "other": 5,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "matriceCaratteri",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "mainV2", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "matriceDiags",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "mainV2", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "matriceLetteraPrecedente",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "matriceMax",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "mainV2", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "matriceMedia",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "mainV2", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "3-esercizi-file",
+              "kind": "section",
+              "counts": {
+                "files": 12,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 5,
+                "images": 0,
+                "other": 7,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "analizzaFile",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 2,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false },
+                    { "name": "tantogentiledante", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "ordinaFile",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 2,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "input", "ext": ".txt", "lesson": false },
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "unisciFile",
+                  "kind": "section",
+                  "counts": {
+                    "files": 6,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 3,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "README", "ext": ".txt", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "codici-e-txt",
+                      "kind": "section",
+                      "counts": {
+                        "files": 5,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 3,
+                        "images": 0,
+                        "other": 2,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "file1", "ext": ".txt", "lesson": false },
+                        { "name": "file2", "ext": ".txt", "lesson": false },
+                        { "name": "header", "ext": ".h", "lesson": false },
+                        { "name": "mainV1", "ext": ".c", "lesson": false },
+                        { "name": "source", "ext": ".c", "lesson": false }
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "4-esercizi-liste",
+              "kind": "section",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 2,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "listaCrescentiUniti",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "listaDivisori",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "mainV2", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "5-esercizi-generici",
+              "kind": "section",
+              "counts": {
+                "files": 8,
+                "notes": 1,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 4,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "deviazioneStandard",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "lezione", "ext": ".md", "lesson": false },
+                    { "name": "mainV1", "ext": ".c", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "frazioniMinoriDi",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "mainV1", "ext": ".c", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "listaCrescentiUnitiDaFile",
+                  "kind": "section",
+                  "counts": {
+                    "files": 4,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 3,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "file1", "ext": ".txt", "lesson": false },
+                    { "name": "file2", "ext": ".txt", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false },
+                    { "name": "unisciCrescentiERitornaHeadLista", "ext": ".c", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "java",
+      "kind": "section",
+      "counts": {
+        "files": 240,
+        "notes": 27,
+        "pdfs": 0,
+        "code": 201,
+        "images": 1,
+        "other": 11,
+        "lessons": 0
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "teoria",
+          "kind": "section",
+          "counts": {
+            "files": 152,
+            "notes": 17,
+            "pdfs": 0,
+            "code": 134,
+            "images": 1,
+            "other": 0,
+            "lessons": 0
+          },
+          "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+          "children": [
+            {
+              "name": "M01_Fondamenti",
+              "kind": "module",
+              "counts": {
+                "files": 8,
+                "notes": 1,
+                "pdfs": 0,
+                "code": 7,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "L1_Intro",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Intro", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L02_Output",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Output", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L03_Variabili",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Variabili", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L04_Stringhe",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Stringhe", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L05_UserInput",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "UserInput", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L06_MiniVerifica",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "MiniVerifica", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L07_ConversioniOverflow",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "ConversioniOverflow", "ext": ".java", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M02_Matematica",
+              "kind": "module",
+              "counts": {
+                "files": 4,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 4,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "L01_Aritmetica",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Aritmetica", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L02_LaClasseMath",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "LaClasseMath", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L03_NumeriRandomici",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "numeriRandomici", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L04_OperatoriBitwise",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "OperatoriBitwise", "ext": ".java", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M03_Condizioni_e_Logica",
+              "kind": "module",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 5,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "L01_If",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "If", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L02_NestedIfs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "NestedIfs", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L03_TernaryOperator",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Ternary", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L04_EnhancedSwitches",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "EnhancedSwitches", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L05_OperatoriLogici",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "OperatoriLogici", "ext": ".java", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M04_Stringhe",
+              "kind": "module",
+              "counts": {
+                "files": 3,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 3,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "L01_MetodiStringhe",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "MetodiStringhe", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L02_Substringhe",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Substringhe", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L03_ImmutabilitaStringBuilder",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "ImmutabilitaStringBuilder", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M05_Cicli",
+              "kind": "module",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 5,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "L01_While",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "While", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L02_DoWhile",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "DoWhile", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L03_For",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "For", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L04_BreakContinue",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "BreakContinue", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L05_NestedLoops",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "NestedLoops", "ext": ".java", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M06_Metodi",
+              "kind": "module",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 5,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "L01_Metodi",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Metodi", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L02_Overloading",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Overloading", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L03_Varargs",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Varargs", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L04_PassaggioPerValore",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "PassaggioPerValore", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L05_Ricorsione",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Ricorsione", "ext": ".java", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M07_ScopeVariabili",
+              "kind": "module",
+              "counts": {
+                "files": 2,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 2,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "L01_ScopeVariabili",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "ScopeVariabili", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L02_FinalEDurata",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "FinalEDurata", "ext": ".java", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M08_Arrays",
+              "kind": "module",
+              "counts": {
+                "files": 5,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 5,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "L01_Arrays",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Arrays_in_Java", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L02_MetodiArray",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "MetodiArray", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L03_UserInputNegliArray",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "UserInputNegliArray", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L04_RicercaNegliArray",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "RicercaNegliArray", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "L05_Array2d",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Matrici2d", "ext": ".java", "lesson": false }],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M09_OOP",
+              "kind": "module",
+              "counts": {
+                "files": 71,
+                "notes": 3,
+                "pdfs": 0,
+                "code": 68,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "L01_IntroOOP",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "IntroOOP", "ext": ".java", "lesson": false },
+                    { "name": "Principessa", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L02_Costruttori",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Automobile", "ext": ".java", "lesson": false },
+                    { "name": "Costruttori", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L03_CostruttoriOverloaded",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "CostruttoriOverloaded", "ext": ".java", "lesson": false },
+                    { "name": "Utente", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L04_ArrayDiOggetti",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "ArrayDiOggetti", "ext": ".java", "lesson": false },
+                    { "name": "Auto", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L05_Static",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Amico", "ext": ".java", "lesson": false },
+                    { "name": "Static", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L06_Inheritance",
+                  "kind": "section",
+                  "counts": {
+                    "files": 6,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 6,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Animale", "ext": ".java", "lesson": false },
+                    { "name": "EssereVivente", "ext": ".java", "lesson": false },
+                    { "name": "Gatto", "ext": ".java", "lesson": false },
+                    { "name": "Inheritance", "ext": ".java", "lesson": false },
+                    { "name": "Pianta", "ext": ".java", "lesson": false },
+                    { "name": "Regno", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L07_Super",
+                  "kind": "section",
+                  "counts": {
+                    "files": 4,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Animale", "ext": ".java", "lesson": false },
+                    { "name": "Cane", "ext": ".java", "lesson": false },
+                    { "name": "Lezione_7_Super", "ext": ".md", "lesson": false },
+                    { "name": "Super", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L08_MethodOverriding",
+                  "kind": "section",
+                  "counts": {
+                    "files": 5,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 5,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Aircraft", "ext": ".java", "lesson": false },
+                    { "name": "Auto", "ext": ".java", "lesson": false },
+                    { "name": "Harrier", "ext": ".java", "lesson": false },
+                    { "name": "MethodOverriding", "ext": ".java", "lesson": false },
+                    { "name": "Veicolo", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L09_toStringOverride",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Studente", "ext": ".java", "lesson": false },
+                    { "name": "toStringOverride", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L10_Abstract",
+                  "kind": "section",
+                  "counts": {
+                    "files": 5,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 5,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Abstract", "ext": ".java", "lesson": false },
+                    { "name": "Circonferenza", "ext": ".java", "lesson": false },
+                    { "name": "Figura", "ext": ".java", "lesson": false },
+                    { "name": "Semicerchio", "ext": ".java", "lesson": false },
+                    { "name": "Trapezio", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L11_Interfacce",
+                  "kind": "section",
+                  "counts": {
+                    "files": 8,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 8,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "AnimaleMontano", "ext": ".java", "lesson": false },
+                    { "name": "AquilaReale", "ext": ".java", "lesson": false },
+                    { "name": "Camoscio", "ext": ".java", "lesson": false },
+                    { "name": "Lupo", "ext": ".java", "lesson": false },
+                    { "name": "Marmotta", "ext": ".java", "lesson": false },
+                    { "name": "Preda", "ext": ".java", "lesson": false },
+                    { "name": "Predatore", "ext": ".java", "lesson": false },
+                    { "name": "SimulatoreEcosistemaMontano", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L12_Polimorfismo",
+                  "kind": "section",
+                  "counts": {
+                    "files": 6,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 6,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Auto", "ext": ".java", "lesson": false },
+                    { "name": "Bicicletta", "ext": ".java", "lesson": false },
+                    { "name": "Moto", "ext": ".java", "lesson": false },
+                    { "name": "Parcheggio", "ext": ".java", "lesson": false },
+                    { "name": "TestPolimorfismoVeicoli", "ext": ".java", "lesson": false },
+                    { "name": "Veicolo", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L13_PolimorfismoDinamico",
+                  "kind": "section",
+                  "counts": {
+                    "files": 5,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 5,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Animale", "ext": ".java", "lesson": false },
+                    { "name": "Cane", "ext": ".java", "lesson": false },
+                    { "name": "Gatto", "ext": ".java", "lesson": false },
+                    { "name": "Mucca", "ext": ".java", "lesson": false },
+                    { "name": "TestPolimorfismoDinamico", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L14_Incapsulamento",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Automobile", "ext": ".java", "lesson": false },
+                    { "name": "Main", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L15_Aggregazione",
+                  "kind": "section",
+                  "counts": {
+                    "files": 4,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 4,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "CorsoUniversitario", "ext": ".java", "lesson": false },
+                    { "name": "MainAggregazione", "ext": ".java", "lesson": false },
+                    { "name": "Studente", "ext": ".java", "lesson": false },
+                    { "name": "Universita", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L16_Composizione",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Auto", "ext": ".java", "lesson": false },
+                    { "name": "MainComposizione", "ext": ".java", "lesson": false },
+                    { "name": "Motore", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L17_WrapperClasses",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "MainWrapper", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L18_Collezioni_Lista_ArrayList",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "MainArrayList", "ext": ".java", "lesson": false },
+                    { "name": "MainIntroduzioneCollezioni", "ext": ".java", "lesson": false },
+                    { "name": "Studente", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L19_Eccezioni",
+                  "kind": "section",
+                  "counts": {
+                    "files": 6,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 5,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Calcolatrice", "ext": ".java", "lesson": false },
+                    { "name": "MainCalcolatriceConEccezioni", "ext": ".java", "lesson": false },
+                    { "name": "MainEccezioniBase", "ext": ".java", "lesson": false },
+                    { "name": "MainEccezioniChecked", "ext": ".java", "lesson": false },
+                    { "name": "MainTryCatchFinally", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M10_FileHandling",
+              "kind": "module",
+              "counts": {
+                "files": 10,
+                "notes": 2,
+                "pdfs": 0,
+                "code": 8,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "L01_ScritturaFile",
+                  "kind": "section",
+                  "counts": {
+                    "files": 5,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 4,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "MainBufferedWriter", "ext": ".java", "lesson": false },
+                    { "name": "MainFileOutputStream", "ext": ".java", "lesson": false },
+                    { "name": "MainFileWriter", "ext": ".java", "lesson": false },
+                    { "name": "MainPrintWriter", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L02_LetturaFile",
+                  "kind": "section",
+                  "counts": {
+                    "files": 5,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 4,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "MainBufferedReader", "ext": ".java", "lesson": false },
+                    { "name": "MainFileInputStream", "ext": ".java", "lesson": false },
+                    { "name": "MainRandomAccessFile", "ext": ".java", "lesson": false },
+                    { "name": "MainScannerReader", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "M11_JavaAvanzato",
+              "kind": "module",
+              "counts": {
+                "files": 33,
+                "notes": 10,
+                "pdfs": 0,
+                "code": 22,
+                "images": 1,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "L01_DateEOrari",
+                  "kind": "section",
+                  "counts": {
+                    "files": 10,
+                    "notes": 2,
+                    "pdfs": 0,
+                    "code": 7,
+                    "images": 1,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "ConfrontareDate", "ext": ".java", "lesson": false },
+                    { "name": "FormattazioneDate", "ext": ".java", "lesson": false },
+                    { "name": "FORMATTAZIONI", "ext": ".md", "lesson": false },
+                    { "name": "InstantTimestampUTC", "ext": ".java", "lesson": false },
+                    { "name": "LocalDateSoloData", "ext": ".java", "lesson": false },
+                    { "name": "LocalDateTimeTutto", "ext": ".java", "lesson": false },
+                    { "name": "LocalTimeSoloOrario", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false },
+                    { "name": "ZonedDateTimeConFuso", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L02_ClassiAnonime",
+                  "kind": "section",
+                  "counts": {
+                    "files": 4,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Cane", "ext": ".java", "lesson": false },
+                    { "name": "CaneParlante", "ext": ".java", "lesson": false },
+                    { "name": "ClassiAnonime", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L03_TimerTasks",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "MainTimerTasks", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L04_Generics",
+                  "kind": "section",
+                  "counts": {
+                    "files": 4,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Box", "ext": ".java", "lesson": false },
+                    { "name": "IntroGenerics", "ext": ".java", "lesson": false },
+                    { "name": "Prodotto", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L05_HashMaps",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "HashMaps", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L06_Enums",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Enumerazioni", "ext": ".java", "lesson": false },
+                    { "name": "Giorno", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L07_Threading",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "MioRunnable", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false },
+                    { "name": "Threading", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L08_MultiThreading",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "MioRunnable", "ext": ".java", "lesson": false },
+                    { "name": "MultiThreading", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "L09_LambdaExpressions",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "LambdaExpressions", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tracce-java",
+          "kind": "section",
+          "counts": {
+            "files": 88,
+            "notes": 10,
+            "pdfs": 0,
+            "code": 67,
+            "images": 0,
+            "other": 11,
+            "lessons": 0
+          },
+          "files": [
+            { "name": "", "ext": "", "lesson": false },
+            { "name": "README", "ext": ".txt", "lesson": false }
+          ],
+          "children": [
+            {
+              "name": "E0_esercizi_yt",
+              "kind": "section",
+              "counts": {
+                "files": 21,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 18,
+                "images": 0,
+                "other": 3,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "T1_MadLibsGame",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "MadLibsGame", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "T2_ShoppingCartProgram",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "ShoppingCartProgram", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "T3_WeightConversionProgram",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "WeightConversion", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "T4_ConvertiTemperatura",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "ConvertiTemperatura", "ext": ".java", "lesson": false },
+                    { "name": "ConvertiV2", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "T5_Calcolatrice",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "Calcolatrice", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "T6_NumberGuessingGame",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "NumberGuessingGame", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "T7_BankingProgram",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "BankingProgram", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "T8_DiceRoller",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "DiceRoller", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "T9_RockPaperScissor",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "RockPaperScissor", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "T10_SlotMachine",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "SlotMachine", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "T11_MusicPlayers",
+                  "kind": "section",
+                  "counts": {
+                    "files": 4,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": [
+                    {
+                      "name": "audio",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 0,
+                        "images": 0,
+                        "other": 1,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "Lazza-Molotov", "ext": ".wav", "lesson": false }],
+                      "children": []
+                    },
+                    {
+                      "name": "MusicPlayerV1",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "MusicPlayerV1", "ext": ".java", "lesson": false }],
+                      "children": []
+                    },
+                    {
+                      "name": "MusicPlayerV2",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 2,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "MusicPlayer", "ext": ".java", "lesson": false },
+                        { "name": "MusicPlayerApp", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "T12_Impiccato",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "Impiccato", "ext": ".java", "lesson": false },
+                    { "name": "parole", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "T13_CountdownTimer",
+                  "kind": "section",
+                  "counts": {
+                    "files": 1,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "CountdownTimer", "ext": ".java", "lesson": false }],
+                  "children": []
+                },
+                {
+                  "name": "T14_AlarmClock",
+                  "kind": "section",
+                  "counts": {
+                    "files": 3,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 2,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "AlarmClock", "ext": ".java", "lesson": false },
+                    { "name": "sinteticoxstarshopping", "ext": ".wav", "lesson": false },
+                    { "name": "SvegliaConMusica", "ext": ".java", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "E1_esercizi_introduttivi",
+              "kind": "section",
+              "counts": {
+                "files": 10,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 5,
+                "images": 0,
+                "other": 5,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "esercizio_1",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "CalcolatoreVolumeSfera", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "esercizio_2",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "InteresseComposto", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "esercizio_3",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "ArrayAuto", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "esercizio_4",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "ArrayRicerca", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                },
+                {
+                  "name": "esercizio_5",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "JavaQuizGame", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".txt", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "E2_gestionali",
+              "kind": "section",
+              "counts": {
+                "files": 24,
+                "notes": 3,
+                "pdfs": 0,
+                "code": 20,
+                "images": 0,
+                "other": 1,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "GestionaleBiblioteca",
+                  "kind": "section",
+                  "counts": {
+                    "files": 5,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 4,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Classi",
+                      "kind": "section",
+                      "counts": {
+                        "files": 3,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 3,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "Biblioteca", "ext": ".java", "lesson": false },
+                        { "name": "Libro", "ext": ".java", "lesson": false },
+                        { "name": "Utente", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Main",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "BibliotecaMain", "ext": ".java", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "GestionaleDischeria",
+                  "kind": "section",
+                  "counts": {
+                    "files": 5,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 4,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Classi",
+                      "kind": "section",
+                      "counts": {
+                        "files": 3,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 3,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "Cliente", "ext": ".java", "lesson": false },
+                        { "name": "Discheria", "ext": ".java", "lesson": false },
+                        { "name": "Disco", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Main",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "DischeriaMain", "ext": ".java", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "GestionaleGarage",
+                  "kind": "section",
+                  "counts": {
+                    "files": 5,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 4,
+                    "images": 0,
+                    "other": 1,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "README", "ext": ".txt", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Classi",
+                      "kind": "section",
+                      "counts": {
+                        "files": 3,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 3,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "Auto", "ext": ".java", "lesson": false },
+                        { "name": "Garage", "ext": ".java", "lesson": false },
+                        { "name": "Guidatore", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Main",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "GarageMain", "ext": ".java", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "GestionaleVideoteca",
+                  "kind": "section",
+                  "counts": {
+                    "files": 5,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 4,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Classi",
+                      "kind": "section",
+                      "counts": {
+                        "files": 3,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 3,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "Cliente", "ext": ".java", "lesson": false },
+                        { "name": "Film", "ext": ".java", "lesson": false },
+                        { "name": "Videoteca", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Main",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "VideotecaMain", "ext": ".java", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "GestionaleVideotecaV2",
+                  "kind": "section",
+                  "counts": {
+                    "files": 4,
+                    "notes": 0,
+                    "pdfs": 0,
+                    "code": 4,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [],
+                  "children": [
+                    {
+                      "name": "Classi",
+                      "kind": "section",
+                      "counts": {
+                        "files": 3,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 3,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "Cliente", "ext": ".java", "lesson": false },
+                        { "name": "Film", "ext": ".java", "lesson": false },
+                        { "name": "Videoteca", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Main",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "VideotecaMain", "ext": ".java", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "E3_simulazione_giochi",
+              "kind": "section",
+              "counts": {
+                "files": 12,
+                "notes": 2,
+                "pdfs": 0,
+                "code": 10,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "Serpenti_e_Scale",
+                  "kind": "section",
+                  "counts": {
+                    "files": 6,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 5,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Classi",
+                      "kind": "section",
+                      "counts": {
+                        "files": 4,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 4,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "Dado", "ext": ".java", "lesson": false },
+                        { "name": "Giocatore", "ext": ".java", "lesson": false },
+                        { "name": "Partita", "ext": ".java", "lesson": false },
+                        { "name": "Tabellone", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Main",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "SerpentiEScaleGame", "ext": ".java", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "VendingMachine",
+                  "kind": "section",
+                  "counts": {
+                    "files": 6,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 5,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Classi",
+                      "kind": "section",
+                      "counts": {
+                        "files": 4,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 4,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "Bevanda", "ext": ".java", "lesson": false },
+                        { "name": "Merendina", "ext": ".java", "lesson": false },
+                        { "name": "Prodotto", "ext": ".java", "lesson": false },
+                        { "name": "VendingMachine", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Main",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "VendingMachineMain", "ext": ".java", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "E4_avanzati",
+              "kind": "section",
+              "counts": {
+                "files": 17,
+                "notes": 4,
+                "pdfs": 0,
+                "code": 13,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "ClassificaVideogame",
+                  "kind": "section",
+                  "counts": {
+                    "files": 4,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Classi",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 2,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "Classifica", "ext": ".java", "lesson": false },
+                        { "name": "Giocatore", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Main",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "MainClassificaVideogame", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "GestionePrenotazioni",
+                  "kind": "section",
+                  "counts": {
+                    "files": 5,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 4,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Classi",
+                      "kind": "section",
+                      "counts": {
+                        "files": 3,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 3,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "Prenotazione", "ext": ".java", "lesson": false },
+                        { "name": "Ristorante", "ext": ".java", "lesson": false },
+                        { "name": "Tavolo", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Main",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "MainRistorante", "ext": ".java", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "RegistroStudenti",
+                  "kind": "section",
+                  "counts": {
+                    "files": 4,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Classi",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 2,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "RegistroStudenti", "ext": ".java", "lesson": false },
+                        { "name": "Studente", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Main",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "MainRegistroStudenti", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "SistemaLogin",
+                  "kind": "section",
+                  "counts": {
+                    "files": 4,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 3,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [{ "name": "README", "ext": ".md", "lesson": false }],
+                  "children": [
+                    {
+                      "name": "Classi",
+                      "kind": "section",
+                      "counts": {
+                        "files": 2,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 2,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [
+                        { "name": "SistemaLogin", "ext": ".java", "lesson": false },
+                        { "name": "Utente", "ext": ".java", "lesson": false }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "name": "Main",
+                      "kind": "section",
+                      "counts": {
+                        "files": 1,
+                        "notes": 0,
+                        "pdfs": 0,
+                        "code": 1,
+                        "images": 0,
+                        "other": 0,
+                        "lessons": 0
+                      },
+                      "files": [{ "name": "MainSistemaLogin", "ext": ".java", "lesson": false }],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "E5_Giochi",
+              "kind": "section",
+              "counts": {
+                "files": 2,
+                "notes": 1,
+                "pdfs": 0,
+                "code": 1,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": [
+                {
+                  "name": "PinkPong",
+                  "kind": "section",
+                  "counts": {
+                    "files": 2,
+                    "notes": 1,
+                    "pdfs": 0,
+                    "code": 1,
+                    "images": 0,
+                    "other": 0,
+                    "lessons": 0
+                  },
+                  "files": [
+                    { "name": "PongGame", "ext": ".java", "lesson": false },
+                    { "name": "README", "ext": ".md", "lesson": false }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

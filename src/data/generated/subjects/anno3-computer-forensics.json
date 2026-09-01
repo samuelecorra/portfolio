@@ -1,0 +1,263 @@
+{
+  "slug": "anno3-computer-forensics",
+  "files": [{ "name": "Lezione 0 - Intro all'insegnamento", "ext": ".md", "lesson": true }],
+  "children": [
+    {
+      "name": "M1",
+      "kind": "section",
+      "counts": {
+        "files": 117,
+        "notes": 11,
+        "pdfs": 3,
+        "code": 0,
+        "images": 103,
+        "other": 0,
+        "lessons": 11
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1 - Elementi, ruolo e criticità dell’informatica forense",
+          "kind": "unit",
+          "counts": {
+            "files": 42,
+            "notes": 4,
+            "pdfs": 2,
+            "code": 0,
+            "images": 36,
+            "other": 0,
+            "lessons": 4
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2.1", "ext": ".md", "lesson": true },
+            { "name": "L2.2", "ext": ".md", "lesson": true },
+            { "name": "L3", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 38,
+                "notes": 0,
+                "pdfs": 2,
+                "code": 0,
+                "images": 36,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "8_sentenzaVierika", "ext": ".pdf", "lesson": false },
+                { "name": "26_sentenzagarlasco", "ext": ".pdf", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2 – Fasi del trattamento del reperto informatico",
+          "kind": "unit",
+          "counts": {
+            "files": 75,
+            "notes": 7,
+            "pdfs": 1,
+            "code": 0,
+            "images": 67,
+            "other": 0,
+            "lessons": 7
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true },
+            { "name": "L3", "ext": ".md", "lesson": true },
+            { "name": "L4", "ext": ".md", "lesson": true },
+            { "name": "L5", "ext": ".md", "lesson": true },
+            { "name": "L6", "ext": ".md", "lesson": true },
+            { "name": "L7", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 68,
+                "notes": 0,
+                "pdfs": 1,
+                "code": 0,
+                "images": 67,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [{ "name": "53_pdfdocente", "ext": ".pdf", "lesson": false }],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M2",
+      "kind": "section",
+      "counts": {
+        "files": 98,
+        "notes": 13,
+        "pdfs": 0,
+        "code": 2,
+        "images": 83,
+        "other": 0,
+        "lessons": 11
+      },
+      "files": [],
+      "children": [
+        {
+          "name": "UD1 - FileSystem",
+          "kind": "unit",
+          "counts": {
+            "files": 31,
+            "notes": 2,
+            "pdfs": 0,
+            "code": 0,
+            "images": 29,
+            "other": 0,
+            "lessons": 2
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 29,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 29,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD2 - Comandi Linux e Shell Scripting",
+          "kind": "unit",
+          "counts": {
+            "files": 64,
+            "notes": 8,
+            "pdfs": 0,
+            "code": 2,
+            "images": 54,
+            "other": 0,
+            "lessons": 6
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true },
+            { "name": "L3", "ext": ".md", "lesson": true },
+            { "name": "L4", "ext": ".md", "lesson": true },
+            { "name": "L5", "ext": ".md", "lesson": true },
+            { "name": "L6", "ext": ".md", "lesson": true }
+          ],
+          "children": [
+            {
+              "name": "imgs",
+              "kind": "section",
+              "counts": {
+                "files": 54,
+                "notes": 0,
+                "pdfs": 0,
+                "code": 0,
+                "images": 54,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [],
+              "children": []
+            },
+            {
+              "name": "scripts",
+              "kind": "section",
+              "counts": {
+                "files": 4,
+                "notes": 2,
+                "pdfs": 0,
+                "code": 2,
+                "images": 0,
+                "other": 0,
+                "lessons": 0
+              },
+              "files": [
+                { "name": "0_tracce", "ext": ".md", "lesson": false },
+                { "name": "1_primoscript", "ext": ".sh", "lesson": false },
+                { "name": "2_somma", "ext": ".md", "lesson": false },
+                { "name": "2_somma", "ext": ".sh", "lesson": false }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "UD3 - Strumenti hardware e software per la Disk Forensics",
+          "kind": "unit",
+          "counts": {
+            "files": 3,
+            "notes": 3,
+            "pdfs": 0,
+            "code": 0,
+            "images": 0,
+            "other": 0,
+            "lessons": 3
+          },
+          "files": [
+            { "name": "L1", "ext": ".md", "lesson": true },
+            { "name": "L2", "ext": ".md", "lesson": true },
+            { "name": "L3", "ext": ".md", "lesson": true }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "M3",
+      "kind": "section",
+      "counts": {
+        "files": 1,
+        "notes": 1,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [
+        {
+          "name": "Intro M3 - Altri Ambiti dell'Informatica Forense",
+          "ext": ".md",
+          "lesson": false
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "M4",
+      "kind": "section",
+      "counts": {
+        "files": 1,
+        "notes": 1,
+        "pdfs": 0,
+        "code": 0,
+        "images": 0,
+        "other": 0,
+        "lessons": 0
+      },
+      "files": [{ "name": "Intro M4 - Simulazione Dibattimentale", "ext": ".md", "lesson": false }],
+      "children": []
+    }
+  ]
+}

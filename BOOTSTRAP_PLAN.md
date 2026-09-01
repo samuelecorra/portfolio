@@ -24,7 +24,9 @@ is that every claim of competence links to material someone can inspect.
 | 7     | Documentation                                               | Done        |
 | —     | V0.1: public repo, identity, project hierarchy, OG image    | Done        |
 | —     | **Cloudflare Pages deployment** (needs dashboard access)    | **Blocked** |
-| —     | Knowledge as a navigable map of the archive                 | Next        |
+| —     | Knowledge as a navigable map of the archive (generated)     | Done        |
+| —     | Trilingual site (EN / IT / DE)                              | Done        |
+| —     | Light/dark toggle, motion pass, `/lab`, IronMath case study | Next        |
 
 Phase 4 stopped at correct structure. V0.1 then added the identity layer:
 final hero, project hierarchy, real OG image and public source link.

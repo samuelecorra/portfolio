@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 
 import { ActionLink } from '@/components/ui/ActionLink';
 import { Icon } from '@/components/ui/Icon';
+import { localize, useI18n } from '@/i18n';
 import { cn } from '@/lib/cn';
 import type { Project, ProjectEmphasis } from '@/types';
 
@@ -11,13 +12,6 @@ interface ProjectCardProps {
   /** Rendered as the 01 / 02 / 03 index numeral. */
   index: number;
 }
-
-const STATUS_LABEL: Record<Project['status'], string> = {
-  active: 'Active',
-  'in-progress': 'In progress',
-  maintained: 'Maintained',
-  archived: 'Archived',
-};
 
 /**
  * Grid footprint per editorial weight.
@@ -35,6 +29,8 @@ const CARD_BASE =
   'group relative flex flex-col rounded-(--radius-card) border border-line bg-surface transition-colors duration-(--duration-base) hover:border-line-strong focus-within:border-line-strong';
 
 export function ProjectCard({ project, index }: ProjectCardProps): JSX.Element {
+  const { t, locale } = useI18n();
+
   if (project.emphasis === 'minor') {
     return <CompactCard project={project} index={index} />;
   }
@@ -66,7 +62,7 @@ export function ProjectCard({ project, index }: ProjectCardProps): JSX.Element {
             </span>
             {isPrimary ? (
               <span className="rounded-full border border-accent-dim px-2.5 py-0.5 font-mono text-[0.65rem] tracking-[0.18em] text-accent uppercase">
-                Featured
+                {t.work.featured}
               </span>
             ) : null}
           </div>
@@ -86,11 +82,13 @@ export function ProjectCard({ project, index }: ProjectCardProps): JSX.Element {
         </div>
 
         <span className="shrink-0 rounded-full border border-line px-2.5 py-1 text-xs text-ink-faint">
-          {STATUS_LABEL[project.status]}
+          {t.status[project.status]}
         </span>
       </div>
 
-      <p className={cn('text-ink-muted', isPrimary && 'max-w-2xl text-lg')}>{project.summary}</p>
+      <p className={cn('text-ink-muted', isPrimary && 'max-w-2xl text-lg')}>
+        {localize(project.summary, locale)}
+      </p>
 
       {/*
        * On the featured card the subject tags are the density signal — they are
@@ -98,7 +96,7 @@ export function ProjectCard({ project, index }: ProjectCardProps): JSX.Element {
        * that job, so tags stay hidden to keep standard cards quiet.
        */}
       {isPrimary && project.tags.length > 0 ? (
-        <ul className="flex flex-wrap gap-2" aria-label="Subjects covered">
+        <ul className="flex flex-wrap gap-2" aria-label={t.work.subjects}>
           {project.tags.map((tag) => (
             <li
               key={tag}
@@ -111,7 +109,7 @@ export function ProjectCard({ project, index }: ProjectCardProps): JSX.Element {
       ) : null}
 
       {project.technologies.length > 0 ? (
-        <ul className="flex flex-wrap gap-2" aria-label="Technologies">
+        <ul className="flex flex-wrap gap-2" aria-label={t.work.technologies}>
           {project.technologies.map((tech) => (
             <li
               key={tech}
@@ -143,6 +141,7 @@ export function ProjectCard({ project, index }: ProjectCardProps): JSX.Element {
  * project work.
  */
 function CompactCard({ project, index }: ProjectCardProps): JSX.Element {
+  const { locale } = useI18n();
   const headingId = `project-${project.id}-title`;
 
   return (
@@ -164,7 +163,7 @@ function CompactCard({ project, index }: ProjectCardProps): JSX.Element {
               {project.title}
             </Link>
           </h3>
-          <p className="mt-1 text-sm text-ink-muted">{project.summary}</p>
+          <p className="mt-1 text-sm text-ink-muted">{localize(project.summary, locale)}</p>
         </div>
       </div>
 
