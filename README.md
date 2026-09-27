@@ -13,8 +13,8 @@ what gets studied, and where the material behind both can be read.
 This repository is itself part of the portfolio — the architecture, design
 system and content model are meant to be read.
 
-**Live:** <https://>
-**Source:** <https://github.com/samuelecorra.dev>
+**Live:** <https://samuelecorra.dev>
+**Source:** <https://github.com/samuelecorra/portfolio>
 
 ## Stack
 
